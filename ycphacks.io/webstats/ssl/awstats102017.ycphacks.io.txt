@@ -1,0 +1,534 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201710 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/ssl/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2670                
+POS_VISITOR 7702                
+POS_DAY 13578               
+POS_DOMAIN 3454                
+POS_LOGIN 3754                
+POS_ROBOT 3909                
+POS_WORMS 4261                
+POS_EMAILSENDER 4392                
+POS_EMAILRECEIVER 4535                
+POS_SESSION 14371               
+POS_SIDER 14538               
+POS_FILETYPES 4670                
+POS_DOWNLOADS 4867                
+POS_OS 5022                
+POS_BROWSER 5246                
+POS_SCREENSIZE 5684                
+POS_UNKNOWNREFERER 5758                
+POS_UNKNOWNREFERERBROWSER 5876                
+POS_ORIGIN 6107                
+POS_SEREFERRALS 6244                
+POS_PAGEREFS 6397                
+POS_SEARCHWORDS 6791                
+POS_KEYWORDS 6943                
+POS_MISC 2334                
+POS_ERRORS 7002                
+POS_CLUSTER 3610                
+POS_SIDER_404 7106                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171101082559 1 0 9892723506561
+FirstTime 0
+LastTime 20171031174527
+LastUpdate 20171101093524 1 0 0 0 0
+TotalVisits 38                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 207                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 33 132432316 3 7 44747
+1 2 30 5628991 4 10 64115
+2 0 2 430786 1 3 15873
+3 0 4 861572 2 2 27547
+4 1 3 443787 2 2 26269
+5 0 4 861572 1 1 13607
+6 2 28 256956231 2 6 33357
+7 1 14 2605489 2 4 31091
+8 0 31 6677183 4 12 655064
+9 1 49 9498785 1 4 984174
+10 4 95 271103483 2 15 53521
+11 9 129 1376307023 6 19 619348
+12 6 98 632593781 3 8 561014
+13 3 60 765685894 2 4 995403
+14 3 56 388342722 5 6 65367
+15 6 96 521571259 5 36 5563723
+16 4 93 269284859 9 25 2571300
+17 3 56 262133255 7 10 52346
+18 2 58 137601928 5 10 751947
+19 7 86 523356350 1 6 21189
+20 5 66 264953777 3 8 48802
+21 0 22 4738646 1 3 17484
+22 4 38 510893832 4 10 1620904
+23 0 14 3015862 1 1 13607
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 58 1142 3282955839
+de 5 5 0
+ie 2 14 2518859
+za 0 1 215393
+fr 0 2 215393
+ca 0 1 215393
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bot[\s_+:,\.\;\/\\-] 71 5921463 20171031184345 0
+no_user_agent 18 5450961 20171029222128 0
+google[_+\s]web[_+\s]preview 14 2518859 20171007160455 0
+bingpreview 7 618425 20171028083313 0
+netcraft 2 26002 20171011113248 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 40 448691 0 0
+ttf 25 13170600 0 0
+pdf 1 57004 0 0
+css 125 297444 0 0
+jpg 743 151556746 0 0
+png 206 58673636 0 0
+js 25 58250 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/Sponsorship2017.pdf 3 0 2902887
+/Photo%20Release%20Form.pdf 1 0 57004
+/images/BGVideo.mp4 0 80 3061858506
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+ios_iphone 193 7
+linux 25 5
+win7 120 16
+unix 1 0
+winunknown 28 0
+win8.1 2 0
+winxp 485 0
+macosx 196 19
+ios_ipad 2 0
+winnt 174 18
+Unknown 1 0
+linuxandroid 18 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome61.0.3163.100 382 41
+safari11.0 28 2
+chrome40.0.2214.85 5 5
+chrome61.0.3163.98 17 0
+chrome49.0.2623.75 4 2
+firefox52.0 3 0
+chrome59.0.3071.125 1 0
+firefox57.0 19 3
+Unknown 28 0
+safari9.1.2 24 2
+firefox55.0 1 0
+safari9.0 27 2
+chrome52.0.2743.116 2 0
+chrome61.0.3163.79 1 0
+iphone 105 0
+firefox56.0 48 5
+android 1 0
+mozilla 28 0
+firefox11.0 485 0
+chrome61.0.3163.120 1 0
+safari 35 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+android.webview 20171005134635
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Microsoft_Office/16.0_(Microsoft_Outlook_Mail_16.0.8008;_Pro) 20171006111037
+Microsoft_Office/16.0_(Microsoft_Outlook_16.0.8600;_Pro) 20171021182908
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 41 751
+From1 0 0
+From2 0 6
+From3 1 28
+From4 23 460
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+live 0 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://l.facebook.com/l.php 1 1
+https://roundcube.rpi.edu/roundcube/ 0 1
+https://webmail.psu.edu/webmail/shell.cgi 0 9
+https://webmail.psu.edu/webmail/retrieve.cgi 0 14
+https://mail.yahoo.com 0 1
+https://mail.aol.com/webmail-std/en-us/suite 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 19 174329
+404 80 141760
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 9
+/ct/v1/sct-feedback 2 -
+/2017%20assets/query.min.js 21 https://www.ycphacks.io/
+/Sponsorship%20Handout.pdf 1 -
+/ct/v1/sct-gossip 2 -
+/robots.txt 26 -
+/topleveldir/subdir/research-feedback 2 -
+/ct/v1/sth-gossip 2 -
+/2017%20assets/jquery.min.js 23 https://ycphacks.io/
+/www.vfmac.edu/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 207
+71.57.226.146 5 46 196625891 20171019112947
+137.125.131.72 4 32 131417423 20171006202402
+128.153.222.91 4 42 195514797 20171031174527
+74.212.43.242 4 50 266414282 20171020112401
+174.19.243.244 3 18 65620104 20171005121015
+138.246.253.19 3 3 0 20171013134421
+38.122.184.51 2 17 128420847 20171006151341
+107.77.203.189 2 27 175877121 20171010112619
+130.85.58.227 2 20 66349254 20171008105618
+208.97.212.6 2 30 192687452 20171020143901
+199.26.232.2 2 27 240021869 20171020122449
+137.125.147.34 2 29 130877208 20171011064807
+107.182.230.241 2 22 191955233 20171020134705
+8.20.70.246 2 21 129154490 20171020224025
+138.246.253.15 2 2 0 20171005170616
+74.212.42.240 2 5 256939 20171022092113
+52.53.231.176 2 2 26002 20171017043043
+8.20.70.254 2 24 129800063 20171018151006
+172.98.67.141 2 20 66353747 20171021002313
+73.230.210.169 2 20 66353747 20171019180547
+8.20.70.245 2 25 131569250 20171018194223
+8.20.70.250 2 21 3690454 20171022012550
+8.20.70.248 2 23 129584850 20171010161246
+174.55.67.236 2 24 191982885 20171020111355
+54.67.67.222 1 1 13940 20171021223512
+66.102.7.173 0 4 861572 
+196.52.39.29 0 1 215393 
+64.233.172.157 0 3 646179 
+104.201.159.55 0 1 215573 
+174.54.72.195 0 2 430966 
+66.249.88.23 0 2 430786 
+31.13.113.194 0 1 2596 
+67.177.16.239 0 1 215573 
+66.102.8.23 0 107 23047051 
+71.207.57.101 0 2 430966 
+66.249.84.219 0 10 2153930 
+107.77.202.24 0 1 215393 
+108.222.71.137 0 1 215393 
+66.102.7.251 0 1 215393 
+96.57.154.234 0 1 0 
+64.233.172.159 0 3 646179 
+174.55.89.148 0 2 430966 
+174.200.32.169 0 1 215393 
+66.87.81.224 0 1 215573 
+129.2.207.238 0 4 862112 
+66.102.8.25 0 139 29939627 
+73.130.111.151 0 1 215393 
+206.125.51.130 0 1 215393 
+66.102.7.171 0 2 430786 
+8.20.70.243 0 3 646179 
+71.232.45.125 0 2 430786 
+174.200.18.32 0 1 215393 
+8.20.70.242 0 1 215393 
+71.207.60.70 0 1 215393 
+139.140.214.138 0 2 0 
+66.249.82.151 0 1 215393 
+66.249.93.26 0 1 215393 
+107.182.230.239 0 7 188478945 
+66.249.83.81 1 1 13001 20171009125722
+129.2.180.251 0 2 431146 
+99.203.1.144 0 1 215393 
+129.32.224.74 0 2 215393 
+64.233.172.185 0 13 2800109 
+66.249.88.25 0 6 1292358 
+66.249.93.12 0 1 215393 
+104.39.172.186 0 1 215393 
+68.80.187.179 0 2 430786 
+216.113.160.65 0 1 215573 
+66.102.6.121 0 3 646179 
+96.245.108.47 0 1 215393 
+66.249.81.55 0 1 215393 
+74.212.43.240 0 2 430786 
+31.13.113.192 1 2 1580613 20171006151429
+64.233.173.155 0 1 215393 
+173.166.172.113 0 1 215573 
+66.249.84.220 0 8 1723144 
+64.233.172.181 0 10 2153930 
+104.39.72.225 0 1 215393 
+104.39.69.189 0 1 215393 
+172.58.143.65 0 1 0 
+107.77.202.11 0 1 0 
+174.200.19.26 0 1 215393 
+71.207.73.166 0 1 215393 
+66.249.93.10 0 1 215393 
+74.212.42.241 0 4 861932 
+47.139.0.66 0 1 215393 
+104.148.255.64 0 1 215393 
+73.175.136.35 0 2 430786 
+107.77.209.5 0 1 215393 
+50.205.132.42 0 1 215393 
+128.237.216.81 0 1 215393 
+8.20.70.252 0 1 215393 
+66.102.6.119 0 1 215393 
+66.102.7.250 0 6 1292358 
+8.20.70.241 0 4 703183 
+108.171.8.217 0 1 215393 
+104.39.140.215 0 1 0 
+104.39.174.117 0 1 215393 
+174.205.17.224 0 1 215573 
+104.39.99.133 0 1 215573 
+166.182.66.252 0 1 215393 
+107.77.202.138 0 1 215393 
+129.161.89.78 0 1 215573 
+66.249.80.21 0 1 215393 
+172.58.143.37 0 1 215393 
+172.56.28.22 0 1 215573 
+73.169.117.11 0 1 215393 
+107.77.203.123 0 1 215393 
+66.249.83.217 1 1 12329 20171007160455
+66.87.80.241 0 1 215393 
+66.87.80.199 1 8 126106849 20171020220619
+66.102.6.25 0 1 215393 
+98.224.218.199 0 1 215393 
+98.237.100.193 0 1 215393 
+66.87.80.92 0 1 215393 
+104.39.93.0 0 1 215393 
+66.87.80.235 0 1 215573 
+174.200.3.78 0 1 215393 
+144.118.77.124 0 1 215393 
+66.249.84.23 0 1 215393 
+66.249.83.220 0 1 38358 
+31.13.113.195 0 1 630147 
+66.249.88.20 0 3 646179 
+74.212.43.243 0 2 430966 
+8.20.70.247 0 3 430966 
+65.112.8.139 0 1 215393 
+31.13.113.199 0 3 98050 
+107.77.241.3 0 1 215573 
+64.134.243.83 0 1 0 
+74.212.43.241 0 2 430786 
+153.42.190.145 0 13 2800109 
+174.59.100.245 0 2 430786 
+64.233.172.183 0 5 1076965 
+172.56.35.129 0 1 0 
+107.77.216.26 0 1 215573 
+66.102.8.21 0 122 26277946 
+104.39.236.169 0 1 0 
+8.20.70.249 0 2 215393 
+104.39.119.130 0 2 430786 
+174.200.12.177 0 1 215393 
+66.249.82.71 0 1 215393 
+66.87.80.196 0 1 215393 
+165.123.236.37 0 1 215393 
+165.123.86.151 0 1 215393 
+98.235.193.163 0 1 215393 
+64.233.172.151 0 1 215393 
+66.249.84.217 0 7 1507751 
+70.187.182.39 0 1 215393 
+176.153.4.74 0 2 215393 
+129.161.129.165 0 1 215393 
+66.249.84.25 0 4 861572 
+73.86.193.71 0 1 215393 
+104.201.248.24 0 1 215393 
+98.237.45.39 0 1 215573 
+174.200.27.48 0 1 215393 
+73.59.63.134 0 1 215393 
+146.186.64.177 0 1 215393 
+66.102.6.117 0 3 646179 
+104.39.25.229 0 1 215393 
+139.140.221.19 0 1 0 
+73.187.1.221 0 1 215573 
+66.249.93.13 0 1 215393 
+172.56.34.244 0 1 215573 
+8.20.70.253 0 2 430786 
+71.207.55.84 0 3 646359 
+66.87.81.165 0 1 215393 
+66.232.228.1 0 1 0 
+148.137.209.49 0 1 215393 
+70.15.157.51 0 1 215393 
+107.77.216.154 0 1 215393 
+174.49.207.203 0 1 215393 
+104.39.154.41 0 1 215393 
+165.123.192.147 0 1 215393 
+172.56.3.101 0 1 215393 
+107.77.204.139 0 1 0 
+174.200.26.134 0 1 215393 
+104.39.70.145 0 2 431146 
+68.181.207.239 0 1 215393 
+66.71.91.161 0 1 215393 
+209.114.162.234 0 1 215573 
+50.241.165.131 0 1 215393 
+153.42.157.160 0 1 215573 
+31.13.113.193 0 3 167061 
+128.118.185.22 0 1 215393 
+172.56.29.46 0 1 215393 
+128.237.197.39 0 1 215573 
+66.249.83.83 0 1 38358 
+139.140.208.69 0 1 0 
+31.13.113.196 1 4 40392 20171006151426
+74.212.42.242 0 1 215573 
+4.14.113.74 0 1 215393 
+104.39.138.92 0 1 215393 
+107.77.202.92 0 1 215573 
+66.102.6.123 0 1 215393 
+174.200.8.11 0 1 215393 
+129.15.64.254 0 1 215573 
+144.118.77.222 0 1 215393 
+98.237.120.89 0 1 215393 
+66.249.84.29 0 1 215393 
+128.118.186.140 0 1 215573 
+66.249.80.25 0 1 215393 
+153.42.131.32 0 5 1076965 
+107.77.203.169 0 1 0 
+66.102.8.27 0 3 646179 
+104.39.65.88 0 1 215573 
+107.77.207.127 0 1 215573 
+107.77.204.83 0 1 215393 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20171001 0 12 2584716 0
+20171002 0 17 3661681 0
+20171003 1 18 3661681 1
+20171004 2 11 1938537 1
+20171005 4 48 134929748 2
+20171006 8 162 534812468 5
+20171007 1 14 2635583 1
+20171008 2 33 132726007 1
+20171009 1 20 3928613 1
+20171010 4 116 619245169 2
+20171011 4 71 517143177 2
+20171012 0 20 4307860 0
+20171013 1 21 4308220 1
+20171014 0 13 2800109 0
+20171015 1 9 1736145 1
+20171016 2 74 140401791 1
+20171017 5 69 265487683 2
+20171018 4 87 523884585 2
+20171019 3 57 263168594 2
+20171020 13 169 2783720969 7
+20171021 3 48 135461578 2
+20171022 4 33 5455144 3
+20171023 0 12 2584716 0
+20171024 0 1 215393 0
+20171025 0 3 646179 0
+20171026 0 2 430786 0
+20171027 0 1 215393 0
+20171029 0 2 430786 0
+20171030 0 2 430786 0
+20171031 2 20 255025286 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30mn-1h 1
+0s-30s 36
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 40 448691 37 14
+/2017%20assets/Headliner.ttf 25 13170600 1 24
+END_SIDER

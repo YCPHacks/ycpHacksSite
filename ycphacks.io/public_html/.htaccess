@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ycphacks\.io$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ycphacks\.io$
+RewriteRule ^live\/?(.*)$ "http\:\/\/www\.ustream\.tv\/channel\/cWmLAmFCw3c$1" [R=301,L]
+

@@ -1,0 +1,469 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202104 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2670                
+POS_VISITOR 11560               
+POS_DAY 12520               
+POS_DOMAIN 3335                
+POS_LOGIN 3667                
+POS_ROBOT 3822                
+POS_WORMS 4411                
+POS_EMAILSENDER 4542                
+POS_EMAILRECEIVER 4685                
+POS_SESSION 12964               
+POS_SIDER 13141               
+POS_FILETYPES 4820                
+POS_DOWNLOADS 5015                
+POS_OS 5063                
+POS_BROWSER 5196                
+POS_SCREENSIZE 5595                
+POS_UNKNOWNREFERER 5669                
+POS_UNKNOWNREFERERBROWSER 5894                
+POS_ORIGIN 6114                
+POS_SEREFERRALS 6249                
+POS_PAGEREFS 6415                
+POS_SEARCHWORDS 6563                
+POS_KEYWORDS 6715                
+POS_MISC 2334                
+POS_ERRORS 6774                
+POS_CLUSTER 3523                
+POS_SIDER_404 6885                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210501035827 474 129973 13805434220451
+FirstTime 0
+LastTime 20210430041458
+LastUpdate 20210501043926 474 470 2 1 0
+TotalVisits 32                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 6 7 19635
+1 0 0 0 5 6 96007
+2 3 11 862103 6 8 42907
+3 2 2 2358 5 6 44695
+4 4 4 12950 22 23 1510854
+5 40 40 3520 0 0 0
+6 0 0 0 11 13 85330
+7 23 23 10637 2 3 37498
+8 2 2 4716 3 5 145376
+9 5 5 6859 6 9 141887
+10 1 1 0 6 20 144201
+11 1 1 2358 5 8 54830
+12 2 2 107 2 3 8295
+13 21 21 1760 4 6 6856
+14 2 2 2358 6 10 41013
+15 2 2 2358 2 5 125427
+16 22 22 1848 4 5 21095
+17 2 2 4716 97 100 1801673
+18 6 13 131530 5 10 163159
+19 0 0 0 5 12 120870
+20 1 1 6431 11 13 263854
+21 0 0 0 6 16 322768
+22 0 0 0 4 4 169772
+23 2 10 862103 8 15 448245
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 96 119 1889553
+br 21 21 1848
+de 10 10 88
+gb 8 8 856
+gr 2 2 12862
+ru 1 1 6431
+fr 1 1 2358
+se 1 1 2358
+unknown 1 1 2358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bingbot/ 53 659164 20210428171342 21
+Googlebot/ 24 302148 20210424095110 4
+SeznamBot/ 21 52767 20210429085454 10
+custo 13 83603 20210430091821 0
+DotBot/ 11 27931 20210426025352 6
+python 8 18864 20210428214541 0
+link 3 7074 20210428082115 0
+bingpreview 3 130716 20210426235544 0
+no_user_agent 2 12862 20210422195955 0
+AhrefsBot/ 2 1910 20210426143227 1
+Googlebot\-Image/ 1 132610 20210424095111 0
+unknown 1 61 20210411180715 1
+curl 2 12862 20210419000311 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 4 100548 0 0
+png 4 1367440 0 0
+env 5 516 0 0
+woff 2 87144 0 0
+php 5 440 0 0
+html 45 64488 0 0
+xml 84 7392 0 0
+js 15 290744 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx 1 1
+winxp 1 1
+win10 140 121
+Unknown 2 2
+linux 18 14
+win7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+chrome83.0.4103.24 1 1
+chrome88.0.4324.150 1 1
+chrome42.0.2311.90 2 2
+firefox84.0 1 1
+mozilla 4 0
+chrome88.0.4240.193 20 20
+chrome76.0.3809.132 42 42
+chrome76.0.3809.71 10 2
+chrome89.0.4389.128 10 2
+chrome15.0.872.0 1 1
+chrome88.0.4324.146 9 9
+chrome81.0.4044.129 14 14
+chrome78.0.3904.108 42 42
+firefox58.0 1 1
+chrome84.0.4147.105 4 1
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210426204118
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210426204118
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 136 139
+From1 0 0
+From2 2 2
+From3 0 0
+From4 3 23
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_hk 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+444 13 0
+400 2 536
+404 144 4373139
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 126
+/blog/wp-includes/wlwmanifest.xml 1 -
+/mysql.php 1 -
+/Home/xmlrpc.php 1 www.google.com
+/backup/xmlrpc.php 1 www.google.com
+/adminer2.php 2 -
+/WP2/xmlrpc.php 1 www.google.com
+/WPOLD/xmlrpc.php 1 www.google.com
+/dayof_Backup/xmlrpc.php 1 www.google.com
+/site/wp-includes/wlwmanifest.xml 1 -
+/Test/xmlrpc.php 1 www.google.com
+/TEST/xmlrpc.php 1 www.google.com
+/BackUp/xmlrpc.php 1 www.google.com
+/OLD_dayof/xmlrpc.php 1 www.google.com
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/staging/xmlrpc.php 1 www.google.com
+/2019/wp-includes/wlwmanifest.xml 1 -
+/Backup-dayof/xmlrpc.php 1 www.google.com
+/Site/xmlrpc.php 1 www.google.com
+/.git/config 1 -
+/BACKUP/xmlrpc.php 1 www.google.com
+/1/xmlrpc.php 1 www.google.com
+/Backup_Old/xmlrpc.php 1 www.google.com
+/test/wp-includes/wlwmanifest.xml 1 -
+/xmlrpc.php 1 -
+/blog2020/xmlrpc.php 1 www.google.com
+/dayof2021/xmlrpc.php 1 www.google.com
+/backup_dayof/xmlrpc.php 1 www.google.com
+/adminer.php 1 -
+/backup_old/xmlrpc.php 1 www.google.com
+/OLD-dayof/xmlrpc.php 1 www.google.com
+/web/xmlrpc.php 1 www.google.com
+/wordpress/xmlrpc.php 1 www.google.com
+/Wp/xmlrpc.php 1 www.google.com
+/web/wp-includes/wlwmanifest.xml 1 -
+/WpOld/xmlrpc.php 1 www.google.com
+/WORDPRESS/xmlrpc.php 1 www.google.com
+/Backup_dayof/xmlrpc.php 1 www.google.com
+/wp/xmlrpc.php 1 www.google.com
+/www/xmlrpc.php 1 www.google.com
+/blog1/xmlrpc.php 1 www.google.com
+/Wp1/xmlrpc.php 1 www.google.com
+/2020/xmlrpc.php 1 www.google.com
+/Backup_new/xmlrpc.php 1 www.google.com
+/Backup/xmlrpc.php 1 www.google.com
+/news/wp-includes/wlwmanifest.xml 1 -
+/Temp/xmlrpc.php 1 www.google.com
+/WP/xmlrpc.php 1 www.google.com
+/shop/wp-includes/wlwmanifest.xml 1 -
+/Demo/xmlrpc.php 1 www.google.com
+/Dayof/xmlrpc.php 1 www.google.com
+/HOME/xmlrpc.php 1 www.google.com
+/wordpressOld/xmlrpc.php 1 www.google.com
+/backup-dayof/xmlrpc.php 1 www.google.com
+/wp1/xmlrpc.php 1 www.google.com
+/2019/xmlrpc.php 1 www.google.com
+/vendor/phpunit/phpunit/phpunit.xml 2 -
+/newsite/xmlrpc.php 1 www.google.com
+/Old-dayof/xmlrpc.php 1 www.google.com
+/old_dayof/xmlrpc.php 1 www.google.com
+/wp2/xmlrpc.php 1 www.google.com
+/DEMO/xmlrpc.php 1 www.google.com
+/NEW/xmlrpc.php 1 www.google.com
+/site/xmlrpc.php 1 www.google.com
+/wp-admin/xmlrpc.php 1 www.google.com
+/BACKUP-dayof/xmlrpc.php 1 www.google.com
+/home/xmlrpc.php 1 www.google.com
+/xmlrp.php 2 www.google.com
+/website/wp-includes/wlwmanifest.xml 1 -
+/sql.php 2 -
+/old/xmlrpc.php 1 www.google.com
+/Web/xmlrpc.php 1 www.google.com
+/cgi-sys/suspendedpage.cgi 1 -
+/dayof2019/xmlrpc.php 1 www.google.com
+/backup-old/xmlrpc.php 1 www.google.com
+/wp-includes/wlwmanifest.xml 1 -
+/blog/xmlrpc.php 1 www.google.com
+/OLD/xmlrpc.php 1 www.google.com
+/Wp2/xmlrpc.php 1 www.google.com
+/.env 11 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/BACKUP_dayof/xmlrpc.php 1 www.google.com
+/file/xmlrpc.php 1 www.google.com
+/dayofdayof/xmlrpc.php 1 www.google.com
+/dayof_Old/xmlrpc.php 1 www.google.com
+/dayof_OLD/xmlrpc.php 1 www.google.com
+/cms/wp-includes/wlwmanifest.xml 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/oldsite/xmlrpc.php 1 www.google.com
+/dayof/xmlrpc.php 1 www.google.com
+/backup_new/xmlrpc.php 1 www.google.com
+/db.php 2 -
+/dev/xmlrpc.php 1 www.google.com
+/temp/xmlrpc.php 1 www.google.com
+/old-index.php 1 -
+/ads.txt 1 -
+/Old_dayof/xmlrpc.php 1 www.google.com
+/backup_Old/xmlrpc.php 1 www.google.com
+/WP1/xmlrpc.php 1 www.google.com
+/dayof2020/xmlrpc.php 1 www.google.com
+/new/xmlrpc.php 1 www.google.com
+/Old/xmlrpc.php 1 www.google.com
+/wp/wp-includes/wlwmanifest.xml 1 -
+/cms/xmlrpc.php 1 www.google.com
+/old-dayof/xmlrpc.php 1 www.google.com
+/BACKUP_OLD/xmlrpc.php 1 www.google.com
+/demo/xmlrpc.php 1 www.google.com
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/test1/xmlrpc.php 1 www.google.com
+/sito/wp-includes/wlwmanifest.xml 1 -
+/default/xmlrpc.php 1 www.google.com
+/_ignition/execute-solution 4 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/demo1/xmlrpc.php 1 www.google.com
+/Blog/xmlrpc.php 1 www.google.com
+/test/xmlrpc.php 1 www.google.com
+/adm.php 1 -
+/tes/xmlrpc.php 1 www.google.com
+/WordPress/xmlrpc.php 1 www.google.com
+/2/xmlrpc.php 1 www.google.com
+/New/xmlrpc.php 1 www.google.com
+/index.php 1 -
+/2021/xmlrpc.php 1 www.google.com
+/back/xmlrpc.php 1 www.google.com
+/wpold/xmlrpc.php 1 www.google.com
+/wordpressBackup/xmlrpc.php 1 www.google.com
+/wp2/wp-includes/wlwmanifest.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+70.35.200.190 42 42 16382 20210409052129
+20.52.153.233 21 21 1848 20210402163524
+179.127.68.251 21 21 1848 20210411074722
+15.237.36.138 20 20 1760 20210419130554
+138.246.253.24 9 9 0 20210430041458
+87.236.208.42 8 8 856 20210406183707
+192.245.87.19 2 10 862103 20210414230246
+45.56.154.8 2 2 4716 20210415083415
+205.169.39.53 2 10 862103 20210415025357
+173.208.246.45 1 1 107 20210422123747
+137.117.39.97 1 1 2358 20210420141715
+77.247.127.180 1 1 2358 20210424035048
+185.10.17.158 1 1 2358 20210423072356
+192.151.156.187 1 1 2358 20210418173245
+192.36.119.28 1 1 2358 20210422183540
+92.118.160.17 1 1 6431 20210426204118
+13.82.144.94 1 1 2358 20210410171049
+92.118.160.61 1 1 6431 20210426094046
+3.134.98.230 1 8 128744 20210411180715
+23.239.12.176 1 1 2358 20210404154447
+109.234.37.227 1 1 6431 20210409074739
+54.221.27.173 1 1 2358 20210414111249
+92.204.53.129 1 1 88 20210402044301
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20210401 1 1 0 1
+20210402 23 23 1936 3
+20210404 1 1 2358 1
+20210405 4 4 428 1
+20210406 4 4 428 1
+20210409 43 43 22813 2
+20210410 3 3 2358 3
+20210411 22 29 130592 2
+20210414 3 11 864461 2
+20210415 4 12 866819 2
+20210416 2 2 0 2
+20210418 1 1 2358 1
+20210419 20 20 1760 1
+20210420 1 1 2358 1
+20210422 4 4 2465 4
+20210423 1 1 2358 1
+20210424 1 1 2358 1
+20210426 2 2 12862 2
+20210430 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+2mn-5mn 1
+30s-2mn 2
+0s-30s 28
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 45 64488 29 25
+/blog/wp-includes/wlwmanifest.xml 5 440 0 0
+/website/wp-includes/wlwmanifest.xml 5 440 0 0
+/wp/wp-includes/wlwmanifest.xml 5 440 0 0
+/site/wp-includes/wlwmanifest.xml 5 440 0 0
+/wordpress/wp-includes/wlwmanifest.xml 5 440 0 0
+/news/wp-includes/wlwmanifest.xml 5 440 0 0
+/sito/wp-includes/wlwmanifest.xml 5 440 0 4
+/shop/wp-includes/wlwmanifest.xml 5 440 0 0
+/wp1/wp-includes/wlwmanifest.xml 5 440 0 0
+/2020/wp-includes/wlwmanifest.xml 1 88 0 0
+/media/wp-includes/wlwmanifest.xml 4 352 0 0
+/wp-includes/wlwmanifest.xml 5 440 0 0
+/2019/wp-includes/wlwmanifest.xml 5 440 0 0
+/.env 5 516 3 1
+/assets/fonts/icons.woff 2 87144 0 2
+/cms/wp-includes/wlwmanifest.xml 5 440 0 0
+/test/wp-includes/wlwmanifest.xml 5 440 0 0
+/xmlrpc.php 5 440 0 0
+/2018/wp-includes/wlwmanifest.xml 4 352 0 0
+/wp2/wp-includes/wlwmanifest.xml 5 440 0 0
+/web/wp-includes/wlwmanifest.xml 5 440 0 0
+END_SIDER

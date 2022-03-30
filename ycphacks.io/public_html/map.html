@@ -1,0 +1,245 @@
+<html>
+	<head>
+		<title>Map</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	
+		<script src="confirmed.js"></script>
+		<script src="registered.js"></script>
+		
+		<!-- for Facebook -->
+		  <meta property="og:title" content="YCP Hacks 2016"/>
+		  <meta property="og:type" content="website"/>
+		  <meta property="og:image" content="/images/uploads/fbmapimg.png" />
+		  <meta property="og:url" content="http://ycphacks.io/map.html"/>
+		  <meta property="og:description" content="Map of everyone signed up for YCP Hacks!"/>
+		
+		
+		<script
+		src="http://maps.googleapis.com/maps/api/js?key=AIzaSyALsSH9uRhGFVMY9tkEOQcfq4NZ0F7YdDY">
+		</script>
+		
+		<script>					
+			var map;
+			var toggled=0;
+			
+			// Shuttle Icon
+			var icon = {
+					url: "https://maps.google.com/mapfiles/kml/shapes/rec_bus.png",
+					scaledSize: new google.maps.Size(30, 30),
+			}
+			
+			function initialize()
+			{			
+				var infowindow = new Array();
+				
+				map = new google.maps.Map(document.getElementById("googleMap"),{
+					center:new google.maps.LatLng(39.962649, -76.725798),
+					  zoom:6,
+					  mapTypeId:google.maps.MapTypeId.ROADMAP
+				});
+				
+				// Create the DIV to hold the control and call the CenterControl()
+		        // constructor passing in this DIV.
+		        var centerControlDiv = document.createElement('div');
+		        var centerControl = new CenterControl(centerControlDiv, map);
+		        
+		        centerControlDiv.index = 1;
+		        map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+				
+				
+				// Set Yorktowne Pin
+				var pinColor = "69fe75";
+				var myLatlng = new google.maps.LatLng( 39.962691, -76.725726 );
+				var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+								new google.maps.Size(4000, 4000),
+								new google.maps.Point(0,0),
+								new google.maps.Point(10, 34));
+							
+				var marker = new google.maps.Marker({
+						          position: myLatlng,
+						          icon: pinImage,
+						          map: map
+						        });
+							
+							marker.info = new google.maps.InfoWindow({
+							    content: '<b>The Yorktowne Hotel</b>',
+							    position: new google.maps.LatLng( 39.963191,-76.725726),
+							    minWidth: 400,
+							    maxWidth: 400
+							});
+							
+							google.maps.event.addListener(marker,'mouseover', function() {
+								var marker_map = this.getMap();
+								
+							    this.info.open(marker_map);
+							});	
+							
+							
+							google.maps.event.addListener(marker,'mouseout', function() {
+								var marker_map = this.getMap();
+								
+							    this.info.close();
+							});	
+							
+							marker.setMap(map);
+
+				
+				getConfirmed(2);
+			}	
+			
+			var prev_infowindow = false;
+			var markers = [];
+			
+		
+			
+			
+			function clearMarkers() {
+				stu50 = 0;
+				stu100 = 0;
+				stuElse = 0;
+				total = 0;
+				for( var i=0; i<markers.length; i++ ) {
+					markers[i].setMap(null);
+				}
+			};
+
+			var rad = function(x) {
+				  return x * Math.PI / 180;
+			};
+			
+			var getDistance = function(lat1,lon1, lat2,lon2) {
+				var R = 6378137; // Earth's mean radius in meters
+				var dLat = rad(lat2 - lat1);
+				var dLon = rad(lon2 - lon1);
+				var a = Math.sin( dLat/2 ) * Math.sin(dLat/2) + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLon/2) * Math.sin(dLon/2);
+				var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+				var d = R*c;
+				return d*0.000621371;
+			}
+			
+			function getConfirmed(s)
+			{
+				
+				clearMarkers();
+				
+				if( s == 1 ) {
+					var res = confirmed;
+				} else {
+					var res = registered;
+				}
+				
+				$.each(res, function(i, item) {
+							
+							var myLatlng = new google.maps.LatLng(res[i].lat,res[i].lon);
+							
+							var distance = getDistance(39.962649, -76.725798, res[i].lat, res[i].lon );
+							
+							if( distance <= 50 ) {
+								var pinColor = "FE7569";
+								stu50 += parseInt(res[i].students);
+							} else if( distance <= 150 ){
+								var pinColor = "FE7569";
+								stu100 += parseInt(res[i].students);
+							} else {
+								var pinColor = "FE7569";
+								stuElse += parseInt(res[i].students);
+							}
+							
+							var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+								    new google.maps.Size(2000, 2000),
+								    new google.maps.Point(0,0),
+								    new google.maps.Point(10, 34));
+							
+							markers[i] = new google.maps.Marker({
+						          position: myLatlng,
+						          icon: pinImage,
+						          map: map,
+						          title: res[i].School
+						        });
+							
+							markers[i].info = new google.maps.InfoWindow({
+							    content: '<b>'+ res[i].School +'</b><br>Students: ' + res[i].students,
+							    position: new google.maps.LatLng(parseFloat(res[i].lat)+0.0005,res[i].lon),
+							    minWidth: 400,
+							    maxWidth: 400
+							});
+							
+							google.maps.event.addListener(markers[i],'mouseover', function() {
+								var marker_map = this.getMap();
+								
+							    this.info.open(marker_map);
+							});	
+							
+							
+							google.maps.event.addListener(markers[i],'mouseout', function() {
+								var marker_map = this.getMap();
+								
+							    this.info.close();
+							});	
+							
+							markers[i].setMap(map);
+						});
+						
+				    };
+				
+				
+			
+			function CenterControl(controlDiv, map) {
+
+		        // Set CSS for the control border.
+		        var controlUI = document.createElement('div');
+		        controlUI.style.backgroundColor = '#fff';
+		        controlUI.style.border = '2px solid #fff';
+		        controlUI.style.borderRadius = '3px';
+		        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+		        controlUI.style.cursor = 'pointer';
+		        controlUI.style.marginBottom = '22px';
+		        controlUI.style.textAlign = 'center';
+		        controlUI.title = 'Click to recenter the map';
+		        controlDiv.appendChild(controlUI);
+
+		        // Set CSS for the control interior.
+		        var controlText = document.createElement('div');
+		        controlText.style.color = 'rgb(25,25,25)';
+		        controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+		        controlText.style.fontSize = '16px';
+		        controlText.style.lineHeight = '38px';
+		        controlText.style.paddingLeft = '15px';
+		        controlText.style.paddingRight = '15px';
+		        
+		        	controlText.innerHTML = 'Registered Students';
+		        
+		        
+		        controlUI.appendChild(controlText);
+
+		        // Setup the click event listeners
+		        controlUI.addEventListener('click', function() {
+		          if(toggled == 1) {
+		        	  getConfirmed(2);
+					  var total = stu50 + stu100 + stuElse;
+		        	  controlText.innerHTML = 'Registered Students: ' + total;
+		        	  toggled = 0;
+		          } else {
+		        	  getConfirmed(1);
+					  var total = stu50 + stu100 + stuElse;
+					  controlText.innerHTML = 'Confirmed Students: ' + total ;
+		        	  toggled = 1; 
+		          }
+		        });
+
+		      }
+			
+		
+			
+			google.maps.event.addDomListener(window, 'load', initialize);
+			
+			
+	</script>
+	</head>
+	<body>
+			<div id="googleMap" style="width:100%;height:800px;top:0;"></div>
+			
+	</body>
+</html>

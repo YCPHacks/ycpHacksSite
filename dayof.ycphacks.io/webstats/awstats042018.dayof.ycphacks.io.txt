@@ -1,0 +1,384 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2675                
+POS_VISITOR 10959               
+POS_DAY 11812               
+POS_DOMAIN 3378                
+POS_LOGIN 3671                
+POS_ROBOT 3826                
+POS_WORMS 4336                
+POS_EMAILSENDER 4467                
+POS_EMAILRECEIVER 4610                
+POS_SESSION 12219               
+POS_SIDER 12376               
+POS_FILETYPES 4745                
+POS_DOWNLOADS 4917                
+POS_OS 4965                
+POS_BROWSER 5109                
+POS_SCREENSIZE 5446                
+POS_UNKNOWNREFERER 5520                
+POS_UNKNOWNREFERERBROWSER 5768                
+POS_ORIGIN 5905                
+POS_SEREFERRALS 6039                
+POS_PAGEREFS 6194                
+POS_SEARCHWORDS 6342                
+POS_KEYWORDS 6494                
+POS_MISC 2339                
+POS_ERRORS 6553                
+POS_CLUSTER 3527                
+POS_SIDER_404 6665                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501092715 3 375 11454734515046
+FirstTime 0
+LastTime 20180429142735
+LastUpdate 20180501104103 1 0 0 0 0
+TotalVisits 22                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 28 931959 33 45 137507
+1 0 0 0 19 24 142097
+2 0 0 0 9 14 67988
+3 10 10 71483 8 14 61691
+4 0 0 0 10 16 78156
+5 10 18 900339 16 21 98708
+6 0 0 0 8 26 345967
+7 0 0 0 20 25 387217
+8 1 1 18463 10 14 85674
+9 1 1 6421 7 10 66304
+10 0 0 0 13 30 447845
+11 2 11 946023 10 16 71901
+12 12 12 45644 15 24 128769
+13 1 1 6421 24 54 1095612
+14 14 28 2916286 9 21 1062726
+15 0 0 0 9 19 348264
+16 4 12 854540 22 31 209224
+17 1 1 10012 9 12 67790
+18 1 1 6421 28 41 206578
+19 1 1 6421 4 10 72718
+20 4 4 19651 4 7 11824
+21 4 4 25684 28 42 136131
+22 0 0 0 7 13 1593592
+23 1 1 6421 13 23 69630
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 65 104 5827611
+md 9 19 866674
+no 8 8 58641
+dm 1 1 6421
+fr 1 1 6421
+gb 1 1 6421
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 184 3022471 20180430221634 63
+crawl 87 623434 20180424090908 1
+googlebot 59 716847 20180429130851 0
+robot 18 157767 20180429073527 6
+bingpreview 16 1142887 20180421105826 0
+ia_archiver 3 14339 20180402033017 0
+netcraft 2 6421 20180405042137 0
+googlebot\-image 2 265220 20180430155034 0
+checker 1 6421 20180428050815 0
+no_user_agent 1 6421 20180410082238 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+js 23 523067 0 0
+woff 4 174288 0 0
+html 81 548187 0 0
+jpg 2 1551164 0 0
+png 16 3822911 0 0
+css 8 152572 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+winxp 8 8
+macosx 49 34
+Unknown 19 19
+winnt 28 12
+win7 1 1
+linux 10 2
+java 19 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+opera36.0.2130.32 6 6
+mozilla 18 18
+chrome61.0.3163.100 1 1
+firefox59.0 1 0
+chrome56.2.7123.1851 1 1
+chrome66.0.3359.117 24 10
+firefox40.0 1 1
+chrome65.0.3325.146 10 2
+Unknown 20 10
+chrome65.0.3325.181 21 5
+firefox52.0 10 10
+chrome62.0.3202.94 1 1
+msie6.0 8 8
+chrome50.0.2661.102 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Go-http-client/1.1;__centurybot9@gmail.com) 20180422171747
+Mozilla/5.0_(compatible;_ips-agent) 20180425005405
+SEMrushBot 20180403002647
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+SEMrushBot 20180403002647
+Java/1.6.0_04 20180404005018
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 68 78
+From1 0 0
+From2 1 2
+From3 0 0
+From4 16 54
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 172 304784
+206 2 726901
+444 3 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 67
+/speakers//maps/index.html 1 -
+/admin.php 2 http://dayof.ycphacks.io/admin.php
+/wp-content/plugins/mac-dock-gallery/css/style.css 1 http://dayof.ycphacks.io/wp-content/plugins/mac-dock-gallery/css/style.css
+/schedule//maps/index.html 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 http://dayof.ycphacks.io/wp-content/plugins/formcraft/file-upload/server/content/upload.php
+/assets/js/).html(b[0])}},rules:{checked:function(){return%20a(this).filter( 1 -
+/assets/js/'+b.url+' 1 -
+/blog/administrator/index.php 4 -
+/blog/ 4 -
+/assets/js/) 2 -
+/assets/js/'+b.resultPage.url+' 1 -
+/assets/js/),m=0,a.each(G,function(){m++}),z.html(q.templates.userCount(m)))},joined:function(b){G=v.data( 1 -
+/assets/js/==a.proxy(o.onResultsAdd,y)(b))&&y.html(b),n.results.show()},show:function(){0===y.filter( 1 -
+/assets/js/'+c+' 1 -
+/wp-content/themes/famous/style.css 1 http://dayof.ycphacks.io/wp-content/themes/famous/style.css
+/misc/drupal.js 1 -
+/wp/ 4 -
+/prizes//maps/index.html 1 -
+/speakers//travel/index.html 1 -
+/wp-content/themes/holding_pattern/admin/css/up_framework.css 1 http://dayof.ycphacks.io/wp-content/themes/holding_pattern/admin/css/up_framework.css
+/admin/index.php 2 http://dayof.ycphacks.io/admin/index.php
+/wp-login.php 1 http://dayof.ycphacks.io/wp-login.php
+/prizes//schedule/index.html 1 -
+/ajax.googleapis.com/ajax/libs/jquery/1.9.1/,data:n}).done(function(e){o=arguments,s.html(i 1 -
+/ajax.googleapis.com/ajax/libs/jquery/1.9.1/!=typeof%20e||Tt.test(e)||!b.support.htmlSerialize&&mt.test(e)||!b.support.leadingWhitespace&&yt.test(e)||At[(bt.exec(e)||[ 1 -
+/wp-content/themes/qualifire//scripts/admin/uploadify/uploadify.css 1 http://dayof.ycphacks.io/wp-content/themes/qualifire//scripts/admin/uploadify/uploadify.css
+/https://ycp-hacks-2017.devpost.com 1 -
+/speakers//prizes/index.html 1 -
+/user/login 1 http://dayof.ycphacks.io/user/login
+/assets/js/,a),w.html(h.templates.error(a))}},remove:{prompt:function(c){var%20f=b.get.field(c.identifier),g=f.closest(v),i=g.find(l.prompt) 1 -
+/speakers//hardware/index.html 1 -
+/assets/js/),u.removeClass(o.active),x.html( 1 -
+/netcat/admin/ 1 http://dayof.ycphacks.io/netcat/admin/
+/assets/js/),f=e.html() 1 -
+/index.php/admin/ 2 http://dayof.ycphacks.io/index.php/admin/
+/assets/js/,c),i.addClass(m.error),h.inline&&(k||(j=h.templates.prompt(f),j.appendTo(i)),j.html(f[0]),k 1 -
+/assets/js/).addClass(p.popup).addClass(d).html(b),g.inline 1 -
+/blog/robots.txt 8 -
+/assets/js/,a),f.selector.text 1 -
+/wp-content/themes/gallery/style.css 1 http://dayof.ycphacks.io/wp-content/themes/gallery/style.css
+/joomla/robots.txt 4 -
+/bitrix/admin/ 1 http://dayof.ycphacks.io/bitrix/admin/
+/https://twitter.com/search 1 -
+/assets/js/'+b.image+' 1 -
+/assets/js/'+a.avatarURL+' 1 -
+/assets/js/,r),o=!1,h.cache.add(c,u.html()),h.activate.all(r),a.proxy(j.onTabInit,u)(r,f,g),a.proxy(j.onTabLoad,u)(r,f,g)):(h.activate.navigation(r),h.content.fetch(r,c)),!1):(h.debug( 1 -
+/manager/ 1 http://dayof.ycphacks.io/manager/
+/assets/js/,a) 1 -
+/admin/login.php 1 http://dayof.ycphacks.io/admin/login.php
+/administrator/index.php 5 http://dayof.ycphacks.io/administrator/index.php
+//modules/mod_simplefileuploadv1.3/elements/udd.php 2 -
+/assets/img/hack-logo-favicon-2016.png 2 -
+/wordpress/ 4 -
+/xmlrpc.php 4 -
+/assets/js/!==y.html()&&(y.stop().fadeIn(200),a.proxy(o.onResultsOpen,y)())},hide:function(){y.filter( 1 -
+/e107_admin/admin.php 1 http://dayof.ycphacks.io/e107_admin/admin.php
+/prizes//datasets/index.html 1 -
+/datasets/https://www.phaim.health.pa.gov/EDD 1 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css 1 http://dayof.ycphacks.io/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css
+/schedule//prizes/index.html 1 -
+/speakers//schedule/index.html 1 -
+/users/'+a.id+' 1 -
+/prizes//speakers/index.html 1 -
+/joomla/administrator/index.php 4 -
+/robots.txt 67 -
+/ajax.googleapis.com/ajax/libs/jquery/1.9.1/],_default:b.support.htmlSerialize 1 -
+/sitemap.xml 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+54.153.80.173 12 12 45644 20180427122919
+35.205.107.216 10 10 71483 20180411030255
+65.49.2.177 10 10 75074 20180422171747
+73.79.232.83 10 24 2877296 20180429142735
+178.175.143.162 9 19 866674 20180404005006
+134.119.215.169 8 8 58641 20180423053213
+69.58.178.58 8 8 58864 20180425005405
+74.208.211.146 4 4 25684 20180424215044
+173.163.22.126 2 10 841698 20180407054649
+8.30.81.198 2 10 841698 20180405165720
+157.160.173.128 2 10 841698 20180405112623
+163.172.122.107 1 1 6421 20180425235235
+107.1.251.186 1 1 18463 20180423083641
+52.67.63.200 1 1 6421 20180410191422
+192.243.53.51 1 1 6421 20180403002647
+69.12.66.213 1 1 6421 20180420185810
+162.208.50.92 1 1 6421 20180408164502
+62.210.26.46 1 1 6421 20180423164939
+52.226.128.58 1 1 6421 20180421132614
+192.245.87.12 0 1 104325 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20180403 1 1 6421 1
+20180404 9 19 866674 1
+20180405 4 20 1683396 2
+20180407 2 10 841698 1
+20180408 1 1 6421 1
+20180410 1 1 6421 1
+20180411 10 10 71483 1
+20180419 9 10 169387 3
+20180420 1 1 6421 1
+20180421 1 1 6421 1
+20180422 1 1 10012 1
+20180423 10 10 83525 3
+20180424 4 4 25684 1
+20180425 9 9 65285 2
+20180427 12 12 45644 1
+20180429 10 24 2877296 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 2
+0s-30s 20
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 30 179788 18 10
+/prizes/ 9 147704 2 2
+/schedule/ 8 32088 0 0
+/maps/ 8 24899 0 0
+/speakers/ 7 70084 1 0
+/travel/ 6 25902 0 2
+/hardware/ 6 30534 0 2
+/datasets/ 6 30990 0 2
+/assets/fonts/icons.woff 4 174288 0 3
+//datasets/ 1 6198 1 0
+END_SIDER

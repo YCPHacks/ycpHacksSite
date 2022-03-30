@@ -1,0 +1,317 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2675                
+POS_VISITOR 7194                
+POS_DAY 8105                
+POS_DOMAIN 3334                
+POS_LOGIN 3615                
+POS_ROBOT 3770                
+POS_WORMS 4108                
+POS_EMAILSENDER 4239                
+POS_EMAILRECEIVER 4382                
+POS_SESSION 8500                
+POS_SIDER 8659                
+POS_FILETYPES 4517                
+POS_DOWNLOADS 4707                
+POS_OS 4755                
+POS_BROWSER 4904                
+POS_SCREENSIZE 5130                
+POS_UNKNOWNREFERER 5204                
+POS_UNKNOWNREFERERBROWSER 5329                
+POS_ORIGIN 5449                
+POS_SEREFERRALS 5582                
+POS_PAGEREFS 5737                
+POS_SEARCHWORDS 5885                
+POS_KEYWORDS 6037                
+POS_MISC 2339                
+POS_ERRORS 6096                
+POS_CLUSTER 3471                
+POS_SIDER_404 6207                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901010420 2 190 11684061686836
+FirstTime 0
+LastTime 20170831010541
+LastUpdate 20170901020513 2 0 1 0 0
+TotalVisits 21                  
+TotalUnique 21                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 22                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 6 6 15046
+1 1 1 6511 0 3 5316
+2 0 0 0 3 3 18044
+3 0 0 0 2 4 17369
+4 3 4 117189 3 5 22170
+5 1 1 6511 2 8 148447
+6 1 1 6511 2 6 19460
+7 3 11 846820 2 2 5981
+8 1 1 6511 11 18 66925
+9 1 1 6511 1 10 366009
+10 1 1 6511 9 20 1796643
+11 1 1 6511 5 10 884130
+12 0 0 0 7 15 58875
+13 0 0 0 3 12 27858
+14 1 1 6511 5 9 882507
+15 0 0 0 7 10 43952
+16 0 0 0 6 12 30165
+17 0 0 0 6 15 129130
+18 1 1 6511 9 10 26979
+19 1 1 6511 5 12 1659291
+20 2 10 840309 9 12 40499
+21 1 1 6511 10 16 140308
+22 5 22 3378245 2 4 864133
+23 3 7 778480 6 9 42533
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 13 50 5843854
+cn 12 12 78132
+pl 1 1 6511
+ru 1 1 12436
+ua 0 1 91731
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bot[\s_+:,\.\;\/\\-] 85 6574199 20170831225214 0
+googlebot 4 31969 20170828105229 0
+spider 4 29256 20170814123403 0
+googlebot\-image 2 265220 20170820095113 0
+[\s_+:,\.\;\/\\-]bot 2 183462 20170827210146 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+png 11 3510331 0 0
+svg 1 197829 0 0
+woff 5 217860 0 0
+jpg 1 1494988 0 0
+html 22 149505 0 0
+css 10 190830 0 0
+js 15 271321 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+winlong 1 1
+ios_iphone 11 2
+win7 11 2
+macosx 26 6
+Unknown 1 1
+winnt 14 14
+winxp 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox3.6.3 1 1
+safari 11 2
+Unknown 1 1
+chrome60.0.3112.101 27 6
+chrome45.0.2454.93 12 12
+chrome51.0.2704.79 1 1
+chrome41.0.2224.3 1 1
+firefox46.0 1 1
+chrome60.0.3112.90 10 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+python-requests/2.18.4 20170824104200
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-requests/2.18.4 20170824104200
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 19 20
+From1 0 0
+From2 1 1
+From3 0 0
+From4 7 44
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 8 15024
+444 6 0
+404 120 212640
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/wordpress/wp-admin/setup-config.php 1 -
+/new/wp-admin/setup-config.php 1 -
+/blog/wordpress/wp-admin/setup-config.php 2 -
+/blogs/wp-admin/setup-config.php 2 -
+/news/wp-admin/setup-config.php 1 -
+/site/wp-admin/setup-config.php 3 -
+/test/wp-admin/setup-config.php 1 -
+/wp/wp-admin/setup-config.php 1 -
+/robots.txt 94 -
+/wp-admin/setup-config.php 3 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/old/wp-admin/setup-config.php 1 -
+/wp-content/themes/headway-166/style.css 1 http://dayof.ycphacks.io/wp-content/themes/headway-166/style.css
+/cms/wp-admin/setup-config.php 2 -
+/sitemap.xml 2 -
+/blog/wp-admin/setup-config.php 1 -
+/beta/wp-admin/setup-config.php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 22
+174.55.160.7 4 16 1612278 20170827230602
+107.77.70.48 2 11 2531425 20170802221027
+73.64.106.16 2 10 840309 20170822072423
+73.187.243.212 2 10 840309 20170816204346
+202.46.53.16 1 1 6511 20170819054802
+202.46.57.204 1 1 6511 20170818061526
+195.22.127.196 1 1 6511 20170820044642
+202.46.55.146 1 1 6511 20170806141244
+54.161.109.141 1 1 6511 20170809213851
+202.46.56.67 1 1 6511 20170803075045
+202.46.54.104 1 1 6511 20170826043215
+202.46.56.189 1 1 6511 20170825080332
+192.126.173.140 1 1 6511 20170831010541
+146.185.223.114 1 1 12436 20170825044206
+202.46.52.16 1 1 6511 20170802192827
+202.46.51.29 1 1 6511 20170820110702
+202.46.53.150 1 1 6511 20170801093051
+202.46.55.149 1 1 6511 20170803231731
+202.46.53.206 1 1 6511 20170816223121
+202.46.58.202 1 1 6511 20170807182448
+104.168.149.196 1 1 6511 20170824104200
+151.0.16.44 0 1 91731 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20170801 1 1 6511 1
+20170802 3 12 2537936 2
+20170803 2 2 13022 2
+20170806 1 1 6511 1
+20170807 1 1 6511 1
+20170809 1 1 6511 1
+20170816 3 11 846820 2
+20170818 1 2 98242 1
+20170819 1 1 6511 1
+20170820 2 2 13022 2
+20170822 2 10 840309 1
+20170824 1 1 6511 1
+20170825 2 2 18947 2
+20170826 1 1 6511 1
+20170827 4 16 1612278 1
+20170831 1 1 6511 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 20
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 20 130220 19 16
+/assets/fonts/icons.woff 5 217860 0 4
+/prizes/ 1 12436 1 1
+/speakers/ 1 6849 1 0
+END_SIDER

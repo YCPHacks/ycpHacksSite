@@ -1,0 +1,55 @@
+/*	SHOP 1-7
+/*----------------------------------------------------*/
+
+.shop-1-7 {
+	
+}
+
+.shop-1-7 .cart-table td {
+	vertical-align: middle;
+}
+
+.shop-1-7 .remove .fa {
+	font-size: 20px;
+	color: #AC1C00;
+}
+
+.shop-1-7 .cart-table .input-group .form-control {
+	width: 50px;
+}
+
+.shop-1-7 .btn {
+	margin: 0;
+}
+
+.shop-1-7 .big-total {
+	font-size: 20px;
+	font-weight: 600;
+	color: #16A085;
+}
+
+
+
+/*	SHOP 1-7 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

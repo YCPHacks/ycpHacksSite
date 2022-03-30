@@ -1,0 +1,49 @@
+/*	SHOP 1-2
+/*----------------------------------------------------*/
+
+.shop-1-2 {
+	background: #16A085;
+}
+
+.shop-1-2 h4, .shop-1-2 p {
+	color: #ffffff;
+}
+
+.shop-1-2 h4 {
+	margin-top: 0;
+}
+
+.shop-1-2 p {
+	margin-bottom: 0;
+}
+
+.shop-1-2 .fa {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+
+
+/*	SHOP 1-2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

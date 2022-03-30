@@ -1,0 +1,411 @@
+body { background: #fffefa }
+body,
+input,
+.ui.input input,
+button,
+textarea {
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.montserrat,
+.montserrat.bold {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat.bold{
+  font-weight: 700;
+}
+
+.lato {
+  font-family: 'Lato', 'Helvetica Neue Light', 'Helvetica', sans-serif !important;
+}
+
+.ui.message ul.list li:before {
+  content: "" !important;
+}
+
+.ui.menu .logo.item {
+  float: left;
+}
+
+.hacksquare {
+  outline-offset: 2px;
+  float: left;
+  display: inline-block !important;
+  margin-right: .2em !important ;
+  height: 1em;
+  width: 5em;
+}
+
+.infoContentLeft {
+	width: 43%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: solid 1px rgb(221,221,221);
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+
+.infoContentRight {
+	width: 56.7%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: solid 1px rgb(221,221,221);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	float: left;
+}
+
+.importantInfo {
+  font-size: 14px;
+  line-height: 40px;
+  vertical-align: middle;
+  color: black;
+}
+
+.captionDiv {
+  background-color: #437544;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  line-height: 39px;
+  height: 40px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 20px;
+  float:left;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  margin-right: 15px;
+}
+
+.contactDiv {
+  background-color: #437544;
+  line-height: 39px;
+  height: 40px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 20px;
+  float:left;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  margin-right: 15px;
+}
+
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.boldText {
+  margin-left: 30px;
+  margin-right: 10px;
+  font-weight: bolder;
+  display: inline;
+}
+
+.boldTextSpace {
+  margin-left: 35px;
+  margin-right: 10px;
+  font-weight: bolder;
+  display: inline;
+}
+
+.dayOfScheduleDiv {
+	margin-top: 0px; 
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+
+.YCCFDesc {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.PrizeTitle {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+.PrizeTitleBlack {
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.PrizeSubTitle{
+	font-size: 20px;
+}
+
+.PrizeSubTitleBlack{
+	color: black;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .infoContentLeft {
+        width: 100%;
+		height: 40px;
+		margin-bottom: 10px;
+		border: solid 1px rgb(221,221,221);
+		
+		border-radius: 5px;
+		float: left;
+		text-align: center;
+    }
+	
+	.infoContentRight {
+		width: 100%;
+		height: 40px;
+		margin-bottom: 20px;
+		border: solid 1px rgb(221,221,221);
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		float: left;
+		text-align: center;
+	}
+	
+	.captionDiv {
+		  background-color: #437544;
+		  border-top-left-radius: 4px;
+		  border-bottom-left-radius: 4px;
+		  line-height: 39px;
+		  height: 40px;
+		  text-align: center;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		  color: white;
+		  font-size: 18px;
+		  float:left;
+		  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+		  margin-right: 0px;
+	}
+	
+	.contactDiv {
+	  background-color: #437544;
+	  line-height: 39px;
+	  border-top-left-radius: 4px;
+		  border-bottom-left-radius: 4px;
+	  height: 40px;
+	  text-align: center;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  color: white;
+	  font-size: 18px;
+	  float:left;
+	  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	  margin-right: 0px;
+	}
+	
+	.boldText {
+	  margin-left: 0px;
+	  margin-right: 5px;
+	  font-weight: bolder;
+	  display: inline;	
+	  font-size: 10px;	  
+	}
+	
+	.boldTextSpace {
+		  margin-left: 20px;
+		  margin-right: 10px;
+		  font-weight: bolder;
+		  display: inline;
+		  font-size: 10px;	
+	}
+	
+	.dayOfScheduleDiv {
+		padding-right: 5%;
+		padding-left: 0%;
+		margin-top: 100px;
+	}
+	
+	.importantInfo {
+	  font-size: 10px;
+	  line-height: 40px;
+	  vertical-align: middle;
+	  color: black;
+	}
+	
+	.hiddenMobile{
+		display: none;
+	}
+	
+	
+}
+
+
+.classDescription {
+	height:50px;
+}
+
+.second {
+	background-color: rgb(124,131,134);
+}
+
+.third {
+	background-color: rgb(124,80,32);
+}
+
+
+
+
+
+#home iframe
+{
+  width: 100% !important;
+  min-height: 800px;
+  height: 100% !important;
+}
+
+#maps img {
+  width: 100%;
+}
+
+#banner {
+  background: url(../img/greencity.png);
+  background-size: cover;
+  background-position: center bottom;
+  margin-top: 4px;
+  margin-bottom: 36px;
+}
+
+#banner .content{
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+    color: white;
+    font-weight: 600;
+  text-align: center;
+  padding: 1em 0;
+}
+
+#links-column div.ui.segment.top.attached {
+  background-color: rgba(74,120,77,1);
+}
+
+#contacts-column div.ui.segment.top.attached {
+  background-color: rgb(91,149,96);
+}
+
+.ui.facebook.button {
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.ui.twitter.button {
+  margin-bottom: 5px;
+}
+
+.ui.hack.button {
+  box-shadow: none;
+  border: 2px solid rgb(35,177,150);
+  color: rgb(35,177,150);
+  background: none;
+  min-width: 288px;
+  width: 30%;
+}
+
+.ui.hack.button.completed {
+  background: rgb(35, 177, 150);
+  color: #fffefa;
+}
+
+.ui.hack.button:hover {
+  background: rgb(35, 177, 150);
+  color: #fffefa;
+}
+
+.display {
+  display: block !important;
+}
+
+.invisible {
+  display: none !important;
+}
+
+.width-limiter {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-center .ui.message {
+  text-align: center;
+}
+
+#links-column a{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width : 480px) {
+
+  #home {
+    padding: 0;
+  }
+
+  .ui.button {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+  .ui.page.grid {
+    min-width: 300px !important;
+  }
+  #hardware-col-1 {
+    text-align: left !important;
+  }
+}
+
+#faq-accordion {
+  margin-bottom: 4em;
+}
+
+table.ui tr td.active.current-events {
+  background-color: #473899 !important;
+  border-radius: 5px 5px 0 0;
+  padding: 1em !important;
+  color: #fffefa !important;
+}
+
+table.current-events-table {
+  padding: 0 !important;
+}
+
+.current-events h1 {
+  margin: 0;
+}
+
+.announcements {
+  background-color: #FFE552 !important;
+  color: #473899 !important;
+}
+
+.links {
+  background-color: #E76482 !important;
+}
+
+div div#current-events-container.invisible {
+  display: none !important;
+}
+
+.hmit-red { background-color: #fc5454 !important;}
+.hmit-turquoise { background-color: rgb(132,179,135) !important;}
+.hmit-yellow {
+  background-color: #ffe86b !important;
+  color: #404040 !important;
+}
+.hmit-green { background-color: #c9d41b !important;}
+.hmit-orange { background-color: #ffbc29 !important;}

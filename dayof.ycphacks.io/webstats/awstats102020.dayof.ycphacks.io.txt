@@ -1,0 +1,410 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202010 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2673                
+POS_VISITOR 12146               
+POS_DAY 12720               
+POS_DOMAIN 3309                
+POS_LOGIN 3588                
+POS_ROBOT 3743                
+POS_WORMS 4034                
+POS_EMAILSENDER 4165                
+POS_EMAILRECEIVER 4308                
+POS_SESSION 12965               
+POS_SIDER 13123               
+POS_FILETYPES 4443                
+POS_DOWNLOADS 4575                
+POS_OS 4623                
+POS_BROWSER 4749                
+POS_SCREENSIZE 4969                
+POS_UNKNOWNREFERER 5043                
+POS_UNKNOWNREFERERBROWSER 5168                
+POS_ORIGIN 5288                
+POS_SEREFERRALS 5421                
+POS_PAGEREFS 5565                
+POS_SEARCHWORDS 5765                
+POS_KEYWORDS 5917                
+POS_MISC 2337                
+POS_ERRORS 5976                
+POS_CLUSTER 3444                
+POS_SIDER_404 6076                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201101010332 1 0 16058190811224
+FirstTime 0
+LastTime 20201027215918
+LastUpdate 20201101015140 1 0 0 0 0
+TotalVisits 15                  
+TotalUnique 13                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 13                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 5 144357
+1 0 0 0 0 3 107869
+2 0 0 0 7 11 32963
+3 0 0 0 3 5 18178
+4 2 2 12862 4 6 11747
+5 0 0 0 4 8 57180
+6 5 15 369879 3 4 104325
+7 0 0 0 4 6 10450
+8 0 0 0 6 16 257049
+9 2 2 12862 8 18 365543
+10 0 0 0 10 13 697252
+11 1 1 6431 7 11 3544
+12 3 3 19293 13 17 51107
+13 0 0 0 8 18 139212
+14 1 1 6431 63 73 342062
+15 1 1 6431 8 10 20379
+16 0 0 0 3 5 8860
+17 0 0 0 14 17 38472
+18 0 0 0 7 10 27545
+19 2 2 12862 8 10 25295
+20 0 0 0 6 8 14176
+21 5 5 32155 9 15 31239
+22 1 1 6431 7 10 182039
+23 0 0 0 4 6 42568
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 10 20 402034
+gb 6 6 38586
+in 3 3 19293
+cn 2 2 12862
+il 2 2 12862
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bot[\s_+:,\.\;\/\\-] 52 1823592 20201030124403 6
+googlebot 34 436114 20201030140748 0
+robot 4 9731 20201031182506 2
+googlebot\-image 1 132610 20201015222500 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 21 189605 0 0
+css 4 76286 0 0
+js 6 132602 0 0
+woff 2 87144 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+Unknown 3 3
+linux 10 10
+ios_iphone 2 2
+winnt 17 7
+macosx 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox79.0 1 1
+chrome84.0.4147.105 1 1
+Unknown 3 3
+chrome42.0.2311.135 2 2
+safari9.0 1 1
+chrome81.0.4044.129 7 7
+chrome85.0.4183.121 14 4
+safari11.0 1 1
+firefox28.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+python-requests/2.24.0 20201027153435
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-requests/2.24.0 20201027153435
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 20 20
+From1 0 0
+From2 0 0
+From3 1 1
+From4 2 12
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.coralbruce.top/view/8589431/profile/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 196 331364
+444 16 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 134
+/admin/view/plugins/elFinder/php/connector.minimal.php 1 -
+/xxx.php 1 -
+/adminer2.php 1 -
+/wp-content/plugins/advanced_file_manager_5/php/connector.minimal 1 -
+/adminer-4.1.0.php 1 -
+/wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php 1 -
+/wp-content/plugins/ucm-files-manager-ucm-fm/vendor/php/connector.minimal 1 -
+/data/admin/allowurl.txt 1 -
+/wp-content/plugins/file-manager/elfinder/php/connector.minimal.php 1 -
+/modules/tadtools/elFinder/php/connector.minimal 1 -
+/robots.txt 43 -
+/dbadmin.php 1 -
+/index.php 4 -
+/adminer-4.6.1.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 3 www.google.com
+/wp-content/plugins/ucm-files-manager-ucm-fm/vendor/php/connector.minimal.php 1 -
+/adminer-4.6.2.php 1 -
+/htadmin/login.php 1 -
+/media/k2/assets/vendors/studio-42/elfinder/php/connector.minimal.php 1 -
+/adminer-3.2.2.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal 1 -
+/admindede/login.php 1 -
+/adminer-4.2.4.php 1 -
+/wp-content/plugins/filester/includes/File_manager/lib/php/connector.minimal.php 1 -
+//modules/tadtools/elFinder/php/connector.minimal.php 1 -
+/adminer-4.3.0.php 1 -
+/admin/js/plugins/elfinder/php/connector.minimal.php 1 -
+/adminer-3.5.0.php 1 -
+/manage/login.php 1 -
+/adminer-3.1.0.php 1 -
+/adminer-4.2.0.php 1 -
+/wp-content/plugins/file-manager/elFinder/php/connector.minimal.php 1 -
+/adminer.php 2 -
+/vendor/elFinder/php/connector.minimal.php 1 -
+/database.php 1 -
+/vendor/elFinder/php/connector.minimal 1 -
+/public/js/wind.js 1 http://dayof.ycphacks.io/public/js/wind.js
+/adminer-4.2.2.php 1 -
+/adminer-4.4.0.php 1 -
+/application/libraries/elfinder/php/connector.minimal 1 -
+/wp-content/plugins/file-manager/lib/php/connector.minimal 1 -
+/xxxss 1 -
+/wp-content/plugins/file-manager/elfinder/php/connector.minimal 1 -
+/adminer1.php 1 -
+/sql.php 1 -
+/modules/tadtools/elFinder/php/connector.minimal.php 1 -
+/media/k2/assets/vendors/studio-42/elfinder/php/connector.minimal 1 -
+/adminsql.php 1 -
+/wp-content/plugins/file-manager-advanced/lib/php/connector.minimal.php 1 -
+/wp-content/plugins/softdiscover-db-file-manager/libraries/elfinder/php/connector.minimal.php 1 -
+/adminer-3.6.2.php 1 -
+/assets/admin/bootstrap/js/plugins/elfinder/php/connector.minimal 1 -
+/adminer-3.7.0.php 1 -
+/wp-content/plugins/softdiscover-db-file-manager/libraries/elfinder/php/connector.minimal 1 -
+/adminer-3.3.0.php 1 -
+/admin/plugins/tinymce/plugins/elfinder/php/connector.minimal.php 1 -
+/adminer-4.2.3.php 1 -
+/adminer-4.0.0.php 2 -
+/adminer-3.3.1.php 1 -
+/adminer-3.2.0.php 1 -
+/admin/view/plugins/elFinder/php/connector.minimal 1 -
+/phpadmin.php 1 -
+/wp-content/plugins/filester/includes/File_manager/lib/php/connector.minimal 1 -
+/wp-content/plugins/secure-file-manager/vendor/elfinder/php/connector.minimal.php 1 -
+/wp-content/plugins/file-manager-advanced/application/library/php/connector.minimal 1 -
+/wp-content/uploads/piotnet-addons-for-elementor/ 1 -
+/vendor/studio-42/elfinder/php/connector.minimal 1 -
+/adminer-3.3.4.php 1 -
+/adminer-4.0.3.php 1 -
+/adminer-3.0.1.php 1 -
+/adminer-3.3.3.php 1 -
+/e/data/js/ajax.js 1 -
+/libraries/elfinder/php/connector.minimal.php 1 -
+/adminer-4.2.1.php 1 -
+/dede/login.php 1 -
+/adminer-4.5.0.php 1 -
+/sqladm.php 1 -
+/elfinder/php/connector.minimal.phplib/elfinder/php/connector.minimal.php 1 -
+/include/dialog/select_soft_post.php 1 -
+/.env 6 -
+/wp-includes/js/jquery/jquery.js 1 -
+/adminer-3.7.1.php 1 -
+/wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal 1 -
+/vendor_extra/elfinder/php/connector.minimal.php 1 -
+/sqladmin.php 2 -
+/adminer-3.2.1.php 1 -
+/adminer-3.6.0.php 1 -
+/public/router.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 6 www.google.com
+/wp-content/plugins/file-manager-advanced/application/library/php/connector.minimal.php 1 -
+/sites/all/libraries/elfinder/php/connector.minimal 1 -
+/vendor_extra/elfinder/php/connector.minimal 1 -
+/include/calendar/calendar-cn.js 1 http://dayof.ycphacks.io/include/calendar/calendar-cn.js
+/wp-content/old_plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/elfinder/php/connector.minimal.phplib/elfinder/php/connector.minimal 1 -
+/application/libraries/elfinder/php/connector.minimal.php 1 -
+/adminer-3.6.3.php 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 -
+/admin.php 1 -
+/db.php 1 -
+/assets/admin/bootstrap/js/plugins/elfinder/php/connector.minimal.php 1 -
+/adminer-3.5.1.php 1 -
+/adminer-4.6.0.php 1 -
+/adminer-3.4.0.php 1 -
+/myadmin.php 1 -
+/wp-content/plugins/file-manager/elFinder/php/connector.minimal 1 -
+/adminer-4.2.5.php 1 -
+/adminer-3.6.4.php 1 -
+/adminer-4.0.1.php 1 -
+/vendor/studio-42/elfinder/php/connector.minimal.php 1 -
+/wp-content/plugins/file-manager/lib/php/connector.minimal.php 1 -
+/js/comm.js 1 http://dayof.ycphacks.io/js/comm.js
+/wp-content/plugins/file-manager-advanced/lib/php/connector.minimal 1 -
+/manager/login.php 1 -
+/js/common.js 1 http://dayof.ycphacks.io/js/common.js
+/adminer-4.3.1.php 1 -
+/e/admin/index.php 2 http://dayof.ycphacks.io/e/admin/index.php
+/vendor/mihaildev/yii2-elfinder/php/connector.minimal.php 1 -
+/mysql.php 1 -
+/wp-content/old_plugins/wp-file-manager/lib/php/connector.minimal 1 -
+/adminer-3.3.2.php 1 -
+/libraries/elfinder/php/connector.minimal 1 -
+/admin/plugins/tinymce/plugins/elfinder/php/connector.minimal 1 -
+/admin/js/plugins/elfinder/php/connector.minimal 1 -
+/.git/HEAD 1 -
+//admin/js/plugins/elfinder/php/connector.minimal.php 1 -
+/adm.php 2 -
+/css/album.css 1 -
+/config/AspCms_config.asp 1 -
+/wp-content/plugins/secure-file-manager/vendor/elfinder/php/connector.minimal 1 -
+/adminer-3.6.1.php 1 -
+/admin/login.php 1 -
+/vendor/mihaildev/yii2-elfinder/php/connector.minimal 1 -
+/wp-content/plugins/advanced_file_manager_5/php/connector.minimal.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 13
+51.116.182.108 4 4 25724 20201025212156
+45.137.22.44 3 3 19293 20201004223918
+128.199.49.249 2 2 12862 20201013044114
+40.77.190.117 2 7 181724 20201005062813
+2.57.122.168 2 2 12862 20201022194229
+40.77.190.10 2 7 181724 20201005062813
+13.90.226.222 2 2 12862 20201006121230
+1.202.112.187 1 1 6431 20201006114220
+3.25.173.150 1 1 6431 20201027215918
+52.249.182.44 1 1 6431 20201027153435
+13.235.63.76 1 1 6431 20201022093804
+175.44.42.218 1 1 6431 20201013122118
+35.204.232.175 1 1 6431 20201007145401
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20201003 1 1 6431 1
+20201004 2 2 12862 2
+20201005 4 14 363448 2
+20201006 3 3 19293 2
+20201007 1 1 6431 1
+20201013 3 3 19293 2
+20201022 3 3 19293 2
+20201025 4 4 25724 1
+20201027 2 2 12862 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 14
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 19 122189 13 13
+/prizes/ 2 67416 2 0
+/assets/fonts/icons.woff 2 87144 0 2
+END_SIDER

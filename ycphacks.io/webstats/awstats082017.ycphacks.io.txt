@@ -1,0 +1,1059 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2672                
+POS_VISITOR 21442               
+POS_DAY 34119               
+POS_DOMAIN 3636                
+POS_LOGIN 4337                
+POS_ROBOT 4492                
+POS_WORMS 5092                
+POS_EMAILSENDER 5223                
+POS_EMAILRECEIVER 5366                
+POS_SESSION 35099               
+POS_SIDER 35300               
+POS_FILETYPES 5501                
+POS_DOWNLOADS 5807                
+POS_OS 6071                
+POS_BROWSER 6490                
+POS_SCREENSIZE 8426                
+POS_UNKNOWNREFERER 8500                
+POS_UNKNOWNREFERERBROWSER 9738                
+POS_ORIGIN 10370               
+POS_SEREFERRALS 10516               
+POS_PAGEREFS 10694               
+POS_SEARCHWORDS 14175               
+POS_KEYWORDS 14363               
+POS_MISC 2336                
+POS_ERRORS 14456               
+POS_CLUSTER 4193                
+POS_SIDER_404 14598               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901003352 23 3581 7226731447236
+FirstTime 0
+LastTime 20170831234757
+LastUpdate 20170901020512 23 0 22 0 0
+TotalVisits 581                 
+TotalUnique 257                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 330                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 57 196 4190412178 19 46 2324661
+1 32 153 5490771818 23 58 2709416
+2 49 224 3746714512 30 60 1699017
+3 35 93 2294177213 14 47 2471381
+4 49 207 2321289174 16 42 1716663
+5 34 83 2516059017 14 30 7765097
+6 43 147 1473092353 19 42 943034
+7 48 169 1350026418 20 45 1498551
+8 49 427 5395839054 12 41 3189374
+9 64 512 6867932948 25 64 1388502
+10 70 437 5428614430 22 53 105915986
+11 55 279 2732525088 21 108 5276079
+12 51 406 3673966905 17 88 8815114
+13 62 313 20256113030 23 63 3443227
+14 54 495 19465264933 15 58 1960544
+15 103 736 8801693651 34 75 4519248
+16 49 309 4102029988 23 81 4953498
+17 46 325 3868850629 19 73 9872344
+18 38 302 2026757460 22 43 7616665
+19 52 265 4992911987 17 44 1366381
+20 46 307 6542088632 15 57 4742986
+21 61 236 4917125252 31 90 2945372
+22 57 515 8185916774 11 105 72634588
+23 55 360 6548606081 24 91 114465545
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 30
+ua 800 800 19344026
+us 329 5573 51463684470
+cn 24 25 765445
+ie 23 24 64342
+ca 21 257 1710955711
+gb 13 148 630036817
+ru 12 187 323253485
+in 7 134 1571205667
+dk 4 4 100372
+fr 3 44 870126038
+jp 3 4 130714
+za 2 44 317599785
+no 2 29 3619600
+kr 2 44 11980679857
+it 2 4 69199
+be 2 29 129483230
+br 2 44 316863970
+co 2 45 314935092
+eu 1 1 16186
+nl 1 1 25093
+dm 1 1 25093
+au 1 4 209212
+de 1 1 16186
+pk 1 43 4472808
+lk 0 1 208991260
+id 0 1 269716
+do 0 1 64342
+pl 0 1 105572
+ar 0 1 64342
+tw 0 1 56464
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bot[\s_+:,\.\;\/\\-] 268 64957544 20170831220422 0
+googlebot 99 275144037 20170831225317 0
+bingpreview 84 9010930 20170824122525 0
+googlebot\-image 68 12430172 20170831235802 0
+php 33 5190110 20170827161241 0
+spider 22 289777 20170831135951 0
+no_user_agent 13 299488 20170831222015 0
+robot 10 487241 20170830154053 0
+[\s_+:,\.\;\/\\-]bot 8 3002280 20170818155535 0
+crawl 4 91465 20170830155628 0
+netcraft 3 75279 20170812013023 0
+ia_archiver 1 25093 20170802211504 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+mp4 18 67915878786 0 0
+pdf 7 8957073 0 0
+woff2 100 5678000 0 0
+html 1103 25646954 0 0
+js 613 6646972 0 0
+ttf 47 24760728 0 0
+woff 4 286032 0 0
+css 1777 6247190 0 0
+png 2902 391716026 0 0
+gif 1 1035 0 0
+eot 5 263238 0 0
+jpg 919 237421723 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/BackgroundVideo.mp4 19 1079 63104419484
+/Sponsorship%20Handout.pdf 17 18 21438213
+/dayof/assets/Micro-Mouse-JCI.zip 4 0 28881900
+/iOS.zip 3 0 5681508
+/images/BGVideo.mp4 2 176 6327243786
+/MicroClass.zip 1 0 1529887
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+linux 374 27
+win98 27 27
+winme 8 8
+unix 55 13
+win8.1 115 6
+macosx9 32 0
+Unknown 420 14
+ios_iphone 1082 50
+wince 7 7
+linuxandroid 722 33
+win8 5 1
+macosx 1938 96
+java 24 24
+macosx6 1 1
+win16 9 5
+winlong 44 19
+win2003 39 39
+winphone 50 3
+winunknown 39 13
+ios_ipad 91 4
+win2000 164 153
+winnt 1802 173
+win95 52 50
+linuxubuntu 76 4
+win7 1032 60
+winxp 561 429
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 98
+opera6.01 17 17
+iphone 58 6
+opera43.0.2442.1144 1 1
+chrome37.0.2062.120 2 2
+firefox29.0 17 2
+chrome45.0.2454.93 22 22
+firefox3.6.3 1 1
+chrome59.0.3071.125 236 11
+safari 305 12
+safari7.0.3 9 0
+nsplayer 9 0
+chrome61.0.3163.39 30 2
+webcapture 33 8
+opera7.60 13 13
+msie3.02 7 7
+msie5.5 79 77
+chrome59.0.3071.134 44 2
+firefox3.0.11 1 1
+firefox54.0 164 7
+chrome60.0.3112.78 29 2
+msie10.0 23 2
+chrome51.0.2704.106 59 4
+safari10.0.3 10 2
+chrome60.0.3112.90 1274 55
+chrome44.0.2403.89 2 2
+chrome60.0.3112.101 1227 63
+chrome60.0.3112.107 163 10
+chrome59.0.3071.109 97 4
+msie2.0 9 9
+msie7.0 75 32
+safari10.1.2 59 2
+windows\-media\-player 1 0
+opera11.52 1 1
+opera8.00 12 12
+opera8.50 3 3
+netscape4.79 8 8
+chrome59.0.3071.115 977 44
+opera9.00 17 17
+chrome52.0.2743.116 65 9
+safari10.0 710 32
+chrome58.0.3029.110 1 0
+netscape4.61 11 11
+chrome57.0.2987.133 87 3
+msie8.0 84 10
+firefox55.0 158 6
+firefox31.0 45 4
+safari10.1.1 36 2
+opera12.02 1 0
+netscape3.0 17 17
+chrome59.0.3071.114 2 2
+netscape0.91 5 5
+chrome36.0.1985.125 2 2
+msie6.0 439 395
+netscape4.76 9 9
+firefox28.0 16 1
+chrome55.0.2883.95 1 1
+android 45 1
+chrome61.0.3163.59 48 2
+Unknown 142 34
+firefox3.6.13 29 2
+chrome61.0.3163.13 49 2
+msie11.0 53 5
+chrome55.0.2883.91 1 0
+opera7.11 24 19
+safari10.0.2 57 2
+mozilla 312 23
+safari9.0 1 0
+chrome47.0.2526.111 23 1
+chrome59.0.3071.104 46 2
+opera36.0.2130.32 2 2
+chrome34.0.1847.137 11 0
+opera7.54 17 9
+msie9.0 74 3
+chrome49.0.2623.75 6 4
+firefox22.0 1 1
+chrome45.0.2454.94 1 1
+safari11.0 135 6
+chrome60.0.3112.113 363 22
+opera7.02 31 27
+opera46.0.2597.32 29 2
+opera9.01 9 9
+opera9.0 23 19
+firefox21.0 15 2
+firefox40.0 2 1
+chrome35.0.1916.114 8 0
+chrome34.0.1847.131 34 0
+opera8.01 32 32
+chrome38.0.1025.166 168 4
+chrome26.0.1410.64 1 1
+msie5.0 18 14
+firefox47.0 7 3
+firefox50.0 5 5
+opera7.0 8 8
+msie4.01 8 8
+chrome42.0.2311.135 3 3
+chrome56.0.2924.87 49 2
+opera46.0.2597.57 95 5
+firefox52.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 20
+NSPlayer/12.00.9651.0000_WMFSDK/12.00.9651.0000 20170822082624
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20170812193715
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20170813041319
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/55.0.2883.95_Safari/537.36/Nutch-1.13 20170827141059
+SEMrushBot 20170807185326
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20170828071451
+UniversalFeedParser/3.3__http://feedparser.org/ 20170821040529
+G-i-g-a-b-o-t 20170831124333
+Twitterbot/1.0 20170830154024
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20170813040709
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170827161143
+Googlebot-Image/1.0 20170812232639
+python-requests/2.18.4 20170824104131
+Mozilla/4.0_(compatible;) 20170823144226
+Barkrowler_0.1.6 20170831234757
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170823171433
+Go-http-client/1.1 20170831150644
+MailChimp 20170803082611
+calculon_spider/0.1.0_mailto:abuse@yieldbot.com 20170831140806
+Mozilla/5.0_(compatible;_ips-agent) 20170820200250
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+Barkrowler_0.1.6 20170831234757
+Apache-HttpClient/UNAVAILABLE_(java_1.4) 20170827230639
+Googlebot-Image/1.0 20170812232639
+python-requests/2.18.4 20170824104131
+UniversalFeedParser/3.3__http://feedparser.org/ 20170821040529
+G-i-g-a-b-o-t 20170831124333
+Twitterbot/1.0 20170830154024
+calculon_spider/0.1.0_mailto:abuse@yieldbot.com 20170831140806
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170827161143
+SEMrushBot 20170807185326
+Java/1.7.0_55 20170831103953
+Go-http-client/1.1 20170831150644
+MailChimp 20170803082611
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 238 511
+From1 3 3
+From2 44 138
+From3 810 836
+From4 164 7281
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 34 86
+bing 6 47
+yandex 4 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 117
+https://pl.id-forex.com 20 20
+http://www.z-master.ru 18 18
+https://moje-recenze.cz 17 17
+http://companies-catalog.com 15 15
+https://stop-gepatit.te.ua 15 15
+http://hdwallpapers-free.com 15 15
+https://via-energy-cumpara.com 15 15
+http://copro.pw 15 15
+http://videochat.ph 15 15
+http://www.anabolics.shop 13 13
+https://educontest.net 13 13
+https://stillmiracle.com 12 12
+http://taraz.xkaz.org 12 12
+http://typer.one 12 12
+http://deshevo-nedorogo.ru 12 12
+https://2000k.ru 12 12
+https://timhost.ru 12 12
+http://dvervmoskvu.ru 12 12
+https://www.facebook.com/businesses.center/ 12 12
+https://23kw.ru 11 11
+https://mmostrike.ru 11 11
+http://videochat.life 11 11
+https://xn--d1aifoe0a9a.top 11 11
+http://stroyplus.ru 11 11
+http://pornolook.net 11 11
+https://essayservicewriting.org 6 6
+http://rockprogblog.com 3 3
+https://bioscorp.ru 3 3
+https://lechenie-gemorroya.com 8 8
+https://mojpregled.com 7 7
+https://schock-store.ru 3 3
+http://irkutsk.zrus.org 4 4
+http://weburok.com 6 6
+https://minharevisao.com 9 9
+http://videochat.cafe 2 2
+http://y8games-free.com 1 1
+http://komp-pomosch.ru 3 3
+https://spb-plitka.ru 4 4
+http://aktobe.xkaz.org 9 9
+https://buy-meds24.com 8 8
+https://vk.com/vps_vds_dedicated_server 6 6
+http://optom-deshevo.ru 2 2
+http://shymkent.xkaz.org 9 9
+https://letsart.ru 7 7
+http://03e.info 4 4
+http://yoshkarola.zrus.org 7 7
+http://kemerovo.zrus.org 10 10
+https://l.facebook.com 1 1
+https://mojaocena.com 8 8
+http://karaganda.xkaz.org 9 9
+http://www.zahvat.ru 7 7
+http://kirov.zrus.org 1 1
+http://pavlodar.xkaz.org 6 6
+https://landscaping.center 2 2
+http://video-chat.love 9 9
+https://venerologiya.com 5 5
+https://moetomnenie.com 6 6
+https://sajatvelemeny.com 6 6
+http://m.facebook.com 2 2
+http://life-instyle.com/eda.html 7 7
+https://www.mb140.ru 8 8
+http://podshipniki-nsk.ru 9 9
+http://sudexpert66.ru 3 3
+http://technika-remont.ru 4 4
+https://ikritikimou.gr 4 4
+https://vpnmouse.com 7 7
+http://www.alt-servis.ru 3 3
+https://www.souvenirua.com 5 5
+https://xn----dtbndd4ae7eub.top 5 5
+https://xn--80abgj3a5acid6ghs.top 10 10
+http://chatroulette.video 5 5
+https://i-hobot.ru 2 2
+https://liky.co.ua 5 5
+https://via-energy-acquistare.com 7 7
+https://buydissertation.net 9 9
+http://videochat.tv.br 2 2
+http://hundejo.com 1 1
+http://www.vizitki.net 4 4
+http://www.osnova3.ru 1 1
+http://smsactivator.ru 7 7
+http://ivanovo.zrus.org 10 10
+https://univerfiles.com 8 8
+http://podshipniki-ntn.ru 3 3
+http://hvd-store.com 1 1
+https://esopini.com 5 5
+https://ua.tc 9 9
+http://www.muz-baza.net 4 4
+https://kichenaid.ru 3 3
+http://x-lime.net 1 1
+http://www.zetmaster.ru 6 6
+https://t.co/gxoUKXrOtr 9 9
+https://emerson-rus.ru 6 6
+https://mansparskats.com 10 10
+http://cool-wedding.net 7 7
+http://kaliningrad.zrus.org 3 3
+http://sucuri.net 1 7
+http://pk-services.ru 9 9
+http://macrotek.ru 8 8
+https://mojpreskumanie.com 7 7
+http://videochat.mx 3 3
+http://se-welding.ru 2 2
+http://pc-services.ru 7 7
+http://chatroulette.world 1 1
+https://pl-top.pl 2 2
+http://videochat.bz 1 1
+https://woweb.com.ua 3 3
+http://komputers-best.ru 3 3
+http://pk-pomosch.ru 7 7
+http://remontvsamare.su 6 6
+https://manager.agorapulse.com/facebook/page/inbox/168026 0 20
+https://omoikiri-japan.ru 10 10
+http://www.shoppingmiracles.co.uk 8 8
+http://xdoza.com 7 7
+https://pregnant.guru 6 6
+http://demian.kz 2 2
+https://kursy-ege.ru 5 5
+http://krasivoe-hd.net 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+ycp+hackathon 3
+20ycp 1
+ycp+hacks 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+ycp 4
+hackathon 3
+20ycp 1
+hacks 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 45 1984334
+444 117 0
+301 10 2473
+403 25 46950
+404 676 1196100
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 119
+/images/uploads/images/uploads/hammer.jpg 1 http://ycphacks.io/images/uploads/
+/images/uploads/js/jquery-1.11.1.min.js 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/lafayette.jpg 1 http://ycphacks.io/images/uploads/
+/images/uploads/JDBrown.png 3 -
+/images/uploads/st.png 1 -
+/images/uploads/images/uploads/YCCF.jpg 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/header-1.css 1 http://ycphacks.io/images/uploads/
+/apple-touch-icon-precomposed.png 4 -
+/blog/wp-admin/setup-config.php 1 -
+/images/uploads/UFD.png 1 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/images/uploads/images/uploads/mirror.jpg 1 http://ycphacks.io/images/uploads/
+/wp-content/plugins/wp-formgenerator/uploads/php/ 1 http://www.ycphacks.io/wp-content/plugins/wp-formgenerator/uploads/php/
+/site/wp-admin/setup-config.php 3 -
+/images/uploads/css/style-library-1.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/logonew.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/JohnsonControls.png 2 -
+/images/uploads/downtown-inc.jpg 1 -
+/images/uploads/js/bootstrap.min.js 1 http://ycphacks.io/images/uploads/
+/images/uploads/twitter.png 2 https://www.google.com/
+/beta/wp-admin/setup-config.php 3 -
+/wp/wp-admin/setup-config.php 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/2017%20assets/Headliner.ttf 2 http://www.ycphacks.io/2017%20assets/custom.css
+/404testpage4525d2fdc 1 http://sucuri.net
+/wp/ 2 -
+/images/uploads/maple.png 3 -
+/files 1 -
+/images/uploads/images/calendar2.png 1 http://ycphacks.io/images/uploads/
+/wp-content/themes/headway-166/style.css 1 http://www.ycphacks.io/wp-content/themes/headway-166/style.css
+/images/uploads/images/uploads/dataforma.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/pai.png 1 -
+/images/uploads/lafayette.jpg 2 -
+/images/uploads/images/uploads/UFD.png 1 http://ycphacks.io/images/uploads/
+/wp-login.php 2 -
+/images/uploads/images/uploads/YCEA.png 1 http://ycphacks.io/images/uploads/
+/new/wp-admin/setup-config.php 2 -
+/wp-includes/js/jquery/suggest.js 1 -
+/images/uploads/bootstrap/css/bootstrap.min.css 1 http://ycphacks.io/images/uploads/
+/blog/wp-includes/wlwmanifest.xml 2 -
+/images/uploads/images/uploads/big.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/hammer.png 121 http://ycphacks.io/
+/images/uploads/css/main.css 1 http://ycphacks.io/images/uploads/
+/site/wp-includes/wlwmanifest.xml 2 -
+/images/uploads/images/uploads/Omega.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/magnific-popup.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/lewisstrategic.jpg 4 -
+/wordpress/ 2 -
+/images/uploads/gigabit.png 2 -
+/xmlrpc.php 5 -
+/images/uploads/logo_JetBrains_1.png 4 -
+/images/uploads/images/uploads/maple.png 1 http://ycphacks.io/images/uploads/
+/blogs/wp-admin/setup-config.php 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/blog/wordpress/wp-admin/setup-config.php 2 -
+/images/uploads/images/pinpoint.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/BackgroundVideo.mp4 4 http://ycphacks.io/images/uploads/
+/images/uploads/mlh-logo.png 2 -
+/blog/robots.txt 2 -
+/images/uploads/images/uploads/mantec.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/YCEA.png 1 -
+/blog/ 2 -
+/images/uploads/images/uploads/JDBrown.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/Ballroom.jpg 1 -
+/images/uploads/css/content1-9.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/team-1.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/pai.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/largeFountain.jpg 1 http://ycphacks.io/images/uploads/
+/404javascript.js 1 http://www.google.com/url/
+//fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/images/uploads/mantec.png 1 -
+/images/uploads/images/uploads/downtown-inc.jpg 1 http://ycphacks.io/images/uploads/
+/test/wp-admin/setup-config.php 1 -
+/images/uploads/js/bskit-scripts.js 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/ThielFellowship.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/ThielFellowship.png 2 -
+/images/uploads/images/uploads/twitter.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/Omega.png 1 -
+/images/uploads/github.png 1 -
+/images/uploads/dataforma.png 3 -
+/images/uploads/favicon.png 2 -
+/images/uploads/largeFountain.jpg 3 -
+/news/wp-admin/setup-config.php 1 -
+/wp-admin/setup-config.php 3 -
+/images/uploads/images/uploads/gigabit.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/comcast.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/content2-6.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/YCCF.jpg 2 -
+/apple-touch-icon.png 4 -
+/images/uploads/css/content3-7.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/JohnsonControls.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/Magnus.png 1 -
+/images/uploads/images/uploads/lewisstrategic.jpg 1 http://ycphacks.io/images/uploads/
+/images/uploads/Lafayette.jpg 6 -
+/images/uploads/images/uploads/mlh-logo.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/namecheap.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/2nd.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/github.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/js/bootstrap-hover-dropdown.min.js 1 http://ycphacks.io/images/uploads/
+/images/uploads/namecheap.png 2 -
+/robots.txt 312 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/images/uploads/images/uploads/1st.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/Ballroom.jpg 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/Magnus.png 1 http://ycphacks.io/images/uploads/
+/cms/wp-admin/setup-config.php 1 -
+/images/uploads/images/uploads/brandmakers.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/font-awesome.min.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/css/team-2.css 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/3rd.png 1 http://ycphacks.io/images/uploads/
+/images/uploads/images/uploads/logo_JetBrains_1.png 1 http://ycphacks.io/images/uploads/
+/j2017%20assets/query.min.js 64 http://www.ycphacks.io/
+/images/uploads/1st.png 1 -
+/old/wp-admin/setup-config.php 1 -
+/sitemap.xml 1 -
+/images/uploads/mirror.jpg 2 -
+/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/headway-162/style.css 1 http://www.ycphacks.io/wp-content/themes/headway-162/style.css
+/images/uploads/css/content2-3.css 1 http://ycphacks.io/images/uploads/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 330
+188.163.79.53 111 111 2731881 20170829000828
+46.118.118.100 106 106 2606416 20170829035155
+178.137.4.41 105 105 2501160 20170831225315
+46.118.125.246 104 104 2547323 20170829053831
+46.118.154.36 87 87 2138556 20170828101806
+46.118.158.199 53 53 1329929 20170810002642
+134.249.80.194 45 45 1102464 20170828021906
+46.118.112.220 44 44 1104092 20170808210726
+188.163.72.17 44 44 1104092 20170808201338
+46.119.112.177 32 32 802976 20170808172340
+87.198.206.50 23 23 0 20170831103953
+174.55.160.7 18 372 2282828193 20170830224234
+178.137.154.138 15 15 376395 20170807221548
+46.118.158.19 14 14 226604 20170831122953
+76.29.10.61 10 222 754111382 20170818092833
+178.137.165.219 9 9 145674 20170831212533
+46.118.113.254 9 9 145674 20170831024615
+173.49.255.242 8 193 1005107019 20170827193316
+209.114.162.234 6 99 587244396 20170830151721
+46.211.197.119 6 6 150558 20170802125628
+108.55.124.206 6 111 699132249 20170831095203
+188.163.72.15 5 5 80930 20170831102603
+74.212.43.242 5 83 488613995 20170828091949
+188.29.164.43 4 62 224252168 20170828070347
+65.112.8.130 4 79 382301799 20170828034027
+72.52.87.55 3 49 318074054 20170823132038
+52.53.205.77 1 1 25093 20170809020523
+202.46.57.27 1 1 25093 20170817063849
+204.79.180.0 1 2 25357 20170825224824
+104.201.244.65 0 42 5631487 
+24.6.42.115 2 59 422901882 20170803193228
+112.70.96.27 0 1 64342 
+204.194.77.3 2 48 422735856 20170802095655
+71.175.27.172 0 1 181027 
+168.235.201.61 1 42 4408466 20170814101553
+95.220.59.133 3 35 245304 20170805103831
+95.220.201.36 1 16 80970 20170818113404
+38.95.252.34 2 32 66813561 20170827235247
+104.39.29.216 2 44 214172201 20170830121721
+66.87.81.243 0 6 195404955 
+152.3.43.2 2 48 314476741 20170826112408
+204.79.180.11 0 3 2005 
+74.208.121.187 1 1 16186 20170831231102
+68.53.33.118 2 36 129701922 20170830155030
+204.79.180.7 1 2 18244 20170831214544
+104.58.121.48 3 48 317256333 20170809020904
+172.56.30.226 2 40 420284438 20170822143250
+104.196.139.222 1 1 0 20170803082611
+114.38.207.120 0 1 56464 
+104.129.29.173 2 46 213553288 20170811103113
+202.46.58.121 1 1 25093 20170827131801
+108.50.244.200 0 1 181027 
+95.66.182.100 2 47 317821064 20170808060242
+144.76.23.171 1 1 16186 20170830154009
+158.69.59.60 1 1 25093 20170810220938
+100.14.215.138 2 44 4753336 20170805150822
+67.20.193.210 2 33 190927703 20170830150844
+185.2.196.196 2 2 81873 20170803162612
+202.46.49.196 1 1 25093 20170805023849
+47.150.79.173 3 50 332668945 20170820232429
+173.72.39.8 2 47 316799628 20170802161808
+71.112.192.219 2 50 318132764 20170824121720
+166.216.165.30 0 1 181027 
+49.44.51.50 2 56 840745056 20170806052734
+66.87.80.212 0 3 63064402 
+52.17.58.137 1 1 16186 20170830143730
+107.178.194.63 0 4 72822 
+74.212.43.252 2 36 302219078 20170831135823
+63.66.64.247 2 45 109477574 20170823144227
+209.76.161.175 0 1 64342 
+204.79.180.16 0 2 0 
+166.216.165.17 0 1 181027 
+154.73.18.129 1 1 25093 20170812203712
+64.233.172.189 1 43 4127276 20170821044030
+82.36.38.179 4 63 275644228 20170830173526
+62.210.129.246 1 1 25093 20170812180338
+73.46.217.34 2 48 314902328 20170815140133
+202.46.56.16 1 1 25093 20170820022716
+24.0.255.215 2 50 318210441 20170807100627
+104.236.67.162 1 17 330890 20170824083850
+138.197.111.172 1 5 67769 20170827123714
+66.249.80.29 0 11 1060599 
+166.216.165.80 2 29 3581244 20170829083133
+104.129.194.180 3 278 13952195204 20170822121522
+186.7.22.25 0 1 64342 
+104.168.149.196 1 1 25093 20170824104131
+202.46.51.203 1 1 25093 20170804032644
+172.222.169.45 2 56 840679520 20170802012610
+66.102.8.33 0 5 1296026 
+202.46.55.152 1 1 25093 20170814133137
+45.55.224.77 1 1 16186 20170830083737
+54.195.72.191 1 22 59670 20170828204524
+108.29.84.121 2 51 422649943 20170809213554
+73.32.138.140 2 31 66748024 20170830185737
+209.221.4.18 2 49 317624458 20170809144136
+98.237.115.66 2 30 66644131 20170827232618
+173.163.42.129 0 1 88743 
+138.197.73.15 1 5 67769 20170809020842
+73.90.208.129 2 36 129732122 20170829000351
+8.28.16.254 2 2 81873 20170808144918
+70.119.74.127 2 56 422509235 20170811223559
+66.87.80.20 2 51 409061517 20170822082643
+204.79.180.21 0 6 8083 
+192.99.66.150 2 10 135538 20170820145926
+87.228.16.238 1 42 4408466 20170802023120
+204.79.180.15 0 2 1752 
+144.217.167.240 1 1 25093 20170816011007
+24.56.7.43 0 1 64342 
+39.50.148.120 1 42 4408466 20170808180229
+159.203.108.239 1 17 330890 20170820221837
+81.187.176.74 2 31 129483230 20170830150829
+107.77.241.10 3 55 422130562 20170804110215
+52.51.180.204 1 1 16186 20170831234757
+64.233.172.191 1 34 3040212 20170821044042
+138.197.104.7 1 17 330890 20170814131737
+129.32.224.77 2 46 213553288 20170808180350
+202.46.53.193 1 1 16186 20170828161020
+138.197.104.18 1 17 330890 20170817184028
+52.169.91.215 1 1 25093 20170826211240
+24.176.27.94 2 31 129483230 20170830153552
+159.203.77.114 1 17 330890 20170803134421
+100.35.54.225 2 57 422520516 20170805231435
+61.135.217.125 1 1 25093 20170827141059
+69.58.178.58 1 1 25093 20170820200250
+34.203.218.15 1 1 25093 20170817224248
+98.31.18.49 2 47 317558920 20170817111459
+98.198.1.146 2 48 315094498 20170816121013
+99.248.130.54 2 37 192550306 20170830174730
+204.79.180.23 0 4 697 
+77.40.129.123 2 29 3619600 20170828113252
+202.46.52.177 1 1 25093 20170826135708
+128.6.68.242 2 47 314472902 20170809173554
+204.79.180.8 0 3 6133 
+52.51.222.70 1 1 16186 20170831134011
+108.52.84.87 2 52 319651406 20170809022818
+172.58.184.209 0 1 98957312 
+73.64.154.219 4 94 712664980 20170802185021
+98.235.205.202 2 50 318171021 20170821093816
+66.249.80.31 0 11 720283 
+198.13.243.218 2 48 422152854 20170824013856
+158.69.229.6 2 10 135538 20170810011924
+37.115.188.137 4 4 100372 20170820151638
+174.200.25.164 0 1 181027 
+34.228.197.185 1 1 25093 20170808193702
+47.31.4.12 2 31 129483230 20170828014840
+23.96.208.137 1 1 16186 20170830153954
+52.21.176.42 1 1 16186 20170830153951
+71.113.157.158 2 48 316569058 20170805142255
+96.236.44.48 2 58 516503520 20170819205803
+138.197.111.116 1 5 67769 20170821081056
+173.71.65.29 4 78 446583398 20170828183252
+109.130.149.122 2 31 129483230 20170830133234
+65.112.8.131 2 50 317324237 20170825221432
+180.247.67.150 0 1 269716 
+34.253.136.151 1 1 16186 20170831121559
+73.195.178.31 0 1 181027 
+199.116.169.254 2 2 81873 20170823144227
+74.212.43.241 2 30 66644131 20170827230701
+157.55.39.122 0 1 33225 
+76.255.129.132 4 135 1321169281 20170817223011
+166.216.165.94 3 60 1233492382 20170822082305
+68.129.232.173 2 48 317519330 20170806223322
+12.0.243.21 2 47 314562139 20170802202822
+68.100.134.122 0 1 1248114 
+74.113.110.1 2 31 129483230 20170830154232
+23.24.48.49 2 48 317945314 20170811140420
+70.214.66.10 0 1 181027 
+162.208.50.91 1 5 1123531 20170821040346
+208.114.63.4 2 48 318304240 20170808144918
+71.58.200.145 0 19 3744342 
+202.46.55.19 1 1 25093 20170822184136
+37.117.76.65 1 3 44106 20170824060051
+125.209.133.24 0 2 128684 
+107.178.194.33 0 10 1605325 
+129.25.35.161 2 50 422767102 20170824094112
+138.197.111.114 1 5 67769 20170806033939
+52.210.8.134 1 1 16186 20170831194911
+164.132.99.181 1 1 25093 20170816182135
+64.201.233.139 2 55 735469082 20170827160631
+192.81.128.31 2 8 96168 20170821053051
+200.122.195.112 0 1 64342 
+54.186.114.11 1 1 25093 20170805144230
+95.165.111.218 1 15 112592 20170818113413
+129.130.18.60 2 30 66644131 20170830175522
+4.15.107.115 2 30 66682487 20170830161350
+98.237.106.177 4 62 197413831 20170829095426
+50.79.109.98 2 50 318197301 20170807173946
+74.98.209.183 2 31 129483230 20170830224550
+54.164.9.159 1 1 16186 20170830160240
+46.119.120.241 3 3 75279 20170811064723
+172.58.184.79 3 52 420488888 20170802150957
+73.64.45.143 2 35 66694338 20170828124252
+138.197.111.101 1 5 67769 20170803023950
+188.226.157.43 1 1 16186 20170830180852
+66.87.81.229 0 6 171164446 
+138.197.96.199 1 5 67769 20170815134446
+139.59.149.99 1 1 16186 20170828113833
+188.32.70.250 2 33 470561 20170818042732
+50.81.138.164 2 55 422499137 20170808220822
+46.101.151.120 1 1 25093 20170827061156
+202.46.49.146 1 1 25093 20170809012432
+202.46.49.112 1 1 25093 20170825040008
+165.225.39.58 2 49 422555930 20170802151428
+172.56.2.90 0 2 131074 
+34.204.78.114 1 1 25093 20170817010142
+204.79.180.22 0 5 3671 
+202.46.50.82 1 1 25093 20170809160752
+166.216.165.129 0 1 630147 
+47.185.32.59 2 48 315094498 20170812233525
+66.87.81.119 2 32 129548767 20170830090935
+182.189.89.236 0 1 64342 
+190.174.206.10 0 1 64342 
+202.46.50.89 1 1 25093 20170825125024
+54.165.249.10 1 1 0 20170830155525
+45.55.50.168 1 17 330890 20170810060140
+138.197.96.210 1 5 67769 20170818112759
+146.185.223.114 1 1 25093 20170825045427
+103.213.130.134 2 47 317853832 20170805080523
+47.185.195.212 0 14 418087390 
+104.54.200.181 2 50 422474419 20170813233853
+157.55.39.226 0 2 1938 
+218.147.203.100 2 267 11980679857 20170812192256
+66.102.8.61 0 5 56135 
+196.52.2.102 1 49 317574692 20170809211044
+204.79.180.9 0 6 19034 
+202.46.49.152 1 1 25093 20170816005817
+207.35.210.35 2 50 318219920 20170809114300
+173.239.240.21 2 50 318223525 20170809085107
+202.46.53.12 1 1 25093 20170816194440
+171.77.140.170 1 3 49290 20170822095417
+204.79.180.1 0 2 2679 
+76.126.154.5 2 46 106974964 20170813194542
+202.46.53.13 1 1 16186 20170828033940
+157.55.39.64 0 2 3536 
+167.114.172.225 3 3 75279 20170823171434
+204.79.180.13 0 3 34808 
+89.228.255.184 0 1 105572 
+34.209.150.21 1 1 16186 20170831062410
+160.254.108.24 2 46 317952136 20170807071604
+178.137.83.166 1 1 25093 20170817054438
+130.85.194.19 2 31 129483230 20170831125820
+24.59.70.173 4 76 508404195 20170815124303
+175.157.99.70 0 2 208991260 
+54.145.124.58 1 1 25093 20170809015442
+150.70.173.8 1 1 25093 20170804180721
+70.214.115.177 2 62 878307206 20170814151526
+204.13.201.139 1 7 30358 20170830083228
+186.85.8.147 2 47 314806408 20170816123614
+202.46.50.75 1 1 25093 20170824081745
+204.79.180.3 1 3 44106 20170823143716
+66.249.83.147 1 3 601273 20170806090034
+65.132.59.34 1 1 16186 20170831124333
+138.197.13.155 1 7 107811 20170831173857
+78.132.201.57 0 1 64342 
+74.212.42.244 2 30 3619602 20170828080749
+186.113.27.164 0 1 64342 
+12.237.73.211 2 57 422535116 20170821061901
+74.212.42.243 2 48 317425407 20170803083852
+178.137.167.187 3 3 48558 20170831154657
+24.246.252.235 2 50 317896541 20170807182609
+66.249.83.143 0 5 55830 
+64.110.154.4 2 47 317917793 20170803162611
+204.79.180.5 0 3 22686 
+107.178.194.61 0 6 1345913 
+49.35.13.197 2 49 412557489 20170802092333
+66.102.8.63 1 10 440680 20170821044042
+202.46.52.208 1 1 25093 20170814013416
+68.198.234.61 2 47 315297928 20170807174014
+166.216.165.65 0 1 494790 
+192.249.47.190 1 1 25093 20170801124747
+93.160.60.32 4 4 100372 20170826032626
+128.199.165.82 0 1 64342 
+50.233.164.226 0 1 494790 
+98.234.253.230 2 20 2222666 20170830194054
+149.56.128.29 1 1 25093 20170808193407
+70.199.8.221 2 49 318081688 20170815083957
+208.90.57.196 2 2 50186 20170820180458
+207.239.54.186 0 1 181027 
+202.46.58.57 1 1 25093 20170812190110
+60.175.210.16 1 1 25093 20170814004134
+67.130.59.10 0 1 104495630 
+204.79.180.18 0 1 2709 
+150.70.173.57 1 1 16186 20170830154122
+180.139.214.141 0 1 181027 
+23.30.221.193 2 53 537447322 20170815091759
+37.71.8.164 2 60 870100945 20170807140413
+166.77.6.5 2 48 422377663 20170815100823
+192.30.227.242 2 55 663118415 20170816100924
+192.30.227.251 2 52 631593000 20170822095634
+202.46.48.19 1 1 25093 20170807152238
+166.137.126.61 2 43 4465246 20170815100422
+204.79.180.12 0 2 37431 
+204.79.180.14 0 1 0 
+104.133.9.90 2 44 4753336 20170807185434
+142.4.219.91 2 43 4479974 20170815143806
+209.66.99.116 2 54 422489336 20170802145616
+40.77.167.62 0 1 7283 
+199.168.151.107 0 11 813842074 
+202.46.50.120 1 1 25093 20170815153529
+192.243.53.51 1 1 25093 20170807185326
+176.249.7.186 0 1 494790 
+66.70.178.160 3 15 203307 20170813085716
+138.197.96.207 1 2 18507 20170830153553
+138.197.111.196 1 17 330890 20170806222616
+204.79.180.6 0 6 9543 
+187.59.224.118 2 48 316863970 20170817152701
+37.228.249.13 0 1 64342 
+217.182.95.33 1 1 16186 20170831150644
+138.197.73.210 1 7 107811 20170828001516
+24.102.130.141 2 48 317944133 20170815153332
+66.249.80.2 0 8 994712 
+96.227.116.219 2 59 423029080 20170826071036
+150.70.173.9 1 1 25093 20170819205836
+138.197.111.171 1 5 67769 20170812062527
+208.87.234.201 2 48 317224418 20170821093706
+71.228.46.213 2 47 314802401 20170815002238
+157.160.105.54 0 1 630147 
+204.79.180.4 0 2 2596 
+202.46.51.81 1 1 25093 20170809091106
+107.210.99.6 2 50 317677331 20170803000037
+114.77.39.140 0 1 64342 
+138.197.96.213 1 5 67769 20170824075930
+64.233.172.161 1 32 5063297 20170822215025
+130.85.238.85 2 32 110180487 20170830173232
+66.249.83.145 1 5 803907 20170826184458
+66.205.169.225 2 29 3619600 20170828004340
+5.188.211.72 1 1 25093 20170827072427
+73.187.243.212 2 48 314714664 20170816204308
+73.64.106.16 0 1 288090 
+47.89.193.18 1 1 25093 20170818152754
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170801 25 26 1257472 13
+20170802 48 497 8103371039 22
+20170803 47 228 2944857939 20
+20170804 22 101 1616437117 11
+20170805 54 293 2731378007 22
+20170806 32 137 2308361267 14
+20170807 39 335 4579882667 17
+20170808 45 254 2218062995 19
+20170809 41 471 5629535552 21
+20170810 33 66 1485597 14
+20170811 35 163 1896116086 15
+20170812 32 121 12286793685 14
+20170813 43 172 13978713413 16
+20170814 31 131 2071233950 15
+20170815 43 407 5654599615 20
+20170816 53 345 4569739825 21
+20170817 37 232 3892579031 19
+20170818 46 231 29738094809 21
+20170819 31 113 1658954395 14
+20170820 40 107 663127165 18
+20170821 33 339 2746792782 19
+20170822 46 283 5697971912 23
+20170823 37 195 1368642117 16
+20170824 50 198 2314024611 25
+20170825 35 139 1255388311 17
+20170826 31 158 2096451137 14
+20170827 53 366 4393599796 22
+20170828 48 397 1821419010 25
+20170829 30 138 900972930 14
+20170830 80 721 6936799268 40
+20170831 39 132 1112136025 20
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+0s-30s 559
+2mn-5mn 2
+15mn-30mn 5
+5mn-15mn 4
+30mn-1h 5
+30s-2mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 1102 25621984 578 435
+/fonts/fontawesome-webfont.woff2 100 5678000 1 96
+/2017%20assets/Headliner.ttf 47 24760728 0 43
+/fonts/fontawesome-webfont.woff 4 286032 0 4
+/fonts/fontawesome-webfont.eot 4 242976 1 3
+/bootstrap/fonts/glyphicons-halflings-regular.eot 1 20262 0 0
+/images/uploads/ 1 24970 1 0
+END_SIDER

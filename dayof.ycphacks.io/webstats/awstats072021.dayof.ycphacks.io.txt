@@ -1,0 +1,343 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202107 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2669                
+POS_VISITOR 7902                
+POS_DAY 8698                
+POS_DOMAIN 3297                
+POS_LOGIN 3613                
+POS_ROBOT 3768                
+POS_WORMS 4325                
+POS_EMAILSENDER 4456                
+POS_EMAILRECEIVER 4599                
+POS_SESSION 9062                
+POS_SIDER 9219                
+POS_FILETYPES 4734                
+POS_DOWNLOADS 4860                
+POS_OS 4908                
+POS_BROWSER 5052                
+POS_SCREENSIZE 5298                
+POS_UNKNOWNREFERER 5372                
+POS_UNKNOWNREFERERBROWSER 5597                
+POS_ORIGIN 5817                
+POS_SEREFERRALS 5949                
+POS_PAGEREFS 6093                
+POS_SEARCHWORDS 6294                
+POS_KEYWORDS 6446                
+POS_MISC 2333                
+POS_ERRORS 6505                
+POS_CLUSTER 3469                
+POS_SIDER_404 6605                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210801003926 293 75648 14828292621355
+FirstTime 0
+LastTime 20210731130431
+LastUpdate 20210801044029 293 286 6 0 0
+TotalVisits 23                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 6431 6 11 76719
+1 1 1 2358 4 10 94943
+2 2 2 4716 4 7 42102
+3 0 0 0 10 27 362522
+4 23 23 6583 5 7 79933
+5 0 0 0 7 15 336866
+6 2 2 4222 2 2 8095
+7 0 0 0 6 15 186559
+8 1 1 6431 0 1 30
+9 0 0 0 1 8 98575
+10 22 22 8279 2 4 20411
+11 4 4 428 6 17 369545
+12 5 5 2786 2 2 62943
+13 4 4 9432 5 8 79963
+14 4 4 428 4 6 38962
+15 4 4 13011 3 5 41160
+16 21 21 1848 1 3 1347
+17 1 1 6431 3 4 45203
+18 4 4 428 2 3 2687
+19 0 0 0 0 6 678
+20 0 0 0 0 1 104325
+21 0 0 0 23 25 398271
+22 0 0 0 1 3 5194
+23 0 0 0 2 3 12659
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 80 80 18637
+gr 4 4 25724
+fi 4 4 428
+unknown 4 4 9432
+cn 3 3 10159
+de 2 2 4716
+se 1 1 2358
+sg 1 1 2358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bingbot/ 37 714213 20210730075041 9
+Googlebot/ 33 358691 20210727034646 3
+SeznamBot/ 18 144711 20210729053245 9
+DotBot/ 14 167002 20210731140229 7
+unknown 10 300 20210730095543 10
+YandexBot/ 4 4776 20210729055713 2
+MJ12bot/ 4 4838 20210713110957 2
+custo 4 25724 20210702213240 0
+rogerbot/ 2 2419 20210713132341 1
+no_user_agent 2 12862 20210719232217 0
+AhrefsBot/ 2 1010 20210708103026 1
+bingpreview 1 43572 20210727120805 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+php 3 264 0 0
+html 37 68185 0 0
+xml 50 4400 0 0
+env 9 963 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx 2 2
+linuxandroid 9 9
+ios_iphone 2 2
+win10 63 63
+Unknown 4 4
+linux 19 19
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+firefox84.0 1 1
+chrome88.0.4240.193 20 20
+android 8 8
+firefox77.0 1 1
+chrome89.0.4389.90 1 1
+chrome70.0.3538.80 1 1
+safari10.0 2 2
+chrome78.0.3904.108 42 42
+chrome81.0.4044.129 19 19
+Unknown 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210705152707
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210705152707
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 97 97
+From1 0 0
+From2 0 0
+From3 2 2
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://ovqeu.jikem.com 1 1
+http://jcv.rczhan.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+400 3 804
+404 59 988770
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 23
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/.well-known/security.txt 4 -
+/_profiler/phpinfo 7 -
+/vendor/.env 1 -
+/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp-includes 1 www.google.com
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/speakers/assets/js/semantic.min.js 1 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 2 -
+/.env 17 -
+/speakers/ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js 1 -
+/security.txt 2 -
+/css/album.css 1 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/storage/.env 1 -
+/public/.env 1 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/speakers/assets/js/base.js 1 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 2 -
+/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/.aws/credentials 1 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 2 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+158.101.28.21 21 21 1848 20210707101240
+34.126.64.252 21 21 1848 20210728161537
+13.83.48.133 20 20 1760 20210705044710
+65.21.9.74 8 8 856 20210713120352
+164.68.100.252 4 4 9432 20210731130431
+34.216.249.219 4 4 428 20210711181404
+95.217.146.170 4 4 428 20210713140041
+92.118.160.5 3 3 19293 20210705152707
+2.57.122.158 2 2 4716 20210718011210
+2.57.122.112 2 2 4716 20210722133449
+175.44.42.173 1 1 1864 20210713150623
+183.253.80.69 1 1 1864 20210721061005
+130.255.162.160 1 1 2358 20210706065222
+3.135.192.12 1 1 2358 20210713040722
+173.249.48.46 2 2 4716 20210724020832
+139.59.123.199 1 1 2358 20210724043324
+23.229.36.133 1 1 107 20210727042539
+101.249.60.147 1 1 6431 20210721103749
+92.118.160.9 1 1 6431 20210704083720
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20210702 1 1 6431 1
+20210704 1 1 6431 1
+20210705 22 22 14622 3
+20210706 1 1 2358 1
+20210707 21 21 1848 1
+20210711 4 4 428 1
+20210713 14 14 5506 4
+20210716 3 3 7074 2
+20210718 1 1 2358 1
+20210721 2 2 8295 2
+20210722 2 2 4716 1
+20210724 3 3 7074 2
+20210727 1 1 107 1
+20210728 21 21 1848 1
+20210731 2 2 4716 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 22
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 37 68185 19 19
+/.env 9 963 4 1
+/blog/wp-includes/wlwmanifest.xml 3 264 0 0
+/website/wp-includes/wlwmanifest.xml 3 264 0 0
+/wp/wp-includes/wlwmanifest.xml 3 264 0 0
+/news/wp-includes/wlwmanifest.xml 3 264 0 0
+/site/wp-includes/wlwmanifest.xml 3 264 0 0
+/wordpress/wp-includes/wlwmanifest.xml 3 264 0 0
+/sito/wp-includes/wlwmanifest.xml 3 264 0 3
+/shop/wp-includes/wlwmanifest.xml 3 264 0 0
+/2020/wp-includes/wlwmanifest.xml 1 88 0 0
+/wp1/wp-includes/wlwmanifest.xml 3 264 0 0
+/media/wp-includes/wlwmanifest.xml 2 176 0 0
+/wp-includes/wlwmanifest.xml 3 264 0 0
+/2019/wp-includes/wlwmanifest.xml 3 264 0 0
+/cms/wp-includes/wlwmanifest.xml 3 264 0 0
+/xmlrpc.php 3 264 0 0
+/2018/wp-includes/wlwmanifest.xml 2 176 0 0
+/test/wp-includes/wlwmanifest.xml 3 264 0 0
+/wp2/wp-includes/wlwmanifest.xml 3 264 0 0
+/web/wp-includes/wlwmanifest.xml 3 264 0 0
+END_SIDER

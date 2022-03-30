@@ -1,0 +1,703 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2666                
+POS_VISITOR 12676               
+POS_DAY 19047               
+POS_DOMAIN 3517                
+POS_LOGIN 4070                
+POS_ROBOT 4225                
+POS_WORMS 4592                
+POS_EMAILSENDER 4723                
+POS_EMAILRECEIVER 4866                
+POS_SESSION 19866               
+POS_SIDER 20024               
+POS_FILETYPES 5001                
+POS_DOWNLOADS 5184                
+POS_OS 5339                
+POS_BROWSER 5631                
+POS_SCREENSIZE 7217                
+POS_UNKNOWNREFERER 7291                
+POS_UNKNOWNREFERERBROWSER 7907                
+POS_ORIGIN 8460                
+POS_SEREFERRALS 8599                
+POS_PAGEREFS 8769                
+POS_SEARCHWORDS 9758                
+POS_KEYWORDS 9910                
+POS_MISC 2330                
+POS_ERRORS 9969                
+POS_CLUSTER 3926                
+POS_SIDER_404 10082               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201005734 1 0 8363269399304
+FirstTime 0
+LastTime 20210131192824
+LastUpdate 20210201015329 1 0 0 0 0
+TotalVisits 219                 
+TotalUnique 153                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 162                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 16 155375 12 62 1057659
+1 12 22 708406 12 43 834236
+2 9 24 677205 29 77 1010742
+3 7 17 124174 29 56 1301846
+4 29 68 255301031 28 57 392787
+5 7 7 100464 30 57 63540515
+6 13 40 129796227 34 225 81863324
+7 14 45 632804886 15 41 248252
+8 8 8 57408 16 40 246138
+9 18 48 380565544 55 78 838325
+10 6 7 124470 24 44 398454
+11 17 73 257914421 32 87 977230
+12 8 37 255530562 30 76 607308
+13 4 20 505065386 92 109 708866
+14 17 84 888490569 15 47 290656
+15 13 29 379564364 15 43 604655
+16 20 77 132702852 21 47 297085
+17 16 22 126889387 50 88 436311
+18 10 44 508248963 13 38 173769
+19 12 22 694054 30 63 1620083
+20 17 18 720452 29 79 63994247
+21 5 10 83615 31 81 65256254
+22 6 6 71760 26 85 1136369
+23 12 26 127846566 35 83 526666
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+us 108 264 896666305
+cn 63 366 1353835355
+ua 40 40 574080
+ru 21 21 301392
+de 15 15 100464
+ie 9 9 0
+gb 6 19 1612817
+ca 5 11 64135442
+se 5 5 71760
+fr 4 4 57408
+in 3 3 43056
+gr 1 1 14352
+al 1 1 14352
+il 1 1 14352
+cl 1 1 14352
+id 1 1 14352
+nz 1 1 14352
+jp 1 1 14352
+it 1 1 14352
+es 1 1 14352
+pe 1 1 14352
+tr 1 1 14352
+sa 1 1 14352
+hu 0 1 476468
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bot[\s_+:,\.\;\/\\-] 447 281484690 20210131220006 47
+robot 167 2140385 20210131231009 50
+googlebot 127 1233895 20210131213017 0
+spider 44 949893 20210131184142 0
+crawl 22 838522 20210127205103 3
+no_user_agent 9 129168 20210125050754 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+pdf 8 3811744 0 0
+ttf 30 15804720 0 0
+html 261 3473184 0 0
+css 220 521620 0 0
+jpg 131 8660166 0 0
+png 120 19583967 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/Sponsor_Packet_2018.pdf 14 0 6670552
+/images/BGVideo.mp4 4 36 2518442918
+/Sponsorship2017.pdf 2 0 1935258
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+ios_iphone 36 15
+winxp 38 38
+Unknown 43 28
+win7 67 37
+winlong 12 2
+macosx9 1 1
+win2000 3 3
+win8.1 2 2
+win2003 3 3
+linux 58 17
+wince 2 2
+linuxandroid 360 51
+ios_ipad 1 1
+macosx8 1 1
+win8 25 19
+macosx 50 26
+winnt 95 36
+java 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 78
+chrome81.0.4044.129 6 6
+chrome65.0.3325.109 1 1
+msie6.0 24 24
+chrome45.0.2454.101 1 1
+chrome72.0.3626.121 1 1
+msie5.5 4 4
+chrome69.0.3497.128 21 2
+chrome87.0.4280.141 35 3
+firefox80.0 3 3
+firefox52.0 5 5
+firefox5.0 5 5
+chrome73.0.3683.90 4 4
+opera9.0 3 3
+chrome79.0.3945.88 1 1
+chrome75.0.3729.169 2 2
+chrome83.0.4103.97 1 1
+chrome75.0.3770.100 1 1
+chrome87.0.4280.101 20 2
+firefox67.0 1 1
+netscape5.0 7 7
+chrome83.0.4093.3 1 1
+chrome84.0.4147.105 1 1
+chrome40.0.2214.93 1 1
+chrome78.0.3904.62 1 1
+chrome87.0.4280.67 1 1
+chrome74.0.3729.169 1 1
+chrome83.0.4086.0 1 1
+chrome40.0.2214.85 8 8
+msie9.0 49 9
+chrome50.0.2661.102 4 4
+opera8.00 3 3
+msie2.0 3 3
+firefox53.0 1 1
+safari4.0.4 1 1
+firefox56.0 1 1
+chrome83.0.4103.61 3 3
+chrome78.0.3904.108 13 0
+firefox64.0 1 1
+chrome46.0.2486.0 1 1
+chrome45.0.2454.94 1 1
+firefox57.0 5 5
+chrome26.0.1410.65 1 1
+chrome76.0.3809.100 2 2
+safari10.0 3 2
+chrome85.0.4183.102 1 1
+chrome71.0.3578.98 3 3
+chrome80.0.3987.132 1 1
+opera11.50 4 4
+firefox59.0 2 2
+chrome58.0.3029.110 4 4
+msie7.0 3 3
+chrome64.0.3282.186 24 18
+chrome88.0.4298.0 17 2
+chrome77.0.3865.120 1 1
+chrome87.0.4280.88 2 2
+chrome78.0.3904.70 2 2
+firefox3.6.13 1 1
+firefox28.0 1 1
+chrome77.0.3835.0 8 2
+mozilla 17 4
+msie3.02 2 2
+chrome41.0.2228.0 4 4
+chrome35.0.1916.47 1 1
+chrome87.0.4280.66 1 1
+safari11.0 33 13
+firefox79.0 1 1
+opera8.01 3 3
+firefox84.0 37 5
+chrome83.0.4103.34 1 1
+msie10.0 1 1
+Unknown 29 27
+android 48 6
+chrome85.0.4183.121 10 4
+firefox5.0.1 1 1
+msie11.0 1 1
+firefox3.0 1 1
+chrome57.0.2987.108 285 36
+firefox72.0 3 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+python-requests/2.25.1 20210128220331
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210104042425
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20210117171334
+ReactorNetty/1.0.2 20210114135934
+HTTPClient/1.0_(2.8.3,_ruby_2.1.10_(2016-04-01)) 20210115163015
+Mozilla/5.0 20210131192824
+ltx71_-_(http://ltx71.com/) 20210104211845
+axios/0.19.2 20210124102959
+Go-http-client/1.1 20210114042713
+ScamadviserExternalHit/1.0 20210118061439
+Python/3.8_aiohttp/3.7.3 20210109205115
+SEMrushBot 20210113082508
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20210117171334
+Java/11.0.2 20210108045454
+python-requests/2.25.1 20210128220331
+SEMrushBot 20210113082508
+Python/3.8_aiohttp/3.7.3 20210109205115
+ScamadviserExternalHit/1.0 20210118061439
+Go-http-client/1.1 20210114042713
+axios/0.19.2 20210124102959
+ltx71_-_(http://ltx71.com/) 20210104211845
+HTTPClient/1.0_(2.8.3,_ruby_2.1.10_(2016-04-01)) 20210115163015
+ReactorNetty/1.0.2 20210114135934
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 158 170
+From1 1 1
+From2 6 7
+From3 65 65
+From4 61 563
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 5
+duckduckgo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+http://baidu.com 18 18
+https://obiavo.su 6 6
+https://obiavo.by 3 3
+https://obiavo.kz 3 3
+http://xn--d1abj0abs9d.in.ua 3 3
+https://razvratnoe.org 3 3
+https://greenshop.su 3 3
+https://komputers-best.ru 3 3
+https://sex-znakomstva.online 3 3
+https://1008.su 3 3
+https://lenpipet.ru 3 3
+https://siteripz.net 3 3
+https://facialporntube.com 2 2
+https://l.facebook.com 1 1
+http://shme.yqpc.net/view/24036417/profile/ 1 1
+http://bbsm.semxiu.com/blog/24036417/7-proven-ways-to-increase-website-traffic/ 1 1
+http://ejhh.wzhek.com/blog/24036417/view/ 1 1
+https://foodgid.net 1 1
+http://hcwk.kadoin.com/view/24036417/profile/ 1 1
+http://duevb.wzhek.com/blog/24036417/view/ 1 1
+http://hckho.bavsac.com/view/24036417/profile/ 1 1
+https://i1.wp.com/s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/mobile/theme-ovation-m.jpg 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 8 86112
+404 847 1499112
+444 33 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 104
+/v2/ 4 -
+/wp-includes/fonts/css.php 6 -
+/bak/ 4 -
+/public/.env 1 -
+/script/public.js 1 -
+/install.php 1 -
+/old-wp/ 4 -
+/2020/ 4 -
+/test/ 4 -
+/old/ 4 -
+/install/ 4 -
+/ckeditor/kcfinder/browse.php 1 -
+/kcfinder/browse.php 1 -
+/config.bak.php 8 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-includes/css/css.php 6 -
+/css/style.css 1 -
+/vendor/.env 1 -
+/js/kcfinder/browse.php 1 -
+/cgi-bin/php.cgi 4 -
+/temp/ 4 -
+/assets/js/kcfinder/browse.php 1 -
+/cgi-bin/test.cgi 2 -
+/sites/.env 1 -
+/images/uploads/ycp.png 1 -
+/panel/kcfinder/browse.php 1 -
+/admin/ckeditor/kcfinder/browse.php 1 -
+/public/admin.php/api/index/loansList 1 -
+/system/.env 1 -
+/dev/ 4 -
+/util/login.aspx 1 -
+/cgi-bin/php5 4 -
+/new/ 5 -
+//.env 2 -
+/assets/admin/ckeditor/kcfinder/browse.php 1 -
+/cgi-bin/php-cgi 4 -
+/apple-touch-icon-precomposed.png 1 -
+/news/ 1 -
+/site/ 5 -
+/humans.txt 2 -
+/sitemap.txt 13 -
+/Chitoge.php 1 -
+/2018/ 4 -
+/old-site/ 4 -
+/cgi-bin/php4 4 -
+/images/uploads/Magnus.png 1 -
+/cms/ 5 -
+/blog/ 5 -
+//wp-content/plugins/easy-wp-smtp/ 1 -
+/blog/.env 1 -
+/assets/ckeditor/kcfinder/browse.php 1 -
+/ads.txt 68 -
+/demo/ 4 -
+/http://www.ycphacks.io/ 2 -
+/robots.txt 223 -
+/home/ 5 -
+/cgi-bin/php 4 -
+/emergency.php 4 -
+/tmp/ 4 -
+/api/.env 1 -
+/magento_version 1 -
+/2019/ 4 -
+/wp-content/config.bak.php 4 -
+/images/uploads/Mirror.jpg 2 -
+/2017%20assets/responsive-nav.min.js 150 http://ycphacks.io/
+/kefu.php 1 -
+/main/ 4 -
+/admin/.env 1 -
+/.git/config 2 -
+/cgi-sys/php5 2 -
+/web/ 5 -
+/test/.env 1 -
+/images/uploads/Lafayette.jpg 1 -
+/static/index/css/iindex.css 1 -
+/wp2/ 4 -
+/laravel/.env 1 -
+/wordpress/ 5 -
+/cgi-bin/php5-cli 2 -
+/images/uploads/github.png 1 http://go.mail.ru/search_images
+/static/home/static/js/login.js 1 -
+/user/register/ 1 -
+/.env 9 -
+/wp1/ 4 -
+/sitemap.xml 5 -
+/backup/ 4 -
+/wp/ 5 -
+/images/uploads/lewisstrategic.jpg 1 -
+/public/admin.php 1 -
+/wp-admin/config.bak.php 6 -
+/www.vfmac.edu/ 1 -
+/bk/ 4 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/shop/.env 1 -
+/apple-touch-icon.png 1 -
+/admin/kcfinder/browse.php 1 -
+/new-site/ 4 -
+/api/index/loansList 1 -
+/wp-login.php 5 -
+/images/uploads/favicon.png 12 -
+/assets/kcfinder/browse.php 1 -
+/v1/ 4 -
+/Public/css/errorCss.css 1 -
+/j2017%20assets/query.min.js 121 http://ycphacks.io/
+/Public/home/js/check.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 162
+195.123.209.118 12 12 172224 20210131044645
+5.34.180.192 12 12 172224 20210131043750
+91.241.19.182 10 10 143520 20210130051924
+87.198.206.50 9 9 0 20210108045454
+46.185.117.199 9 9 129168 20210113184059
+138.246.253.24 8 8 0 20210128151535
+35.195.229.200 8 8 114816 20210109205115
+23.100.232.233 8 48 209656 20210130045702
+220.181.77.162 6 48 4774872 20210131161847
+42.236.10.117 5 29 128454171 20210121180348
+150.136.56.196 4 4 57408 20210113135906
+180.163.220.4 4 23 65733562 20210121180632
+42.236.10.125 4 28 66638609 20210130124617
+13.57.48.36 4 4 28704 20210120171253
+195.154.171.54 4 4 57408 20210116120919
+42.236.10.93 4 33 66161289 20210105064140
+51.222.43.127 3 3 43056 20210104041326
+46.185.127.176 3 3 43056 20210101041910
+45.32.184.31 3 4 519524 20210115073632
+20.55.74.2 3 4 519524 20210125202547
+185.229.144.22 3 3 43056 20210123003427
+42.236.10.75 3 13 64224910 20210105064036
+172.58.30.187 2 20 190294355 20210104153702
+54.219.58.180 2 8 63615918 20210120171254
+104.129.255.199 2 3 505172 20210109141216
+2.59.241.174 1 1 14352 20210103183749
+93.158.90.12 1 1 14352 20210128164832
+27.115.124.6 1 14 126965340 20210101145109
+64.246.165.180 1 1 14352 20210130110000
+46.119.94.239 1 1 14352 20210127143949
+142.93.230.255 1 1 14352 20210113232820
+193.218.39.15 1 1 14352 20210128074105
+42.236.10.79 1 3 531519 20210115020517
+143.110.239.180 1 1 14352 20210106213237
+185.222.57.164 1 1 14352 20210101224054
+82.165.117.55 1 1 14352 20210106061253
+66.42.51.248 1 1 14352 20210117143759
+42.236.10.90 0 2 5305 
+175.44.42.154 1 1 14352 20210125012326
+42.236.10.107 1 1 14352 20210103005514
+64.227.65.4 1 1 14352 20210118061439
+3.223.141.208 1 1 14352 20210110232327
+3.214.143.3 1 1 14352 20210117200541
+52.4.143.42 2 2 28704 20210129011208
+200.27.110.28 1 1 14352 20210113093904
+64.246.165.210 1 1 14352 20210106024214
+178.159.37.104 2 2 28704 20210131070653
+54.36.115.93 1 1 14352 20210107005435
+47.52.227.14 1 1 14352 20210130082435
+151.80.19.216 1 1 14352 20210102083434
+35.243.23.62 1 1 14352 20210117171334
+84.22.150.48 1 1 14352 20210105074808
+180.163.220.62 0 1 358 
+88.198.90.9 1 1 14352 20210111152304
+148.251.50.77 2 2 28704 20210111200339
+93.158.90.107 1 1 14352 20210101114246
+73.175.137.195 2 18 64692869 20210128112016
+180.163.220.66 2 14 190599829 20210130124820
+42.236.10.69 0 1 358 
+68.162.120.190 2 18 64692869 20210106165742
+34.218.238.135 2 2 28704 20210107234615
+18.237.8.94 1 1 14352 20210119040228
+107.150.64.180 1 1 14352 20210115153954
+102.47.229.167 1 1 14352 20210106061713
+157.7.162.55 1 1 14352 20210117164645
+167.99.45.76 1 1 14352 20210112105717
+103.110.252.42 1 1 14352 20210128033147
+175.44.42.70 1 1 14352 20210112015746
+98.237.67.192 1 15 1064800 20210121091827
+198.46.201.131 2 3 505172 20210115153952
+180.163.220.3 2 33 129221406 20210121180602
+138.234.44.38 2 21 253095098 20210116134223
+198.251.69.246 1 1 14352 20210131142511
+190.40.177.54 1 1 14352 20210121020316
+27.115.124.38 2 14 919377 20210127140356
+64.227.65.197 2 2 28704 20210116090350
+42.236.10.109 1 1 14352 20210114065958
+104.129.255.106 1 1 14352 20210109141218
+64.227.65.79 2 17 64654511 20210113232821
+173.254.201.209 1 1 14352 20210114014924
+107.172.139.196 1 1 14352 20210128093008
+180.163.220.47 1 3 21267 20210102191229
+42.236.10.113 0 1 2709 
+34.68.251.86 2 2 28704 20210127102803
+180.163.220.68 2 24 126399691 20210130124751
+150.136.142.165 2 2 28704 20210110130150
+180.163.220.46 1 2 529420 20210102191234
+5.187.75.161 1 1 14352 20210102230644
+46.119.94.217 1 1 14352 20210129152814
+167.114.175.39 2 9 64092386 20210130181201
+42.236.10.116 0 1 1986 
+93.158.90.92 1 1 14352 20210106151313
+183.253.80.71 1 1 14352 20210102125911
+175.44.42.239 1 1 14352 20210103232114
+27.115.124.70 1 9 920676 20210127140409
+42.236.10.78 1 8 63154809 20210105064018
+42.236.10.81 0 2 6802 
+35.205.198.66 1 1 14352 20210109162452
+54.81.122.237 1 1 14352 20210115163011
+3.236.19.212 1 1 14352 20210124223659
+103.96.43.249 2 2 28704 20210129050724
+42.236.10.88 1 2 16338 20210120042444
+52.161.97.190 2 2 28704 20210127152030
+54.159.175.177 1 1 14352 20210115163015
+217.160.42.180 1 1 14352 20210115045946
+85.208.98.21 1 1 14352 20210113082508
+42.236.10.123 1 1 14352 20210115010203
+180.163.220.45 0 1 1986 
+184.94.240.92 1 1 14352 20210118083243
+52.16.18.208 1 1 14352 20210109034524
+73.187.148.248 2 20 190219489 20210121091921
+42.236.10.110 1 1 14352 20210102174521
+78.85.147.157 1 1 14352 20210126192103
+216.158.211.188 1 1 14352 20210111091426
+1.192.192.4 1 1 14352 20210127015153
+212.227.211.160 1 1 14352 20210128220331
+136.175.8.52 1 1 14352 20210102032628
+3.239.63.242 1 1 14352 20210131192824
+45.87.212.55 1 1 14352 20210102213756
+170.247.43.142 1 1 14352 20210107024128
+27.115.124.101 1 7 63452891 20210101145051
+134.122.3.149 1 1 14352 20210107040607
+18.144.41.181 1 1 14352 20210120171250
+52.7.141.1 2 2 28704 20210122013116
+207.154.216.100 1 1 14352 20210112105715
+52.37.53.217 1 3 91068 20210116175618
+42.236.10.91 1 2 18558 20210127004518
+85.31.186.210 1 1 14352 20210112160910
+34.222.80.243 1 1 14352 20210126001430
+23.94.103.31 2 3 505172 20210128093002
+5.188.210.78 2 2 28704 20210119030111
+213.166.69.250 1 1 14352 20210107231632
+185.72.52.237 1 1 14352 20210125102213
+198.46.214.151 1 1 14352 20210129062522
+167.71.14.203 1 1 14352 20210116095236
+91.104.202.232 0 1 476468 
+42.236.10.105 1 2 16948 20210103014354
+175.44.42.28 1 1 14352 20210130104343
+129.146.84.192 2 2 28704 20210115091235
+175.44.42.58 1 1 14352 20210119052719
+88.204.47.233 1 1 14352 20210116224108
+42.236.10.84 1 9 63891689 20210114110317
+192.36.248.249 2 2 28704 20210114042713
+35.239.58.193 1 1 14352 20210104211845
+51.77.246.76 2 15 1555409 20210104042425
+18.221.7.91 1 1 14352 20210124022943
+192.99.18.136 1 1 14352 20210121194218
+77.247.127.75 1 1 14352 20210104072855
+123.58.211.111 1 1 14352 20210131123107
+213.139.198.82 1 1 14352 20210125002335
+180.163.220.5 1 5 211783 20210108073836
+42.236.10.77 1 1 14352 20210115020505
+45.67.96.12 1 1 14352 20210114001427
+42.236.10.120 1 3 531388 20210103014357
+3.239.14.179 1 1 14352 20210103215429
+199.244.88.132 1 1 14352 20210102001853
+5.188.211.26 1 1 14352 20210118234955
+107.175.224.154 2 3 505172 20210129062519
+202.102.144.121 1 1 14352 20210120195406
+40.123.251.228 1 1 14352 20210121224746
+42.236.10.114 2 35 190224223 20210127140208
+42.236.10.72 0 1 358 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210101 11 47 381256561 9
+20210102 10 15 667847 10
+20210103 12 38 254085870 11
+20210104 10 38 380600249 6
+20210105 10 36 129247999 8
+20210106 10 25 127827516 9
+20210107 13 13 129168 10
+20210108 7 42 632225457 7
+20210109 15 21 689251 7
+20210110 7 7 100464 5
+20210111 7 7 100464 7
+20210112 4 4 57408 4
+20210113 12 26 127860918 9
+20210114 13 55 130635133 9
+20210115 16 23 1692543 13
+20210116 9 30 504710891 8
+20210117 6 6 86112 6
+20210118 3 3 43056 3
+20210119 3 3 43056 3
+20210120 11 21 126791124 7
+20210121 11 73 760979341 9
+20210122 2 2 14352 2
+20210123 3 8 54911 3
+20210124 3 4 81414 3
+20210125 6 7 562580 4
+20210126 2 2 28704 2
+20210127 11 46 506826803 9
+20210128 14 35 128401951 10
+20210129 19 20 749156 9
+20210130 14 54 382755098 10
+20210131 17 59 4932744 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 218
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 261 3473184 207 191
+/bootstrap/2017%20assets/Headliner.ttf 30 15804720 12 28
+END_SIDER

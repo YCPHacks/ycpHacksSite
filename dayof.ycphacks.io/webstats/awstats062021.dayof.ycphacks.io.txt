@@ -1,0 +1,915 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202106 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2669                
+POS_VISITOR 23041               
+POS_DAY 24945               
+POS_DOMAIN 3363                
+POS_LOGIN 3757                
+POS_ROBOT 3912                
+POS_WORMS 4461                
+POS_EMAILSENDER 4592                
+POS_EMAILRECEIVER 4735                
+POS_SESSION 25503               
+POS_SIDER 25670               
+POS_FILETYPES 4870                
+POS_DOWNLOADS 5107                
+POS_OS 5155                
+POS_BROWSER 5351                
+POS_SCREENSIZE 6050                
+POS_UNKNOWNREFERER 6124                
+POS_UNKNOWNREFERERBROWSER 6486                
+POS_ORIGIN 6740                
+POS_SEREFERRALS 6876                
+POS_PAGEREFS 7020                
+POS_SEARCHWORDS 7223                
+POS_KEYWORDS 7375                
+POS_MISC 2333                
+POS_ERRORS 7434                
+POS_CLUSTER 3613                
+POS_SIDER_404 7539                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210701063452 978 276183 7773627265978
+FirstTime 0
+LastTime 20210630014924
+LastUpdate 20210702044120 978 975 0 2 0
+TotalVisits 54                  
+TotalUnique 43                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 50                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 88 4 6 7164
+1 38 49 1014730 88 176 3039559
+2 3 9 393179 31 31 568259
+3 1 1 6431 1 2 1537
+4 19 19 11037 9 20 338143
+5 2 10 862103 0 0 0
+6 3 3 19293 3 7 28796
+7 9 9 3062 5 18 284319
+8 0 0 0 1 1 1940
+9 2 2 214 4 5 37475
+10 2 2 12862 2 4 171303
+11 4 12 862317 2 8 263743
+12 47 54 139514 122 261 4761506
+13 1 5 806852 3 4 15281
+14 33 41 873684 14 16 32038
+15 0 0 0 2 7 243549
+16 3 3 11147 29 32 529278
+17 23 23 4332 47 47 865124
+18 1 1 1864 0 3 104447
+19 6 6 6859 4 7 94860
+20 1 1 1864 5 7 8552
+21 4 4 7074 5 11 90712
+22 21 21 1760 1 2 19377
+23 20 21 43348 2 3 2532
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+us 107 136 2816743
+jp 62 62 5456
+sg 21 21 1848
+de 17 17 12432
+cn 11 19 457077
+br 8 8 704
+gr 8 8 51448
+ru 4 20 1724206
+unknown 2 2 195
+it 1 1 6431
+es 1 1 2358
+se 1 1 2358
+gb 1 1 2358
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 39 392301 20210627123620 6
+bingbot/ 26 255891 20210625013148 8
+SeznamBot/ 17 289581 20210629154937 8
+custo 15 96465 20210630142116 0
+unknown 8 596 20210618165618 8
+Applebot/ 8 7747 20210622233936 4
+baidu 7 257312 20210601113513 0
+YandexBot/ 4 4776 20210623164941 2
+python 3 2572 20210629042916 0
+AhrefsBot/ 2 1190 20210620064929 1
+MojeekBot/ 2 18182 20210619163212 1
+Mail\.RU_Bot/ 2 2388 20210630123904 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 11 443768 0 0
+png 11 3522925 0 0
+env 2 214 0 0
+woff 5 217860 0 0
+php 27 2756 0 0
+xsd 1 107 0 0
+html 84 164416 0 0
+xml 116 10208 0 0
+js 31 720309 0 0
+Unknown 9 1051 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 15 8
+ios_iphone 1 1
+linux 30 26
+win7 2 2
+macosx 7 6
+macosx9 4 4
+macosx10 1 1
+win8.1 10 2
+Unknown 17 17
+win10 210 177
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+firefox57.0 2 2
+chrome90.0.4430.216 10 2
+firefox48.0 8 8
+safari11.0 1 1
+chrome91.0.4472.77 5 1
+firefox84.0 1 1
+firefox89.0 1 1
+chrome88.0.4240.193 41 41
+chrome76.0.3809.132 20 20
+chrome78.0.3904.62 1 0
+firefox52.0 15 15
+chrome60.0.3112.107 6 6
+chrome78.0.3904.108 21 21
+chrome39.0.2171.95 1 1
+chrome81.0.4044.129 10 10
+chrome85.0.4183.121 6 5
+chrome36.0.1985.125 3 3
+chrome80.0.3987.149 42 42
+mozilla 12 8
+chrome90.0.4430.212 21 11
+chrome89.0.4389.114 20 20
+opera76.0.4017.177 10 2
+chrome76.0.3809.71 10 2
+chrome70.0.3538.80 7 1
+chrome88.0.4324.146 6 6
+chrome35.0.1916.47 1 1
+chrome84.0.4147.105 5 2
+chrome73.0.3683.90 1 1
+Unknown 9 9
+netscape 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210613144143
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628162213
+Go-http-client/1.1 20210630014924
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628162213
+Go-http-client/1.1 20210630014924
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 222 233
+From1 6 6
+From2 0 0
+From3 2 2
+From4 14 56
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://seq.manwang.net 1 1
+http://www.bingblog.top 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+400 4 225067
+404 536 9955426
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 487
+/site/get-hq 1 -
+/wordpress/ 2 -
+/admin.php 4 -
+/images/2_11.gif 1 -
+/public/web/js/add/com.js 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/api/stock/getSingleStock.do 1 -
+/web/ 1 -
+/controls/events/v2/Telerik.Web.UI.DialogHandler.aspx 1 -
+/fckeditor/fckeditor.js 1 -
+/common/common.js 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Images/login/lefttu.jpg 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/install/ 1 -
+/Images/login/mainlogo.gif 1 -
+/m.api 1 -
+/css/view/main/goin.css 1 -
+/getLocale 1 -
+/static/login/js/lk/order.js 1 -
+/member/space/company/info.txt 1 -
+/JS/loginstatus.js 1 -
+/Templates/user/finance/css/userPay.css 1 -
+/Public/initJs.php 1 -
+/siteserver/upgrade/default.aspx 1 -
+/was/main.html 1 -
+/Front/User/UserLogin.html 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/images/logo-white.png 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/index.cgi 1 -
+/test/ 2 -
+/controls/cms/Telerik.Web.UI.DialogHandler.aspx 1 -
+/static/hgicon.png 1 -
+/_wpresources/RadEditorSharePoint/6.4.0.0__1f131a624888eeed/Resources/Telerik.Web.UI.DialogHandler.aspx 1 -
+/doku.php 1 -
+/index.php/Wap/Api/getBanner 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/room/script/face.js 1 -
+/docs.css 1 -
+/was/help.jsp 1 -
+/mobile/config.js 1 -
+/admin/inc/xml.xslt 1 -
+/inc/rsd.php 1 -
+/wp-login.php 1 -
+/index.php/Wap/Api/getSystemNotice 1 -
+/base/exchange_index/changepwdfirst 1 -
+/User/Login.aspx 1 -
+/kindeditor.js 1 -
+/js/common.js 2 http://dayof.ycphacks.io/js/common.js
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/pub/guiedit/guiedit.js 1 -
+/logo/logo_jw.png 1 -
+/bencandy.php 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/jcms/index_jcms.jsp 1 -
+/home/GetQrCodeInfo 1 -
+/images/zh-CN/logo.ico 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/static/data/configjs.js 1 -
+/Images/login/biaoti.jpg 1 -
+/license.txt 1 -
+/help/en/h_authenticate.html 1 -
+/public/js/global.js 1 -
+/SiteTemplates/Telerik.Web.UI.DialogHandler.aspx 1 -
+/archiver/ 1 -
+/plug/publish 1 -
+/cgi/index.cgi 1 -
+/Public/home/js/fukuang.js 1 -
+/static/data/thirdgames.json 1 -
+/history.txt 1 -
+/ads.txt 1 -
+/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 2 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/images/Default_bg_002.gif 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/v2/ 1 -
+/deptWebsiteAction.do 1 -
+/plus/sitemap.html 1 -
+/other/codepay/js/codepay_util.js 1 -
+/api/wallet/redDetail 1 -
+/assets/img/hack-logo-favicon-2016.png 1 http://dayof.ycphacks.io/hardware/index.html
+/cscpLoginWeb/app/home 1 -
+/DesktopModule/UIYKienCuTri/Telerik.Web.UI.DialogHandler.aspx 1 -
+/js/base1.js 1 -
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/rss.aspx 1 -
+/readme.html 1 -
+/old-wp/ 1 -
+/plus/download.php 1 -
+/statics/js/API.js 1 -
+/system/language/zh-cn.xml 1 -
+/account/login 1 -
+/includes/general.js 1 -
+/Public/home/common/js/index.js 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/kindeditor-min.js 1 -
+/css/all.css 1 -
+/script/login.js 1 -
+/default/css/em_css.css 1 -
+/Content/css/wzwstylel.css 1 -
+/ff/css/cssy.css 1 -
+/files/pub_reset.css 1 -
+/jcms/index.jsp 1 -
+/Css/index.css 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/app/images/login/toplogo.gif 1 -
+/system/skins/default/system.login.htm 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/static/download/style.css 1 -
+/site.js 1 -
+/ajax/allcoin_a/id/0 1 -
+/api/contactWay 1 -
+/api/index/grailindex 1 -
+/Recruit/download_url 1 -
+/app/home/skins/default/style.css 1 -
+/archive/archive.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/images/hwem.css 1 -
+/style/default/hdwiki.css 1 -
+/forum/ 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/new/ 2 -
+/im/in/GetUuid 1 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 1 -
+/lang/en.js 1 -
+/static/common/js/common.js 1 -
+/system/Update.aspx 1 -
+/console/js/CWCMDialogHead.js 1 -
+/examples/index.html 1 -
+/assets/extension/market/css/mt4.css 1 -
+/api/v/index/queryOfficePage 1 -
+/.git/config 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/assets/dist/static/js/vendor_prod.js 1 -
+/DesktopModules/Rad%20EditorProvider/DialogHandler.aspx 1 -
+/ckfinder/install.txt 1 -
+/Search.html 1 -
+/Admin/Login.aspx 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/bk/ 1 -
+/default/images/logo.gif 1 -
+/template/home.htm 1 -
+/js/json.js 1 -
+/brabantwallon/app_master/telerik.web.ui.dialoghandler.aspx 1 -
+/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 2 -
+/m 1 -
+/script/valid_formdata.js 1 -
+/plus/rssmap.html 1 -
+/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp2/ 1 -
+/api/uploads/apimap 1 -
+/api/index/loansList 1 -
+/js/app.ling.js 1 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/docs/ 1 -
+/public/wap/js/basis.js 1 -
+/kefu.php 1 -
+/desktopmodules/dnnwerk.radeditorprovider/telerik.web.ui.dialoghandler.aspx 1 -
+/DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 2 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 1 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+/base/login/login.php 1 -
+/admin/ 1 -
+/images/login/eyoumail.gif 1 -
+/admin/editor/ 1 -
+/Public/Wchat/js/cvphp.js 1 -
+/index.php/Index/register.html 1 -
+/index/Mobile/fenshi 1 -
+/2018/ 1 -
+/Public/js/common.js 1 -
+/ckeditor/ckeditor.js 1 -
+/wp1/ 1 -
+/friendGroup/list 1 -
+/Install/logo.gif 1 -
+/blog/ 3 -
+/next/img/logo.gif 1 -
+/public/about.html 1 -
+/wp/ 2 -
+/v1/ 1 -
+/was5/web/index.jsp 1 -
+/archiver 1 -
+/digg.php 1 -
+/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx 2 -
+/maintlogin.jsp 1 -
+/themes/graphics/horde-power1.png 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/plugins/filemanager/filemanager/js 1 -
+/asp.net/README.txt 1 -
+/Public/css/errorCss.css 1 -
+/nyyh/chkjs.js 1 -
+/inc/Templates/rss.xslt 1 -
+/infe/rest/flash/getServerIP.json 1 -
+/demo/ 1 -
+/views/home/home.js 1 -
+/Public/Mobile/ecshe_css/wapmain.css 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/backup/ 1 -
+/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx 2 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/extman/default/images/logo.gif 1 -
+/Public/Wchat/css/index.css 1 -
+/_wpresources/RadEditorSharePoint/6.7.1.0__1f131a624888eeed/Resources/telerik.web.ui.dialoghandler.aspx 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/admin 1 -
+/images/login_Name.jpg 1 -
+/common/member/js/user.util.js 1 -
+/master/login.aspx 1 -
+/extern.php 1 -
+/admin/login.aspx 1 -
+/static/home/static/js/login.js 1 -
+/_wpresources/RadEditorSharePoint/6.9.0.0__1f131a624888eeed/Resources/telerik.web.ui.dialoghandler.aspx 1 -
+/test_404_page/ 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/Public/Home/ecshe_css/main.css 1 -
+/console/include/not_login.htm 1 -
+/tools/rss.aspx 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/user/allroleinfo 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/stylesheet.css 1 -
+/js/config20181225.js 1 -
+/Help 1 -
+/feed.asp 1 -
+/examples/file-manager.html 1 -
+/jiaoyimao/default.css 1 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/portal/channels/fa/Cms_HtmlText_Manage/Telerik.Web.UI.DialogHandler.aspx 2 -
+/s_api/basic/config_js 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/DesktopModules/TCModules/TCCategory/telerik.web.ui.dialoghandler.aspx 1 -
+/siteserver/login.aspx 1 -
+/images/login/logo.gif 1 -
+/bak/ 1 -
+/new-site/ 1 -
+/laravel/.env 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/issmall/ 1 -
+/css/app.css 1 -
+/fePublicInfo/ 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/examples/readonly.html 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/Editor.js 1 -
+/css/nsc/reset.css 1 -
+/ids/admin/login.jsp 1 -
+/ajax 2 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/wcm/ 1 -
+/admin/start/index.php 1 -
+/FCK/fckeditor.js 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/aspnet-ajax/editor/examples/overview/telerik.web.ui.dialoghandler.aspx 1 -
+/template/920ka/js/woodyapp.js 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/anquan/qgga.asp 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/wp-content 1 -
+/dialog/dialog.js 1 -
+/business/images/index-gg1.jpg 1 -
+/api/exclude/siteConfig/webSiteConfig 1 -
+/api/mobile/checkStrategyHistory 1 -
+/newsite/ 1 -
+/whir_system/login.aspx 1 -
+/wp-includes 1 www.google.com
+/2019/ 1 -
+/Css/Hm.css 1 -
+/common/download.js 1 -
+/img/pic/login/top-left.jpg 1 -
+/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx 2 -
+/images/branding/logo.gif 1 -
+/login/kefuxian.mvc 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/Template/Mobile/js/main.js 1 -
+/login/img/nyyh/chkjs.js 1 -
+/Front/FctPage/Start.aspx 1 -
+/skin/js/common.js 1 -
+/home/main/login 1 -
+/help/user/index.html 1 -
+/el/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/Include/EcsServerApi.js 1 -
+/template/920ka/css/lsy.css 1 -
+/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 2 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/data/admin/ver.txt 1 -
+/plugins/anchor/anchor.js 1 -
+/mtja.html 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/assets/res/mods/room.js 1 -
+/README.txt 1 -
+/Home/Index/ajaxTJ 1 -
+/public/img/cz1.png 1 -
+/Public/Home/js/cls.js 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/admin/js/IdSUtil.js 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/api/ApiHub/fetchJinse 1 -
+/tmp/ 1 -
+/nyyh/game.css 1 -
+/e/master/login.aspx 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx 2 -
+/themes/default/default.css 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 2 -
+/mobile/script/main.m.js 1 -
+/2163/Library/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 1 -
+/weblog/ 1 -
+/images/login/icon-up.gif 1 -
+/admin/login.asp 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/market/getStockBaseInfo 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/h5/ 3 -
+/images/logo_product-cml.png 1 -
+/public/admin.php/api/index/loansList 1 -
+/getConfig/listPopFrame.do 1 -
+/ws/index/getTheLotteryInitList 1 -
+/api/common/getConfig 1 -
+/images/default/post_bt.gif 1 -
+/install 1 -
+/js/ajax_x.js 1 -
+/m/ticker/usdtqc 1 -
+/home/login/login_index.html 1 -
+/fckeditor.js 1 -
+/wp-cron.php 1 -
+/static/admincp/js/common.js 1 -
+/temp/ 1 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 1 -
+/forum.php 1 -
+/docs/DOCUMENTATION.txt 1 -
+/fckeditor/license.txt 1 -
+/static/index/js/lk/order.js 1 -
+/homes/ 1 -
+/dev/ 1 -
+/Scripts/common.js 1 -
+/home/ 1 -
+/Admin/Telerik.Web.UI.DialogHandler.aspx 2 -
+/zz/address.php 1 -
+/fckeditor/fckconfig.js 1 -
+/phpmyadmin/docs.css 1 -
+/whir_system/module/security/login.aspx 1 -
+/script/public.js 1 -
+/mobile/v3/appSuperDownload.do 1 -
+/api/user/get_user_group 1 -
+/admin/login.php 1 -
+/skin/main/onload.js 1 -
+/member/js/lang_zh_CN.js 1 -
+/Promotions/list.mvc 1 -
+/user/login 1 -
+/licence.txt 1 -
+/console/js/CTRSRequestParam.js 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/admin/index.php 1 -
+/max-templates/classic/styles/app.css 1 -
+/changelog.txt 1 -
+/config.js 2 -
+/kkrps/im_group/show_members 1 -
+/app/images/login/logo.png 1 -
+/api/apps 1 -
+/DesktopModules/RadEditorProvider/DialogHandler.aspx 1 -
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/xxxss 1 -
+/forums/list.page 1 -
+/getConfig/getArticle.do 2 -
+/404.jpg 1 -
+/old/ 2 -
+/template/tmp1/js/common.js 1 -
+/mh/phone.do 1 -
+/system/providers/htmleditor/Telerik.Web.UI.DialogHandler.aspx 1 -
+/e/data/js/ajax.js 1 -
+/Public/css/hall.css 1 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 2 -
+/phpmyadmin/ 1 -
+/api/currency/quotation_new 1 -
+/main/ 2 -
+/list.php 1 -
+/RadControls/Spell/telerik.web.ui.dialoghandler.aspx 1 -
+/data/images/wap_logo.gif 1 -
+/public/css/style.css 1 -
+/api/api_user.xml 1 -
+/login/Jeecms.do 1 -
+/modules/shop/manage/telerik.web.ui.dialoghandler.aspx 2 -
+/include/dialog/config.php 1 -
+/zz2/address.php 1 -
+/index/index/andiro 1 -
+/home/loadmymanager 1 -
+/css/style.css 1 -
+/advfile/ad12.js 1 -
+/static/css/index.css 1 -
+/smart-php/.env 1 -
+/resources/css/headernav.css 1 -
+/index/api/config 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/api/site/getInfo.do 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/resources/main/common.js 1 -
+/plugin.php 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/ckfinder/ckfinder.html 1 -
+/cq/css/cssy.css 1 -
+/public/.env 1 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/console/auth/reg_newuser.jsp 1 -
+/editor/fckeditor.js 1 -
+/cq/kehulistajax.php 1 -
+/v1/management/tenant/getSpeedDomain 1 -
+/rss.php 1 -
+/public/h5static/js/main.js 1 -
+/_wpresources/RadEditorSharePoint/7.9.0.0__2ee8da07702253f7/Resources/Telerik.Web.UI.DialogHandler.aspx 1 -
+/images/logo_88x31.gif 1 -
+/DesktopModules/Admin/RadEditorProvider/telerik.web.ui.dialoghandler.aspx 1 -
+/include/dedeajax2.js 1 -
+/assets/js/dmshub.js 1 -
+/static/index/css/iindex.css 1 -
+/wap/trading/lastKlineParameter 1 -
+/static/images/logo/webserver_small.gif 1 -
+/DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 2 -
+/Error.aspx 1 -
+/api/web/user/getIndexData.php 1 -
+/public/js/ipb.js 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/files/pub_rem.js 1 -
+/s_api/basic/download/info 1 -
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 -
+/css/view/main/style.css 1 -
+/site/ 1 -
+/.env 5 -
+/static/diff_worker.js 1 -
+/api/Index/getLottery 1 -
+/config.php 1 -
+/images/login9/login_33.jpg 1 -
+/leftDao.php 1 -
+/static/guide/ab.css 1 -
+/admin/webadmin.php 1 -
+/Public/uploads/web/step1.png 1 -
+/ks_inc/ajax.js 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/bbs/ 1 -
+/info.php 1 -
+/admin/template/article_more/config.htm 1 -
+/Public/css/_pk10.css 1 -
+/common/help/images/helplogo.gif 1 -
+/nobody/mobile.htm 1 -
+/2020/ 1 -
+/CHANGELOG.txt 1 -
+/langConfig.js 1 -
+/style.css 1 -
+/DesktopModules/RadEditorProvider/telerik.web.ui.dialoghandler.aspx 1 -
+/License.txt 1 -
+/api/v1/invest 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/Public/home/wap/css/qdgame.css 1 -
+/app/login.jsp 1 -
+/customdir/images/english_logo.jpg 1 -
+/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx 2 -
+/uc_server/control/admin/db.php 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/Wq_StranJF.js 1 -
+/admin/admin_login.php 1 -
+/static/wap/css/index.css 1 -
+/xy/ 1 -
+/system/Login.aspx 1 -
+/plus/heightsearch.php 1 -
+/api/user/ismustmobile 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/cms/ 1 -
+/index.php 6 -
+/auth/login 1 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/js/home.js 1 -
+/js/buttons.js 1 -
+/old-site/ 1 -
+/Ntalker/lawfirm.aspx 1 -
+/banner.do 1 -
+/include/install_ocx.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 50
+103.208.220.197 42 42 3696 20210603125729
+174.138.27.237 21 21 1848 20210615143958
+107.150.29.155 20 20 1760 20210604221040
+34.201.66.159 20 20 1760 20210619010749
+191.101.174.134 20 20 1760 20210611172049
+20.97.173.169 20 20 1760 20210621230038
+162.55.165.13 15 15 1605 20210629042915
+98.117.249.85 12 26 1805849 20210610132445
+177.203.232.52 8 8 704 20210618070827
+138.246.253.24 6 6 0 20210617210043
+176.15.208.33 2 10 862103 20210626110343
+82.165.187.17 2 2 214 20210622171040
+42.192.17.155 0 1 41588 
+121.57.225.227 0 1 461 
+51.132.149.3 1 1 2358 20210617141018
+18.222.111.108 1 8 128744 20210611120813
+92.118.160.9 3 3 19293 20210628103927
+3.120.130.29 2 2 236 20210613144143
+92.118.160.61 2 2 12862 20210627104058
+82.165.117.55 2 2 214 20210620115614
+13.58.81.0 1 1 2358 20210618165618
+3.19.56.43 2 2 236 20210613144142
+52.142.12.24 1 1 2358 20210629214905
+34.221.255.206 1 1 118 20210613144135
+88.198.118.138 4 4 9432 20210621041135
+64.78.149.164 2 2 236 20210613144142
+175.44.42.62 1 1 1864 20210624180853
+35.232.55.37 3 3 7074 20210623020434
+82.223.9.130 1 1 2358 20210620164423
+93.158.90.82 1 1 2358 20210619075309
+92.118.160.5 2 2 12862 20210627195712
+65.154.226.109 2 10 862103 20210613144523
+88.99.60.182 1 1 2358 20210612172854
+223.166.74.184 0 1 137522 
+94.181.75.218 2 10 862103 20210614055859
+103.147.184.53 1 1 88 20210612004331
+54.186.22.229 4 4 428 20210611194900
+45.144.225.119 1 1 107 20210630014924
+175.44.42.169 1 1 1864 20210608205043
+34.221.186.243 1 1 118 20210613144142
+111.224.235.52 0 1 233744 
+119.29.99.56 3 3 7074 20210604121626
+124.235.138.35 1 1 6431 20210609023533
+123.58.210.77 5 6 13866 20210610011530
+185.151.125.197 1 1 6431 20210629062041
+92.118.160.41 1 1 6431 20210628162213
+175.184.167.253 0 1 2497 
+82.165.185.18 2 2 214 20210622090845
+121.29.178.37 0 1 6852 
+123.191.156.85 0 1 3314 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20210603 44 44 3696 3
+20210604 23 23 8834 2
+20210608 12 22 1000861 2
+20210609 1 8 432409 1
+20210610 6 11 820718 2
+20210611 27 34 130932 5
+20210612 2 2 2446 2
+20210613 10 18 863047 6
+20210614 2 10 862103 1
+20210615 21 21 1848 1
+20210617 3 3 2358 3
+20210618 9 9 3062 2
+20210619 22 22 10549 3
+20210620 3 3 2572 2
+20210621 25 25 17623 3
+20210622 8 8 18006 5
+20210623 1 1 2358 1
+20210624 1 1 1864 1
+20210626 2 10 862103 1
+20210627 2 2 12862 2
+20210628 2 2 12862 2
+20210629 17 17 10394 3
+20210630 1 1 107 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 7
+2mn-5mn 2
+0s-30s 45
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/ 70 133942 42 32
+/wp-includes/wlwmanifest.xml 7 616 0 0
+/blog/wp-includes/wlwmanifest.xml 7 616 0 0
+/website/wp-includes/wlwmanifest.xml 7 616 0 0
+/2019/wp-includes/wlwmanifest.xml 7 616 0 0
+/cms/wp-includes/wlwmanifest.xml 7 616 0 0
+/xmlrpc.php 7 616 0 0
+/test/wp-includes/wlwmanifest.xml 7 616 0 0
+/site/wp-includes/wlwmanifest.xml 7 616 0 0
+/wp1/wp-includes/wlwmanifest.xml 7 616 0 0
+/wordpress/ 2 176 0 0
+/new/wp-admin/install.php 1 107 0 0
+//wp-admin/install.php 1 107 1 0
+/new/wp-admin/setup-config.php 1 107 0 0
+/datasets/ 2 3880 0 0
+/blog/wp-admin/setup-config.php 1 107 0 1
+/blog/ 2 176 0 0
+/old/wp-admin/setup-config.php 1 107 0 0
+/.env 2 214 1 0
+/.git/config 1 107 1 1
+/wp/ 2 176 0 1
+/test/wp-admin/install.php 1 107 0 0
+/2018/wp-includes/wlwmanifest.xml 4 352 0 0
+/travel/ 1 1544 0 1
+/old/wp-admin/install.php 1 107 0 0
+/.well-known/acme-challenge/yrZkh4pkSg_sU1lPjJ99Gb3uRHLnMkJOpTeIdDjzPII 4 472 1 4
+/web/wp-includes/wlwmanifest.xml 7 616 0 0
+/wp/wp-admin/install.php 1 107 0 0
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 6 642 3 3
+/test/wp-admin/setup-config.php 1 107 0 0
+/wp/wp-includes/wlwmanifest.xml 7 616 0 0
+/wp/wp-admin/setup-config.php 1 107 0 0
+//vendor/phpunit/phpunit/phpunit.xsd 1 107 0 0
+/wordpress/wp-includes/wlwmanifest.xml 7 616 0 0
+/news/wp-includes/wlwmanifest.xml 7 616 0 0
+/blog/wp-admin/install.php 1 107 0 0
+/sito/wp-includes/wlwmanifest.xml 7 616 0 6
+/schedule/ 1 1476 0 0
+/shop/wp-includes/wlwmanifest.xml 7 616 0 0
+/prizes/ 1 18121 0 0
+/2020/wp-includes/wlwmanifest.xml 3 264 0 0
+/media/wp-includes/wlwmanifest.xml 4 352 0 0
+/maps/ 1 1256 0 0
+//wp-admin/setup-config.php 1 107 0 0
+/hardware/ 1 1664 0 0
+/speakers/ 1 2005 0 0
+/assets/fonts/icons.woff 5 217860 1 4
+/wordpress/wp-admin/setup-config.php 1 107 0 0
+/.well-known/acme-challenge/R4H9I_nhPncw2yic2ULpSHQqzo-_AjTF_KYE6S7-AO4 4 472 4 1
+/wordpress/wp-admin/install.php 1 107 0 0
+/wp2/wp-includes/wlwmanifest.xml 7 616 0 0
+END_SIDER

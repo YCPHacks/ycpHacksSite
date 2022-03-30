@@ -1,0 +1,359 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.dayof.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2672                
+POS_VISITOR 8433                
+POS_DAY 9308                
+POS_DOMAIN 3312                
+POS_LOGIN 3614                
+POS_ROBOT 3769                
+POS_WORMS 4061                
+POS_EMAILSENDER 4192                
+POS_EMAILRECEIVER 4335                
+POS_SESSION 9692                
+POS_SIDER 9849                
+POS_FILETYPES 4470                
+POS_DOWNLOADS 4553                
+POS_OS 4601                
+POS_BROWSER 4726                
+POS_SCREENSIZE 4988                
+POS_UNKNOWNREFERER 5062                
+POS_UNKNOWNREFERERBROWSER 5220                
+POS_ORIGIN 5373                
+POS_SEREFERRALS 5505                
+POS_PAGEREFS 5649                
+POS_SEARCHWORDS 6078                
+POS_KEYWORDS 6230                
+POS_MISC 2336                
+POS_ERRORS 6289                
+POS_CLUSTER 3470                
+POS_SIDER_404 6389                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201001103259 1 0 9879703664515
+FirstTime 0
+LastTime 20200930210501
+LastUpdate 20201001105245 1 0 0 0 0
+TotalVisits 25                  
+TotalUnique 21                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 6431 13 16 31688
+1 3 3 19293 2 3 7101
+2 0 0 0 2 12 486179
+3 1 1 6431 7 11 791602
+4 3 3 19293 15 15 3544
+5 1 1 6431 15 20 93669
+6 1 1 6431 3 8 93713
+7 1 1 6431 6 8 24192
+8 0 0 0 4 6 20757
+9 1 1 6431 34 39 109981
+10 1 1 6431 1 1 1772
+11 0 0 0 5 7 53609
+12 1 1 6431 4 7 17063
+13 0 0 0 5 7 26148
+14 1 1 6431 4 6 69217
+15 0 0 0 4 4 11015
+16 3 3 19293 15 17 48999
+17 0 0 0 2 9 119123
+18 2 2 12862 5 5 18178
+19 7 7 45017 16 27 216642
+20 0 0 0 2 3 9975
+21 2 2 12862 1 2 3544
+22 0 0 0 12 14 11468
+23 0 0 0 4 6 17076
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 16 16 102896
+cn 5 5 32155
+in 3 3 19293
+hk 2 2 12862
+dk 1 1 6431
+se 1 1 6431
+ru 1 1 6431
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bot[\s_+:,\.\;\/\\-] 46 1413107 20200929141041 1
+googlebot 39 542244 20200928052913 0
+robot 4 19322 20200928093104 1
+googlebot\-image 1 132610 20200910021257 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 29 186499 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+winnt 4 4
+Unknown 8 8
+win7 4 4
+linux 12 12
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+chrome85.0.4183.102 1 1
+firefox58.0 1 1
+firefox77.0 1 1
+firefox57.0 1 1
+chrome73.0.3683.90 1 1
+chrome81.0.4044.129 8 8
+chrome74.0.3729.169 1 1
+chrome83.0.4103.106 1 1
+firefox28.0 4 4
+firefox80.0 2 2
+Unknown 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+python-requests/2.24.0 20200919032824
+Python-urllib/2.7 20200918195429
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Python-urllib/2.7 20200918195429
+python-requests/2.24.0 20200919032824
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 24 24
+From1 0 0
+From2 0 0
+From3 5 5
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.tristablog.online/blog/8589431/view/ 1 1
+http://www.imdpm.net/blog/8589431/how-to-increase-blog-traffic-fast/ 1 1
+http://lthw.lightenupnh.org/view/8589431/profile/ 1 1
+http://mmuwo.skfusion.com/view/8589431/profile/ 1 1
+http://ztd.meansung.com/view/8589431/profile/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+444 12 0
+404 149 178972
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 62
+/wp/ 2 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wang/login.php 5 -
+/bk/ 1 -
+/adminer-3.7.0.php 1 -
+/blog/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp1/ 1 -
+/new-site/ 1 -
+/backup/ 1 -
+/v1/ 1 -
+/dev/ 1 -
+/wordpress/wp-admin/install.php 1 -
+/2018/ 1 -
+/test/ 1 -
+/site/ 1 -
+/wp-content/plugins/wp-file-manager/lib/files/hardfork.php 1 -
+/demo/ 1 -
+/new/ 1 -
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/blog/ 1 -
+//.env/ 2 -
+/v2/ 1 -
+/new/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/robots.txt 32 -
+/chen/login.php 5 -
+/install/ 1 -
+/dedea/login.php 4 -
+/wp2/ 1 -
+/temp/ 1 -
+/houtai/login.php 5 -
+/web/ 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 5 -
+/cms/ 1 -
+/main/ 1 -
+/old-site/ 1 -
+/2020/ 1 -
+/guanli/login.php 5 -
+/caiyuan/login.php 5 -
+/admin/login.php 5 -
+/dede/login.php 4 -
+/wp-admin/install.php 1 -
+/2019/ 1 -
+//test/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/app/etc/local.xml 1 -
+/wordpress/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/demo/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/adminer-3.6.2.php 1 -
+/adminer-3.6.4.php 1 -
+/old/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-content/plugins/wp-file-manager/lib/files/OLSFeE.php 1 -
+/wp/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-content/plugins/ioptimization/IOptimize.php 5 -
+/old/ 1 -
+/tmp/ 1 -
+/jian/login.php 5 -
+/wp-content/plugins/wp-file-manager/lib/files/lIkbSJ.php 1 -
+/home/ 1 -
+/dede123/login.php 5 -
+/bak/ 1 -
+/wordpress/ 2 -
+/.env 8 -
+/old-wp/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+206.189.181.96 4 4 25724 20200918195429
+45.137.22.44 3 3 19293 20200930210501
+34.70.60.68 2 2 12862 20200926091031
+40.121.45.150 2 2 12862 20200927164228
+137.74.233.168 2 2 12862 20200926013227
+192.36.24.93 1 1 6431 20200920124808
+23.96.22.169 1 1 6431 20200913010536
+175.44.42.92 1 1 6431 20200917013553
+20.188.56.215 1 1 6431 20200927044839
+213.32.40.157 1 1 6431 20200906180344
+175.44.42.159 1 1 6431 20200930105657
+175.44.42.36 1 1 6431 20200923043952
+139.99.134.195 1 1 6431 20200920192901
+54.37.160.145 1 1 6431 20200919032824
+104.248.114.191 1 1 6431 20200909063640
+18.207.136.221 1 1 6431 20200904040708
+185.222.57.93 1 1 6431 20200926215720
+40.76.86.141 1 1 6431 20200920165850
+175.44.42.185 1 1 6431 20200907002821
+40.121.132.110 1 1 6431 20200912182431
+175.44.42.188 1 1 6431 20200904144915
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20200904 2 2 12862 2
+20200906 1 1 6431 1
+20200907 1 1 6431 1
+20200909 1 1 6431 1
+20200912 1 1 6431 1
+20200913 1 1 6431 1
+20200917 2 2 12862 2
+20200918 4 4 25724 1
+20200919 1 1 6431 1
+20200920 3 3 19293 3
+20200922 1 1 6431 1
+20200923 1 1 6431 1
+20200926 4 4 25724 4
+20200927 3 3 19293 2
+20200929 1 1 6431 1
+20200930 2 2 12862 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 2
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 27 173637 25 24
+// 2 12862 0 1
+END_SIDER

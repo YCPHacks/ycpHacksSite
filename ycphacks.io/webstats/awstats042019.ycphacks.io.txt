@@ -1,0 +1,797 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201904 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2668                
+POS_VISITOR 14486               
+POS_DAY 24624               
+POS_DOMAIN 3572                
+POS_LOGIN 4086                
+POS_ROBOT 4241                
+POS_WORMS 4844                
+POS_EMAILSENDER 4975                
+POS_EMAILRECEIVER 5118                
+POS_SESSION 25485               
+POS_SIDER 25686               
+POS_FILETYPES 5253                
+POS_DOWNLOADS 5495                
+POS_OS 5700                
+POS_BROWSER 5973                
+POS_SCREENSIZE 7729                
+POS_UNKNOWNREFERER 7803                
+POS_UNKNOWNREFERERBROWSER 8597                
+POS_ORIGIN 9200                
+POS_SEREFERRALS 9340                
+POS_PAGEREFS 9497                
+POS_SEARCHWORDS 9827                
+POS_KEYWORDS 9979                
+POS_MISC 2332                
+POS_ERRORS 10038               
+POS_CLUSTER 3942                
+POS_SIDER_404 10174               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190501000328 2 202 9540074937883
+FirstTime 0
+LastTime 20190430232408
+LastUpdate 20190501010844 2 0 1 0 0
+TotalVisits 389                 
+TotalUnique 225                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 265                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 19 51 257483252 23 73 378062
+1 11 23 647832 29 76 1971977
+2 41 143 515157674 33 99 1403196
+3 45 93 470569087 24 78 2918723
+4 16 60 637141822 29 77 1811606
+5 16 63 511534388 16 47 655673
+6 52 109 134586576 35 99 3005085
+7 32 130 392669595 23 56 1753170
+8 36 93 260713856 28 77 65392617
+9 23 152 699320812 29 106 1828004
+10 45 118 476233990 27 101 3075443
+11 18 96 389249158 32 77 66819387
+12 21 86 513089975 26 101 2486626
+13 14 63 447981116 21 67 750572
+14 25 53 131104864 14 49 367819
+15 7 16 97972 41 89 1308216
+16 16 36 254602470 25 69 65374410
+17 7 10 1397975 15 40 2859987
+18 31 69 382858627 19 74 3625400
+19 16 45 130617776 13 38 1994696
+20 7 29 130495720 28 61 64245481
+21 10 25 2167378 56 96 63423493
+22 28 72 716886448 19 73 2765636
+23 17 93 984149523 25 67 3394655
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 233 1104 2907575025
+cn 142 198 139239138
+ie 88 88 83976
+in 21 141 1024758208
+ca 13 67 6750909
+ru 9 9 69980
+fr 8 9 588436
+dk 7 7 83976
+gb 6 36 4388253
+ph 5 47 258781953
+de 4 5 504460
+ua 4 4 27992
+dm 3 3 41988
+ir 2 2 27992
+nl 2 2 27992
+tr 2 2 27992
+ro 1 1 13996
+jp 1 1 13996
+cl 1 1 13996
+hk 1 1 13996
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bot[\s_+:,\.\;\/\\-] 356 216979905 20190430230433 106
+googlebot 165 128312794 20190430025140 0
+robot 49 980712 20190430174050 23
+googlebot\-image 45 9281749 20190424092552 0
+no_user_agent 36 607362 20190428161633 0
+spider 26 291775 20190429021824 0
+bingpreview 23 3956932 20190418034720 0
+crawl 15 602577 20190429193407 5
+netcraft 3 41988 20190404043313 0
+curl 1 13996 20190422230703 0
+[\s_+:,\.\;\/\\-]bot 1 630147 20190425062537 0
+ia_archiver 1 13996 20190428035843 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+png 348 55382941 0 0
+css 408 1404383 0 0
+jpg 400 90631187 0 0
+pdf 6 2858808 0 0
+html 503 5696372 0 0
+eot 5 222756 0 0
+svg 12 2344208 0 0
+ttf 45 23707080 0 0
+mp4 1 2606284920 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/Sponsor_Packet_2018.pdf 16 0 7623488
+/Sponsorship2017.pdf 8 0 7741032
+/images/BGVideo.mp4 6 164 4476100954
+/MicroClass.zip 2 0 3059774
+/iOS.zip 1 0 1893836
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+winlong 1 1
+winnt 243 61
+linux 93 33
+macosx8 1 1
+macosx9 2 2
+Unknown 61 60
+java 172 172
+ios_iphone 135 12
+j2me 18 2
+winxp 21 17
+os/2 75 7
+win7 95 31
+win2000 5 5
+win8.1 13 4
+linuxandroid 748 73
+macosx 209 72
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 82
+firefox52.0 8 4
+chrome57.0.2987.108 18 2
+chrome26.0.1410.64 1 1
+chrome26.0.1410.65 1 1
+chrome73.0.3683.86 105 12
+chrome41.0.2228.0 12 12
+chrome61.0.3163.128 17 2
+firefox58.0 6 6
+safari12.0.3 24 2
+chrome63.0.3239.84 2 0
+chrome53.0.2785.134 19 2
+firefox48.0 75 7
+chrome40.0.2214.93 1 1
+chrome53.0.2785.143 2 2
+chrome44.0.2403.157 1 0
+chrome70.0.3538.110 21 4
+chrome74.0.3729.108 56 6
+chrome33.0.1750.154 1 1
+chrome50.0.2661.102 8 6
+chrome72.0.3626.109 1 1
+chrome34.0.1847.116 7 7
+chrome67.0.3396.87 15 6
+chrome52.0.2743.116 1 1
+firefox3.0 3 3
+chrome60.0.3112.101 3 3
+chrome60.0.3112.50 8 1
+chrome75.0.3738.0 7 2
+firefox3.6.8 6 6
+firefox65.0 1 1
+msie9.0 4 0
+chrome44.0.2403.89 1 1
+netscape5.0 1 1
+opera53.0.2907.99 1 1
+firefox11.0 3 0
+firefox47.0 11 11
+firefox59.0 1 1
+firefox64.0 2 2
+chrome71.0.3578.80 1 1
+chrome63.0.3239.111 2 2
+chrome68.0.3440.106 1 0
+mozilla 5 5
+chrome69.0.3497.100 1 1
+chrome64.0.3282.140 1 1
+chrome68.0.3440.91 18 3
+chrome58.0.3029.110 4 4
+firefox3.6.3 2 1
+chrome72.0.3626.121 106 12
+chrome63.0.3239.132 2 2
+opera54.0.2952.51 1 1
+chrome62.0.3202.84 16 2
+chrome40.0.2214.85 2 2
+safari12.0 64 6
+chrome71.0.3578.98 4 4
+msie10.0 1 0
+safari12.1 48 4
+safari11.1.2 1 1
+chrome49.0.2623.75 2 1
+safari11.0 43 4
+msie7.0 7 7
+chrome65.0.3325.181 46 14
+Unknown 210 209
+chrome70.0.3538.102 1 1
+chrome51.0.2704.106 2 2
+firefox63.0 1 1
+android 32 4
+opera12.16 18 2
+chrome61.0.3163.100 21 21
+cloudflare 16 16
+chrome73.0.3683.103 87 9
+chrome38.0.1025.166 365 28
+opera36.0.2130.32 2 2
+chrome73.0.3683.90 161 12
+firefox62.0 1 1
+firefox66.0 71 8
+msie6.0 1 1
+netscape 2 2
+firefox32.0 2 2
+chrome45.0.2454.93 26 26
+chrome45.0.2454.94 1 1
+chrome71.0.3578.99 20 2
+chrome54.0.2840.99 1 1
+chrome30.0.1599.82 19 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Mozilla/5.0_(compatible;_Go-http-client/1.1;__centurybot9@gmail.com) 20190428080114
+Go-http-client/2.0 20190429020210
+MixnodeCache/1.8(_https://cache.mixnode.com/) 20190425231458
+Go-http-client/1.1 20190429020207
+Mozilla/5.0_zgrab/0.x 20190419162203
+Mozilla/5.0_(compatible;_Cloudflare-AMP/1.0;__https://amp.cloudflare.com/doc/fetcher.html)_AppleWebKit/534.34 20190430170957
+python-requests/2.21.0 20190418220037
+Mozilla 20190426032542
+Python-urllib/3.4 20190402012205
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190426165440
+SEMrushBot 20190426004057
+Scrapy/1.6.0_(_https://scrapy.org) 20190429225355
+HTTPClient/1.0_(2.8.0,_ruby_2.0.0_(2014-05-08)) 20190410194005
+Python/3.6_aiohttp/3.5.4 20190401130633
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+Java/1.7.0_55 20190409102605
+Scrapy/1.6.0_(_https://scrapy.org) 20190429225355
+SEMrushBot 20190426004057
+Apache-HttpClient/4.5.2_(Java/1.8.0_151) 20190429144058
+Python/3.6_aiohttp/3.5.4 20190401130633
+HTTPClient/1.0_(2.8.0,_ruby_2.0.0_(2014-05-08)) 20190410194005
+Go-http-client/1.1 20190429020207
+MixnodeCache/1.8(_https://cache.mixnode.com/) 20190425231458
+Go-http-client/2.0 20190429020210
+Java/11.0.1 20190430102642
+python-requests/2.21.0 20190418220037
+Python-urllib/3.4 20190402012205
+Java/1.7.0_80 20190430070032
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 449 536
+From1 3 3
+From2 34 48
+From3 3 4
+From4 64 1301
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 34 48
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://amp-yorkdispatch-com.cdn.ampproject.org 1 1
+https://www.designbombs.com/wp-includes/js/comment-reply.min.js 1 1
+https://my.mlh.io 1 1
+http://ycphacks.herokuapp.com/login 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 1 249
+404 914 1608976
+444 105 0
+206 6 284898
+403 1 1878
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 94
+/adminer.php 2 -
+/downloader/ 2 -
+/rss/catalog/notifystock/ 2 -
+/.git/HEAD 2 -
+/server/php/ 2 http://ycphacks.io/server/php/
+/blog/wp-includes/wlwmanifest.xml 2 -
+/,77.104.146.202 1 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/administrator/index.php 2 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/setup-config.php 4 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/robots.txt 271 -
+/joomla/robots.txt 1 -
+/install.php 1 -
+/images/uploads/favicon.png 25 -
+//wp-admin/install.php 2 -
+/__media__/js/netsoltrademark.php 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/Adminer.php 2 -
+/elfinder/php/connector.minimal.php 2 -
+/user/ 1 -
+/blog/robots.txt 3 -
+/apple-touch-icon-precomposed.png 4 -
+/apple-app-site-association 2 -
+/user/register/ 3 -
+/kcfinder/browse.php 1 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/2016/wp-includes/wlwmanifest.xml 1 -
+/xmlrpc.php 5 -
+/apple-touch-icon.png 4 -
+/bootstrap/2017%20assets/custom.css.map 1 -
+/wp-content/themes/purevision/style.css 2 http://ycphacks.io/wp-content/themes/purevision/style.css
+/assets/modules/evogallery/js/uploadify/uploadify.css 2 http://ycphacks.io/assets/modules/evogallery/js/uploadify/uploadify.css
+/cms/wp-content/themes/AdvanceImage5/functions.php 1 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/css/frame.css 1 -
+/images/uploads/twitter.png 1 -
+/blog/ 2 -
+/user/login 1 -
+/ads.txt 62 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 2 http://ycphacks.io/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/wordpress/ 2 -
+/modules/simpleslideshow/uploadimage.php 2 http://ycphacks.io/modules/simpleslideshow/uploadimage.php
+/wp/ 2 -
+/modules/columnadverts/uploadimage.php 2 http://ycphacks.io/modules/columnadverts/uploadimage.php
+/wp/wp-admin/install.php 1 -
+/2017/wp-includes/wlwmanifest.xml 1 -
+/am.php 2 -
+/rss/order/new/ 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/blog/administrator/index.php 1 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 3 http://www.ycphacks.io/wp-content/plugins/complete-gallery-manager/frames/upload-images.php
+/wp-admin/install.php 1 -
+/_adminer.php 2 -
+/modules/namamodule/uploadimage.php 2 http://ycphacks.io/modules/namamodule/uploadimage.php
+/index.php 1 ycphacks.io
+/index.php/admin/ 1 -
+/2017%20assets/responsive-nav.min.js 205 http://www.ycphacks.io/
+/www.vfmac.edu/ 3 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/sitemap.xml 6 -
+/images/uploads/lewisstrategic.jpg 1 -
+/2015/wp-includes/wlwmanifest.xml 1 -
+/license.php 12 -
+/wordpress/wp-admin/install.php 6 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/back.zip 1 -
+/Sponsorship%20Handout.pdf 2 -
+/cms/ 2 -
+/bootstrap/2017 3 -
+/images/uploads/JohnsonControls.png 1 -
+/j2017%20assets/query.min.js 167 http://www.ycphacks.io/
+/website/wp-includes/wlwmanifest.xml 1 -
+/modules/homepageadvertise2/uploadimage.php 1 http://www.ycphacks.io/modules/homepageadvertise2/uploadimage.php
+/joomla/administrator/index.php 1 -
+/wp-content/plugins/wp-symposium/readme.txt 2 http://www.ycphacks.io/wp-content/plugins/wp-symposium/readme.txt
+/modules/homepageadvertise/uploadimage.php 2 http://ycphacks.io/modules/homepageadvertise/uploadimage.php
+/modules/productpageadverts/uploadimage.php 2 http://ycphacks.io/modules/productpageadverts/uploadimage.php
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js 2 http://ycphacks.io/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js
+/modules/vtemslideshow/uploadimage.php 2 http://ycphacks.io/modules/vtemslideshow/uploadimage.php
+/wp-login.php 15 -
+/1.zip 1 -
+/images/uploads/fortress.png 1 -
+/license.php/ 1 google.com
+/magento_version 1 -
+/images/uploads/ycp.png 4 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/components/com_sexycontactform/fileupload/index.php 1 http://ycphacks.io/components/com_sexycontactform/fileupload/index.php
+/wp-includes/wlwmanifest.xml 2 -
+/util/login.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 265
+87.198.206.50 82 82 0 20190430102642
+119.145.148.219 15 15 209940 20190426065531
+42.51.39.56 15 15 209940 20190419182204
+115.28.240.215 15 15 209940 20190426081441
+115.28.111.201 15 15 209940 20190429144058
+59.42.123.135 15 15 209940 20190405220951
+139.129.14.230 15 15 209940 20190419023752
+52.53.201.78 12 12 167952 20190428001930
+52.70.146.155 11 11 153956 20190430232408
+60.191.38.77 10 10 139960 20190424081422
+52.4.143.42 10 10 139960 20190425191638
+13.57.233.99 9 9 125964 20190427162603
+35.241.239.226 6 10 1989848 20190401130633
+64.233.172.250 6 50 7354459 20190430035631
+83.71.247.37 6 6 83976 20190405065317
+66.249.83.84 5 40 3488828 20190422111445
+64.233.173.157 5 30 12917266 20190410021822
+93.160.60.32 5 5 69980 20190429150913
+66.249.83.83 5 67 7657674 20190427073604
+192.245.87.9 4 49 111861026 20190415102515
+66.249.83.85 4 49 7636778 20190412184153
+54.183.149.15 4 4 27992 20190422123453
+122.49.28.2 4 32 4798516 20190409022751
+162.158.64.55 4 4 55984 20190427135005
+64.233.172.252 3 38 5081685 20190430071545
+185.153.196.157 1 1 13996 20190405193238
+108.30.78.82 2 22 65500505 20190406194002
+204.236.251.155 1 1 13996 20190406005407
+96.44.172.77 1 1 13996 20190411111447
+188.120.231.99 1 1 0 20190424094139
+139.147.222.209 2 18 65500503 20190430180802
+175.101.131.130 2 19 128328425 20190401055946
+162.158.68.221 1 1 13996 20190430170957
+66.102.8.81 0 2 126556 
+191.96.132.223 1 1 13996 20190425052509
+207.200.8.184 0 4 969029 
+91.98.130.50 1 1 13996 20190403113820
+142.93.176.133 1 1 13996 20190426073313
+192.81.211.149 2 2 13996 20190426032542
+37.115.184.19 2 2 27992 20190402215250
+54.147.123.229 1 10 13996 20190417152638
+95.211.206.232 1 1 13996 20190428194049
+34.222.142.112 1 1 13996 20190404071957
+62.4.14.206 2 2 27992 20190426050825
+52.90.156.147 1 1 13996 20190429222119
+129.213.91.213 1 1 13996 20190413212630
+202.46.49.71 1 1 13996 20190427231126
+64.233.172.149 1 18 1376607 20190402104339
+157.41.216.110 1 14 2332368 20190412100602
+66.102.7.251 1 5 210454 20190410064656
+157.48.127.127 0 1 38358 
+54.183.21.211 2 9 126416305 20190422123453
+178.173.242.168 1 1 13996 20190418062338
+174.59.54.71 0 1 168980 
+54.149.34.140 1 1 13996 20190403001707
+195.195.247.18 1 15 1872434 20190408041858
+159.203.88.194 1 6 99052 20190427011225
+192.245.87.21 0 1 168980 
+66.102.7.252 0 7 965846 
+162.158.68.214 2 2 27992 20190420083026
+52.88.122.231 1 1 13996 20190421025626
+54.245.128.17 1 1 13996 20190429020207
+120.11.93.226 1 1 13996 20190411163055
+178.238.225.67 0 1 476468 
+108.62.3.36 1 1 13996 20190413230840
+202.46.50.210 1 1 13996 20190417122219
+73.101.233.124 2 20 168360997 20190415221445
+34.220.198.101 1 1 13996 20190416005848
+34.231.241.191 1 1 13996 20190419140532
+66.102.7.187 0 1 38358 
+18.237.227.32 1 1 13996 20190428035901
+122.96.128.123 0 1 888647 
+138.197.71.243 1 1 13996 20190422063833
+66.78.38.90 1 1 13996 20190411033203
+114.115.190.4 1 1 13996 20190405040213
+142.93.78.85 1 1 13996 20190414102820
+157.49.219.250 2 17 2437616 20190412112802
+175.101.88.220 2 19 128301246 20190416112036
+202.46.48.199 1 1 13996 20190429185305
+18.236.220.237 1 1 13996 20190415202408
+138.197.73.96 1 1 13996 20190418104733
+71.207.109.27 2 18 65500503 20190425203453
+165.227.119.186 1 6 99052 20190412160335
+202.46.48.123 1 1 13996 20190423094147
+202.46.51.171 1 1 13996 20190408132406
+183.82.253.86 1 1 13996 20190416080228
+173.252.95.26 0 1 21536 
+71.113.136.187 0 1 168980 
+34.66.84.131 1 1 13996 20190418220037
+106.120.173.140 0 1 313398 
+72.95.17.21 2 20 191101989 20190404231447
+54.212.199.127 1 1 13996 20190419042836
+185.139.70.111 2 2 0 20190424012104
+91.79.14.123 1 1 13996 20190405042453
+202.46.55.135 1 1 13996 20190411192628
+202.46.54.188 1 1 13996 20190412092219
+113.35.251.98 1 1 13996 20190423210451
+64.233.173.158 1 38 18786737 20190412100600
+62.210.83.78 1 1 13996 20190410162345
+54.188.211.99 1 1 13996 20190425025431
+159.65.24.22 1 1 13996 20190426060947
+64.233.172.153 2 23 4882361 20190407024806
+157.47.20.133 0 1 38358 
+66.249.88.25 1 4 163696 20190416224149
+64.246.165.170 1 1 13996 20190415092045
+64.233.172.248 0 43 4386935 
+64.233.172.151 1 21 1421284 20190412131114
+202.46.58.56 1 1 13996 20190410113750
+192.245.87.22 2 19 128563390 20190402083529
+202.46.57.16 1 1 13996 20190422084818
+106.120.173.116 0 7 1528634 
+157.48.85.44 2 18 65527682 20190407111316
+103.214.61.185 2 25 191459217 20190403043723
+202.46.56.191 1 1 13996 20190419022546
+27.63.62.200 2 20 128366783 20190406023541
+106.120.173.92 1 2 123670 20190404042447
+54.146.189.42 1 1 13996 20190406062454
+202.46.55.121 1 1 13996 20190430142611
+157.44.252.69 2 20 66324038 20190405094745
+202.46.52.171 1 1 13996 20190410011425
+157.48.244.193 3 25 185171606 20190420094404
+162.158.65.19 2 2 27992 20190419192528
+42.236.10.93 0 1 630147 
+106.120.173.155 0 1 62926 
+98.237.15.163 2 19 65566040 20190401133812
+51.15.209.146 1 1 13996 20190408003948
+54.188.132.21 1 1 13996 20190403001709
+223.238.88.143 2 19 65500505 20190406093651
+162.158.70.132 3 3 41988 20190416083747
+176.53.43.49 2 2 27992 20190429225355
+54.159.175.177 1 1 13996 20190410194005
+183.82.6.58 0 1 20676 
+35.164.92.57 1 1 13996 20190421025628
+104.236.64.249 1 6 99052 20190407203223
+34.221.154.34 1 1 13996 20190408050416
+174.60.113.156 2 24 65658755 20190424141640
+202.46.55.126 1 1 13996 20190420192348
+37.120.145.85 1 1 13996 20190427073201
+202.46.49.206 1 1 13996 20190425162829
+183.82.102.49 0 1 63278 
+174.204.6.30 2 22 128317811 20190404162330
+95.85.71.81 1 1 13996 20190419114224
+52.13.120.174 1 1 13996 20190425025433
+18.237.205.106 1 1 13996 20190426031003
+34.209.238.232 1 1 13996 20190427022304
+97.105.90.27 0 1 168980 
+42.236.10.75 2 10 64287678 20190422123147
+88.198.39.184 2 2 27992 20190412204005
+146.111.196.181 0 2 799127 
+159.89.178.195 1 6 99052 20190417115205
+152.115.73.202 2 2 13996 20190412041019
+223.238.21.19 2 20 128366783 20190405050515
+216.174.134.2 2 30 3744868 20190403115500
+175.159.123.97 1 1 13996 20190410125406
+157.47.57.147 0 1 38358 
+64.62.202.90 2 2 27992 20190428080114
+66.249.88.29 0 8 64803678 
+223.238.15.28 2 18 2437618 20190406052327
+66.249.88.27 1 7 615345 20190416224150
+24.188.249.109 0 2 799127 
+46.28.65.208 1 1 0 20190426044816
+202.46.48.194 1 1 13996 20190406074459
+138.197.111.105 1 1 13996 20190430062108
+23.83.90.56 1 1 13996 20190428021613
+103.86.51.247 3 3 41988 20190417155716
+18.237.152.223 1 1 13996 20190413000223
+157.44.130.141 0 1 38358 
+157.48.34.67 2 20 128366783 20190407002315
+106.120.173.68 1 2 123670 20190402162847
+54.68.103.236 1 1 13996 20190424033539
+202.46.56.90 1 1 13996 20190419081934
+202.46.57.198 1 1 13996 20190416043858
+198.199.88.169 2 2 13996 20190412082201
+54.242.156.153 2 9 125903477 20190409182235
+8.30.81.198 0 3 125929167 
+18.236.119.30 1 1 13996 20190408141146
+163.172.108.230 1 1 13996 20190419063234
+149.202.84.149 0 1 476468 
+54.201.197.8 1 1 13996 20190426030959
+185.81.157.113 2 2 27992 20190409155942
+52.33.149.46 1 1 13996 20190404015621
+54.179.163.25 1 1 13996 20190421193809
+202.46.51.138 1 1 13996 20190426180126
+124.94.252.155 1 1 13996 20190401092457
+202.46.55.157 1 1 13996 20190424085827
+120.29.116.132 2 24 128459498 20190409071422
+3.81.42.223 1 1 13996 20190414001917
+71.207.104.37 0 1 20676 
+202.46.52.78 1 1 13996 20190413223219
+173.252.95.28 0 6 63397664 
+82.145.212.5 2 18 2473831 20190403234638
+180.190.35.145 2 24 128450021 20190404040335
+42.236.10.84 0 7 63345063 
+167.114.210.37 1 1 13996 20190408161022
+3.81.96.220 1 1 13996 20190425231458
+165.227.222.39 1 6 99052 20190403013706
+138.197.111.187 1 1 13996 20190410093321
+157.47.36.187 0 1 38358 
+142.112.149.156 1 15 1872434 20190405215052
+52.7.141.1 2 2 27992 20190404213638
+142.93.71.91 2 2 27992 20190406092934
+34.212.74.98 1 1 13996 20190416005847
+138.246.253.5 2 2 0 20190425221600
+66.102.7.186 1 1 13996 20190417184810
+195.154.61.206 2 2 27992 20190427083214
+202.46.48.27 1 1 13996 20190404172810
+198.57.247.197 1 1 13996 20190402231404
+13.229.69.87 1 1 13996 20190417161359
+192.245.87.14 2 18 65500503 20190430070120
+106.120.173.110 2 3 353922 20190404052344
+202.46.48.201 1 1 13996 20190402021009
+159.89.39.130 1 6 99052 20190422082206
+202.46.54.91 1 1 13996 20190407050150
+73.64.106.16 2 18 65500503 20190406065121
+83.149.125.138 1 1 13996 20190427125703
+64.233.173.156 3 33 84081455 20190408234912
+62.109.30.103 1 1 0 20190421035302
+54.212.91.12 1 1 13996 20190429020210
+157.48.236.171 0 1 38358 
+50.243.82.171 0 1 168980 
+192.245.87.16 2 18 65500503 20190412094115
+202.46.53.44 1 1 13996 20190405095834
+54.215.230.84 1 1 13996 20190422123451
+192.245.87.10 2 19 128301246 20190430103730
+50.244.237.153 0 1 36215 
+162.158.69.5 1 1 13996 20190419155446
+42.57.90.196 1 1 13996 20190401092553
+223.238.95.193 0 3 125929167 
+162.158.71.27 1 1 13996 20190419175717
+35.178.206.217 1 1 13996 20190407221151
+162.158.67.70 1 1 13996 20190420120351
+157.44.157.243 2 23 171302616 20190403033201
+122.3.16.202 1 15 1872434 20190407194448
+34.219.247.100 1 1 13996 20190405010209
+157.48.77.210 0 1 38358 
+34.222.216.59 1 1 13996 20190407005148
+159.69.107.193 1 1 13996 20190422061333
+13.57.248.117 1 1 0 20190401102005
+212.83.146.233 1 1 13996 20190426050843
+144.118.77.192 2 20 2726940 20190420101826
+158.69.226.8 0 2 823535 
+37.112.144.150 1 1 13996 20190416112144
+66.102.7.253 0 3 696134 
+173.252.95.2 2 11 2081303 20190403035822
+202.46.48.140 1 1 13996 20190414163317
+158.69.26.144 3 3 41988 20190426165442
+72.83.223.130 2 22 158825509 20190418132729
+34.209.213.180 1 1 13996 20190419042835
+178.171.18.218 1 1 13996 20190404060438
+34.222.124.27 1 1 13996 20190423071747
+27.63.8.161 3 21 125928526 20190413021251
+122.228.19.79 1 1 13996 20190412030255
+71.163.25.170 2 18 65500503 20190417232538
+125.76.61.46 0 1 888647 
+51.15.191.81 1 1 13996 20190424051754
+106.120.173.158 1 1 60744 20190402032648
+34.222.18.195 1 1 13996 20190422045813
+162.158.65.105 1 1 13996 20190403132420
+46.28.68.169 1 1 0 20190430072438
+67.21.36.3 1 1 13996 20190419162203
+157.44.234.181 0 1 38358 
+192.243.53.51 3 3 41988 20190426004057
+202.46.54.143 1 1 13996 20190429005017
+54.149.233.206 1 1 13996 20190407005147
+35.177.8.200 1 1 13996 20190408003723
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190401 21 70 387030432 14
+20190402 19 69 260224114 17
+20190403 22 135 857637618 16
+20190404 22 84 891879337 18
+20190405 35 81 385933201 14
+20190406 27 163 587114087 19
+20190407 17 80 386932306 15
+20190408 16 76 478734659 15
+20190409 17 65 511176017 10
+20190410 16 45 4450010 13
+20190411 12 13 189242 11
+20190412 20 102 138425695 16
+20190413 12 40 251386212 10
+20190414 7 8 94342 7
+20190415 11 43 548342400 9
+20190416 15 59 636557006 14
+20190417 16 60 130699198 14
+20190418 14 47 318098567 12
+20190419 46 61 2922738 18
+20190420 16 50 370257951 13
+20190421 9 11 1847274 9
+20190422 22 74 510390333 17
+20190423 9 11 316234 9
+20190424 15 43 130888658 13
+20190425 14 30 128844338 12
+20190426 45 47 777488 14
+20190427 11 44 3955888 10
+20190428 7 7 97972 7
+20190429 25 26 490888 11
+20190430 15 84 515063681 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30mn-1h 2
+15mn-30mn 1
+0s-30s 380
+30s-2mn 1
+5mn-15mn 1
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 503 5696372 381 342
+/bootstrap/2017%20assets/Headliner.ttf 45 23707080 3 42
+/fonts/fontawesome-webfont.eot 3 182232 3 3
+/bootstrap/fonts/glyphicons-halflings-regular.eot 2 40524 2 2
+END_SIDER

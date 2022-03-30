@@ -1,0 +1,1744 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202110 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1994                
+POS_TIME 2673                
+POS_VISITOR 34488               
+POS_DAY 49385               
+POS_DOMAIN 3620                
+POS_LOGIN 4198                
+POS_ROBOT 4353                
+POS_WORMS 6074                
+POS_EMAILSENDER 6205                
+POS_EMAILRECEIVER 6348                
+POS_SESSION 50019               
+POS_SIDER 50227               
+POS_FILETYPES 6483                
+POS_DOWNLOADS 6759                
+POS_OS 13314               
+POS_BROWSER 13646               
+POS_SCREENSIZE 16364               
+POS_UNKNOWNREFERER 16438               
+POS_UNKNOWNREFERERBROWSER 18032               
+POS_ORIGIN 18625               
+POS_SEREFERRALS 18770               
+POS_PAGEREFS 19025               
+POS_SEARCHWORDS 19393               
+POS_KEYWORDS 19545               
+POS_MISC 2337                
+POS_ERRORS 19604               
+POS_CLUSTER 4054                
+POS_SIDER_404 19772               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211020041309 13665 3843189 0
+FirstTime 20211001041950
+LastTime 20211020020309
+LastUpdate 20211020043727 13665 12865 799 1 0
+TotalVisits 502                 
+TotalUnique 341                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 383                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 166 1157624342 36 127 9418518
+1 40 201 933015567 92 182 5568718
+2 16 120 814915474 28 88 12202793
+3 11 25 82115128 28 73 21109127
+4 11 61 327396736 23 74 2022844
+5 7 9 108444350 130 291 20254807
+6 8 23 93283822 22 63 827401
+7 18 68 79765849 25 94 1991433
+8 2 4 336968500 11 34 418102
+9 18 38 129032372 31 68 1847402
+10 98 136 96264641 37 131 78154593
+11 30 128 402188927 33 100 30416970
+12 42 144 633382080 34 95 8217034
+13 29 162 1008682118 16 70 962412
+14 85 316 1514396916 30 119 1735466
+15 40 223 1785219934 26 109 5612020
+16 35 203 1065841481 20 120 2242088
+17 30 168 981174392 19 105 2906506
+18 34 169 754551091 42 177 1636151
+19 127 864 4929459505 59 426 10558359
+20 76 413 2884113160 25 136 2470297
+21 68 379 2114073927 66 290 5773233
+22 49 169 1217284236 92 473 6274396
+23 48 232 1439986808 54 205 8839721
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 25
+us 776 4078 11851256188
+cn 64 100 17426947
+de 19 43 1212645
+ca 15 41 73602848
+ua 12 12 84300
+lt 11 11 154234
+ru 9 21 169246521
+fr 8 21 6896575
+pl 7 7 14963
+ro 4 29 178924388
+il 2 2 9690
+hn 3 3 14565
+lv 3 3 41994
+in 2 15 2168442
+gb 4 17 63651716
+eu 1 1 75
+id 1 1 4005
+hk 2 2 9690
+si 2 2 214
+ie 1 1 13998
+za 1 1 4845
+cz 1 1 4845
+ar 0 2 639155
+nl 3 3 9797
+se 4 4 19344
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 42
+no_user_agent 436 63876985 20211019231030 0
+AhrefsBot/ 310 4779974 20211020001533 73
+bingbot/ 269 67641438 20211020030658 100
+baidu 150 6141748 20211018225911 0
+Googlebot/ 136 28396245 20211020035848 37
+YandexBot/ 60 7650270 20211013090033 20
+bot[\s_+:,\.\;\/\\-] 46 169656 20211020003356 11
+MSIE[\x20]6 24 210738 20211018234922 0
+unknown 16 883 20211020034401 16
+MJ12bot/ 16 28386 20211020033922 8
+Googlebot\-Image/ 9 453323 20211011093056 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 13998 20211011120459 0
+oBot/ 8 3994892 20211016221805 3
+Dalvik/ 12 58140 20211011141138 0
+bingpreview 5 524936 20211019120534 0
+proximic 2 122 20211013193820 2
+Mail\.RU_Bot/ 15 3865753 20211017213850 8
+custo 15 210408 20211019160258 0
+YandexImages/ 7 403933 20211003002506 0
+SurdotlyBot/ 3 9751 20211008113437 1
+DomainStatsBot/ 4 13986 20211004045633 2
+^mozilla\/5\.0$ 5 305 20211019125548 5
+Applebot/ 10 141396 20211017071806 5
+nutch 2 92 20211004031942 2
+Slackbot\-LinkExpanding 1 4845 20211007125822 0
+crawl 1 4845 20211015234649 0
+CCBot/ 4 2076673 20211014105730 2
+ia_archiver 1 13998 20211011120042 0
+Googlebot\-Video/ 1 18873982 20211004034555 0
+LinkedInBot/ 1 20676 20211017164214 0
+Sogou[\x20]web[\x20]spider/ 1 61 20211020040940 1
+YisouSpider 14 334890 20211018104246 0
+robot 6 96126 20211018234150 0
+link 1 4845 20211014080830 0
+python 5 84692 20211020015147 0
+favicon 2 42384 20211018093555 0
+java 1 0 20211001141016 0
+bbot 2 4870 20211002024832 1
+SeznamBot/ 8 491284 20211017102620 4
+Discordbot/ 1 13998 20211013142423 0
+yandex 1 38358 20211010001633 0
+facebookexternalhit/ 9 914395 20211018194624 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 1330 3802935 0 0
+png 1318 35197882 0 0
+ttf 269 38631386 0 0
+env 4 428 0 0
+pdf 4 10530867 0 0
+php 9 925 0 0
+mp4 1 12356392532 0 0
+html 637 3345871 0 0
+xml 32 2816 0 0
+jpg 813 84844300 0 0
+Unknown 4 38882 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 258
+/YCPHacksSponsor2021.pdf 17 0 54726911
+/images/BGVideo.mp4 9 1384 12497321251
+/Sponsor_Packet_2018.pdf 5 0 1905872
+/Sponsorship2017.pdf 4 0 3870516
+/bak/public_html.zip 2 0 0
+/old/full_backup.zip 2 0 0
+/bak/public_html.gz 2 0 0
+/bak/directory.gz 2 0 0
+/old/website.tar 2 0 0
+/restore/directory.tar 2 0 0
+/restore/backup.sql.tar 2 0 0
+/old/public_html.tar.gz 2 0 0
+/old/directory.rar 2 0 0
+/back/public_html.tar 2 0 0
+/backup/backup.sql.tar 2 0 0
+/latest.zip 2 0 0
+/back/backup.sql.zip 2 0 0
+/.well-known.zip 2 0 0
+/old/ycphacks.io.tar.gz 2 0 0
+/bak/directory.tar 2 0 0
+/bak/ycphacks.io.rar 2 0 0
+/website.gz 2 0 0
+/old/bak.rar 2 0 0
+/bak.zip 2 0 0
+/backups/website.gz 2 0 0
+/backup/directory.tar.gz 2 0 0
+/restore/application.zip 2 0 0
+/bak/bak.rar 2 0 0
+/bak/public_html.tar.gz 2 0 0
+/restore/latest.zip 2 0 0
+/bak/web.zip 2 0 0
+/bak/bak.tar 2 0 0
+/restore/www.zip 2 0 0
+/back/public_html.zip 2 0 0
+/backups/backup.tar 2 0 0
+/backup/backup.rar 2 0 0
+/backups/www.gz 2 0 0
+/back/bak.rar 2 0 0
+/back/directory.zip 2 0 0
+/back/website.gz 2 0 0
+/backup/ycphacks.io.rar 2 0 0
+/back/directory.tar.gz 2 0 0
+/bak/website.tar.gz 2 0 0
+/backups/web.zip 2 0 0
+/restore/ycphacks.io.rar 2 0 0
+/back/full_backup.zip 2 0 0
+/restore/directory.tar.gz 2 0 0
+/restore/www.rar 2 0 0
+/backup/latest.zip 2 0 0
+/backups/bak.gz 2 0 0
+/directory.rar 2 0 0
+/old/www.zip 2 0 0
+/restore/website.tar 2 0 0
+/backup/public_html.zip 2 0 0
+/backup.gz 2 0 0
+/back/application.zip 2 0 0
+/restore/public_html.gz 2 0 0
+/bak/website.zip 2 0 0
+/backups/bak.tar 2 0 0
+/back/backup.tar 2 0 0
+/old/backup.sql.zip 2 0 0
+/bak/website.gz 2 0 0
+/backups/backup.sql.zip 2 0 0
+/back/bak.tar.gz 2 0 0
+/backups/public_html.rar 2 0 0
+/back/www.tar.gz 2 0 0
+/old/wallet.zip 2 0 0
+/backups/public_html.tar 2 0 0
+/backup/backup.tar 2 0 0
+/backup/www.tar 2 0 0
+/backups/full_backup.zip 2 0 0
+/backup/bak.tar 2 0 0
+/backups/www.rar 2 0 0
+/old/application.zip 2 0 0
+/bak/directory.rar 2 0 0
+/restore/backup.zip 2 0 0
+/restore/public_html.rar 2 0 0
+/directory.gz 2 0 0
+/backup/full_backup.zip 2 0 0
+/back/bak.tar 2 0 0
+/back/directory.gz 2 0 0
+/backups/website.rar 2 0 0
+/ycphacks.io.zip 2 0 0
+/backup/www.tar.gz 2 0 0
+/restore/public_html.tar.gz 2 0 0
+/back/backup.gz 2 0 0
+/old/directory.tar 2 0 0
+/backup/www.zip 2 0 0
+/old/public_html.gz 2 0 0
+/old/directory.zip 2 0 0
+/wallet.zip 2 0 0
+/restore/bak.rar 1 0 0
+/back/bak.gz 1 0 0
+/back/latest.zip 1 0 0
+/backups/credentials.txt 1 0 0
+/public_html.rar 1 0 0
+/restore/ycphacks.io.zip 1 0 0
+/backups/ycphacks.io.gz 1 0 0
+/back/directory.rar 1 0 0
+/old/www.gz 1 0 0
+/backups/backup.sql.tar 1 0 0
+/bak/bak.gz 1 0 0
+/backup/directory.rar 1 0 0
+/backup/public_html.rar 1 0 0
+/public_html.tar.gz 1 0 0
+/back/website.rar 1 0 0
+/backups/directory.zip 1 0 0
+/backup.rar 1 0 0
+/backup/web.zip 1 0 0
+/bak/directory.zip 1 0 0
+/backup/www.rar 1 0 0
+/old/directory.tar.gz 1 0 0
+/backups/backup.gz 1 0 0
+/backups/ycphacks.io.tar.gz 1 0 0
+/backups/website.tar 1 0 0
+/full_backup.zip 1 0 0
+/bak/backup.zip 1 0 0
+/bak/backup.gz 1 0 0
+/old/public_html.zip 1 0 0
+/backups/latest.zip 1 0 0
+/back/bak.zip 1 0 0
+/bak/www.tar.gz 1 0 0
+/restore/www.tar 1 0 0
+/application.zip 1 0 0
+/bak/backup.tar 1 0 0
+/backups/wallet.zip 1 0 0
+/website.zip 1 0 0
+/back/backup.rar 1 0 0
+/bak/backup.sql.gz 1 0 0
+/backup/directory.gz 1 0 0
+/public_html.tar 1 0 0
+/restore/credentials.txt 1 0 0
+/backup/public_html.tar 1 0 0
+/restore/bak.tar 1 0 0
+/bak/bak.zip 1 0 0
+/bak/directory.tar.gz 1 0 0
+/restore/website.zip 1 0 0
+/old/website.gz 1 0 0
+/directory.tar 1 0 0
+/back/public_html.rar 1 0 0
+/backup/ycphacks.io.zip 1 0 0
+/backup/backup.zip 1 0 0
+/back/public_html.gz 1 0 0
+/old/public_html.rar 1 0 0
+/back/ycphacks.io.gz 1 0 0
+/backups/public_html.zip 1 0 0
+/backups/website.zip 1 0 0
+/old/public_html.tar 1 0 0
+/backups/index.zip 1 0 0
+/backups/ycphacks.io.rar 1 0 0
+/back/wallet.zip 1 0 0
+/backup/.well-known.zip 1 0 0
+/website.rar 1 0 0
+/backup.zip 1 0 0
+/bak/full_backup.zip 1 0 0
+/restore/bak.gz 1 0 0
+/backup/public_html.tar.gz 1 0 0
+/restore/backup.tar.gz 1 0 0
+/old/ycphacks.io.zip 1 0 0
+/backups/directory.rar 1 0 0
+/backup.tar.gz 1 0 0
+/bak/public_html.rar 1 0 0
+/old/ycphacks.io.rar 1 0 0
+/backups/backup.zip 1 0 0
+/backups/backup.rar 1 0 0
+/backups/public_html.gz 1 0 0
+/back/directory.tar 1 0 0
+/backups/backup.sql.gz 1 0 0
+/old/website.zip 1 0 0
+/back/www.zip 1 0 0
+/backups/application.zip 1 0 0
+/backup/backup.tar.gz 1 0 0
+/backup/directory.tar 1 0 0
+/restore/backup.sql.gz 1 0 0
+/bak.gz 1 0 0
+/backup/bak.zip 1 0 0
+/back/ycphacks.io.zip 1 0 0
+/www.gz 1 0 0
+/old/backup.sql.gz 1 0 0
+/bak/backup.sql.zip 1 0 0
+/old/index.zip 1 0 0
+/old/www.tar.gz 1 0 0
+/old/website.rar 1 0 0
+/back/www.tar 1 0 0
+/backup/public_html.gz 1 0 0
+/backup/website.tar.gz 1 0 0
+/back/ycphacks.io.tar.gz 1 0 0
+/backup/bak.rar 1 0 0
+/old/backup.rar 1 0 0
+/backup/website.rar 1 0 0
+/back/backup.sql.tar 1 0 0
+/backup/credentials.txt 1 0 0
+/back/web.zip 1 0 0
+/bak/backup.rar 1 0 0
+/restore/bak.zip 1 0 0
+/bak/application.zip 1 0 0
+/old/bak.tar 1 0 0
+/backup/backup.gz 1 0 0
+/backups/.well-known.zip 1 0 0
+/old/backup.tar.gz 1 0 0
+/backup/index.zip 1 0 0
+/directory.zip 1 0 0
+/backup.tar 1 0 0
+/restore/www.tar.gz 1 0 0
+/back/public_html.tar.gz 1 0 0
+/bak/ycphacks.io.tar.gz 1 0 0
+/old/web.zip 1 0 0
+/backups/bak.tar.gz 1 0 0
+/bak/ycphacks.io.gz 1 0 0
+/restore/website.tar.gz 1 0 0
+/web.zip 1 0 0
+/backup/www.gz 1 0 0
+/restore/directory.gz 1 0 0
+/bak/wallet.zip 1 0 0
+/restore/backup.tar 1 0 0
+/bak/backup.sql.tar 1 0 0
+/public_html.gz 1 0 0
+/backup/bak.gz 1 0 0
+/backup/ycphacks.io.gz 1 0 0
+/credentials.txt 1 0 0
+/ycphacks.io.gz 1 0 0
+/www.tar.gz 1 0 0
+/bak.tar.gz 1 0 0
+/bak/website.rar 1 0 0
+/restore/.well-known.zip 1 0 0
+/bak.tar 1 0 0
+/ycphacks.io.tar.gz 1 0 0
+/backup/directory.zip 1 0 0
+/old/website.tar.gz 1 0 0
+/backups/directory.tar.gz 1 0 0
+/restore/backup.sql.zip 1 0 0
+/old/backup.zip 1 0 0
+/backup/bak.tar.gz 1 0 0
+/back/backup.sql.gz 1 0 0
+/backups/bak.zip 1 0 0
+/backup/backup.sql.gz 1 0 0
+/restore/full_backup.zip 1 0 0
+/backups/www.tar 1 0 0
+/website.tar.gz 1 0 0
+/old/bak.tar.gz 1 0 0
+/backups/www.zip 1 0 0
+/back/website.tar 1 0 0
+/restore/wallet.zip 1 0 0
+/bak/www.rar 1 0 0
+/restore/directory.rar 1 0 0
+/index.zip 1 0 0
+/restore/public_html.tar 1 0 0
+/restore/www.gz 1 0 0
+/back/index.zip 1 0 0
+/back/ycphacks.io.rar 1 0 0
+/backups/bak.rar 1 0 0
+/restore/public_html.zip 1 0 0
+/old/ycphacks.io.gz 1 0 0
+/bak/backup.tar.gz 1 0 0
+/restore/index.zip 1 0 0
+/restore/ycphacks.io.tar.gz 1 0 0
+/restore/web.zip 1 0 0
+/restore/ycphacks.io.gz 1 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+linuxandroid 434 52
+macosx11 47 46
+winlong 3 1
+winxp 22 16
+ios_iphone 1444 157
+win2000 6 6
+win8 19 12
+macosx9 6 6
+ios_ipad 26 2
+unix 56 6
+winnt 6 6
+java 1 0
+macosx12 16 2
+linux 303 116
+win7 59 33
+macosx 959 121
+macosx10 3 3
+win8.1 21 6
+Unknown 173 37
+win10 2201 327
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 126
+chrome45.0.2454.85 1 1
+chrome84.0.4147.89 1 1
+chrome94.0.4606.85 128 16
+chrome88.0.4240.193 40 40
+chrome79.0.3945.79 16 2
+safari14.0.2 1 1
+chrome81.0.4044.129 21 11
+chrome92.0.4515.131 35 6
+chrome85.0.4183.121 1 1
+chrome90.0.4430.210 18 2
+chrome83.0.4103.97 69 69
+safari14.1.1 19 2
+chrome63.0.3239.84 1 1
+msie8.0 3 3
+chrome90.0.4430.72 1 0
+chrome42.0.2311.90 3 3
+chrome68.0.3427.1 26 0
+chrome27.0.1453.93 1 1
+firefox59.0 1 1
+chrome76.0.3809.71 6 6
+safari9.1.1 1 1
+chrome50.0.2661.102 5 4
+chrome96.0.4662.6 17 2
+chrome91.0.4472.114 23 6
+safari13.1.1 16 2
+chrome77.0.3835.0 7 2
+chrome73.0.3683.103 21 4
+opera11.11 1 0
+opera9.0 9 3
+chrome90.0.4430.93 21 3
+chrome90.0.4430.85 4 4
+chrome41.0.2224.3 5 5
+chrome88.0.4324.150 1 1
+chrome55.0.2883.87 1 1
+firefox40.0 1 1
+chrome88.0.4324.190 2 2
+chrome81.0.4044.268 7 0
+chrome89.0.3945.117 1 1
+chrome81.0.4044.92 16 1
+chrome78.0.3904.62 2 0
+chrome89.0.4389.128 1 1
+firefox77.0 2 2
+chrome93.0.4577.83 17 2
+chrome60.0.3112.107 2 2
+chrome87.0.4472.114 1 1
+chrome83.0.4099.2 1 1
+chrome83.0.4087.0 1 1
+firefox78.0 24 4
+firefox45.0 3 3
+chrome93.0.4577.63 132 16
+chrome92.0.4515.166 16 2
+firefox68.0 30 4
+mozilla 128 6
+firefox75.0 2 0
+chrome47.0.2526.106 41 41
+firefox92.0 51 7
+opera79.0.4143.72 16 2
+netscape5.0 1 1
+chrome94.0.4606.61 428 42
+chrome93.0.4577.82 129 21
+chrome83.0.4103.34 2 2
+chrome64.0.3282.186 18 11
+chrome35.0.1916.47 3 3
+chrome84.0.4147.105 8 2
+safari12.1.2 16 2
+chrome60.0.3112.90 16 2
+firefox93.0 82 10
+chrome40.0.2214.93 1 1
+safari 276 29
+chrome67.0.3396.87 1 1
+chrome94.0.4606.71 742 88
+chrome83.0.4103.24 1 1
+chrome93.0.4577.95 17 2
+chrome88.0.4324.192 2 2
+chrome87.0.4280.88 1 1
+chrome83.0.4103.14 1 1
+firefox52.0 1 1
+chrome71.0.3578.98 4 4
+chrome36.0.1985.125 3 3
+chrome89.0.4389.95 20 2
+chrome95.0.4638.17 3 0
+chrome57.0.2987.108 15 0
+netscape4.76 6 6
+iphone 18 2
+firefox13.0.1 1 1
+chrome34.0.1847.116 3 1
+chrome83.0.4103.61 3 3
+safari13.0.4 21 2
+safari15.0 716 71
+msie9.0 6 6
+safari13.0.3 1 1
+safari14.1.2 745 78
+safari15.1 24 2
+Unknown 39 31
+chrome96.0.4664.9 21 3
+chrome72.0.3626.109 12 4
+chrome94.0.4606.81 1112 134
+firefox82.0 1 1
+chrome59.0.3071.115 2 2
+chrome96.0.4655.7 16 2
+chrome77.0.3865.90 1 1
+firefox84.0 2 1
+opera8.00 3 3
+safari10.0 7 7
+chrome76.0.3809.100 2 2
+firefox91.0 2 2
+chrome78.0.3904.108 7 0
+chrome36.0.1985.67 1 1
+firefox58.0 1 1
+opera8.01 3 3
+chrome79.0.3945.74 3 0
+chrome79.0.3945.88 1 1
+chrome83.0.4102.0 1 1
+msie11.0 10 8
+chrome67.0.3396.99 28 4
+firefox81.0 1 1
+chrome89.0.4389.82 6 6
+chrome81.0.4044.138 7 4
+chrome92.0.4515.107 1 1
+msie10.0 1 1
+chrome92.0.4515.159 75 9
+chrome83.0.4103.106 24 3
+firefox86.0 1 0
+safari14.0.1 56 6
+chrome65.0.3325.109 1 1
+chrome75.0.3770.100 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20211014154811
+Mozilla/5.0_(compatible;_proximic;__http://www.proximic.com/info/spider.php) 20211004141844
+Slackbot-LinkExpanding_1.0_(_https://api.slack.com/robots) 20211007125832
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211011120234
+Mozilla/5.0_(compatible;_DataForSeoBot/1.0;__https://dataforseo.com/dataforseo-bot) 20211016223552
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20211014233703
+Mozilla/5.0_(compatible;_AhrefsBot/7.0;__http://ahrefs.com/robot/) 20211018164358
+lua-resty-http/0.10_(Lua)_ngx_lua/10019 20211019210321
+Googlebot/2.1_(_http://www.google.com/bot.html) 20211008194504
+Mozilla/5.0_(compatible;_GoogleDocs;_documents;__http://docs.google.com) 20211008025546
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots)_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/81.0.4044.268 20211013084207
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20211019012532
+git/2.17.1 20211012074520
+Mozilla/5.0_(compatible;_SeznamBot/3.2;__http://napoveda.seznam.cz/en/seznambot-intro/) 20211003194753
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20211006232958
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211018123455
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.8;_http://mj12bot.com/) 20211006040050
+Go-http-client/1.1 20211017151807
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Java/11.0.1 20211001142834
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211018123455
+git/2.17.1 20211012074520
+Slackbot-LinkExpanding_1.0_(_https://api.slack.com/robots) 20211007125832
+lua-resty-http/0.10_(Lua)_ngx_lua/10019 20211019210321
+Go-http-client/1.1 20211017151807
+Googlebot/2.1_(_http://www.google.com/bot.html) 20211008194504
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20211019012532
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 598 642
+From1 10 10
+From2 21 28
+From3 19 19
+From4 307 5106
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+duckduckgo 1 1
+ar_images_search_yahoo_com 0 2
+bing 2 2
+www_google_com_hk 3 3
+www_google_com 14 19
+yandexru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://kreditvesta.ru 3 3
+https://agroprom18.ru 3 3
+https://dverirespekt.ru 3 3
+https://landofgames.ru 3 3
+https://www.whole-search.com/cache/Google/ycphacks.io 3 3
+https://phmetr.ru 3 3
+https://ycp.powersoftwo.org 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 11 98214
+503 4 266425
+206 2 0
+400 74 477662
+302 1 5
+499 6 0
+404 1883 29009484
+301 1 233
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 555
+/bak/mysql.sql 1 -
+/restore/sql.sql 1 -
+/&sa=D&ust=1520955380473000&usg=AFQjCNFkfK3l1sC-4IMx-o1xW1t6YPu5xA 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/fckeditor/fckeditor.js 1 -
+/Images/login/lefttu.jpg 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/wp-includes/css/modules.php 1 -
+/sites/default/files/ 4 binance.com
+/xmlrpc.php 1 -
+/public_html.rar 1 -
+/member/space/company/info.txt 1 -
+/restore/website.gz 2 -
+/back/directory.rar 1 -
+/images/logo-white.png 1 -
+/backup/public_html.rar 1 -
+/index.cgi 1 -
+/static/hgicon.png 1 -
+/back/website.rar 1 -
+/back/sql.sql 2 -
+/backups/directory.zip 1 -
+/backup.rar 1 -
+/old/mysql.sql 1 -
+/backup/www.rar 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/bak/public_html.tar 2 -
+/backups/backup.gz 1 -
+/inc/rsd.php 1 -
+/login 1 -
+/full_backup.zip 1 -
+/backup/ycphacks.io.tar.gz 2 -
+/bak/backup.zip 1 -
+/.aws/credentials 1 -
+/bak/backup.gz 1 -
+/User/Login.aspx 1 -
+/bak/website.tar 2 -
+/old/public_html.zip 1 -
+/wp-content/vuln.php 1 -
+/logo/logo_jw.png 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/bencandy.php 1 -
+/jcms/index_jcms.jsp 1 -
+/back/bak.zip 1 -
+/images/cs-davidson-logo.jpg 26 http://www.ycphacks.io/
+/images/zh-CN/logo.ico 1 -
+/help/en/h_authenticate.html 1 -
+/license.txt 1 -
+/restore/www.tar 1 -
+/archiver/ 1 -
+/plug/publish 1 -
+/wp-admin/shapes.php 1 -
+/www.zip 2 -
+/history.txt 1 -
+/backups/wallet.dat 1 -
+/images/Default_bg_002.gif 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/website.zip 1 -
+/deptWebsiteAction.do 1 -
+/backups/website.tar.gz 2 -
+/back/website.zip 2 -
+/plus/sitemap.html 1 -
+/rss.aspx 1 -
+/system/language/zh-cn.xml 1 -
+/restore/credentials.txt 1 -
+/backup/public_html.tar 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/kindeditor-min.js 1 -
+/script/login.js 1 -
+/bak/wallet.dat 1 -
+/bak/directory.tar.gz 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/old/website.gz 1 -
+/archive/archive.css 1 -
+/restore/website.rar 2 -
+/style/default/hdwiki.css 1 -
+/forum/ 1 -
+/&sa=D&ust=1523503105040000 1 -
+/old/.well-known.zip 2 -
+/config/aws.yml 1 -
+/old/public_html.rar 1 -
+/assets/data/outgoing/backup.sql 1 -
+/bak/index.zip 2 -
+/lang/en.js 1 -
+/shell.php 1 -
+/system/Update.aspx 1 -
+/examples/index.html 1 -
+/back/ycphacks.io.gz 1 -
+/ycphacks.io.rar 2 -
+/backups/website.zip 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/Search.html 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/back/wallet.zip 1 -
+/website.rar 1 -
+/backups/.bash_history 1 -
+/old/www.sql 1 -
+/back/www.rar 2 -
+/backup.zip 1 -
+/m 1 -
+/bak/full_backup.zip 1 -
+/plus/rssmap.html 1 -
+/restore/bak.tar.gz 2 -
+/backup/mysql.sql 1 -
+/old/backup.gz 1 -
+/restore/backup.tar.gz 1 -
+/bak/ycphacks.io.zip 2 -
+/old/ycphacks.io.zip 1 -
+/bak/.well-known.zip 1 -
+/bak/public_html.rar 1 -
+/restore/backup.rar 2 -
+/backup.sql.tar 2 -
+/base/login/login.php 1 -
+/back/directory.tar 1 -
+/backups/public_html.gz 1 -
+/Sponsorship%20Handout.pdf 2 -
+/images/login/eyoumail.gif 1 -
+/back/www.zip 1 -
+/Install/logo.gif 1 -
+/backup/backup.sql.zip 2 -
+/backup/backup.tar.gz 1 -
+/old/www.tar 1 -
+/restore/directory.zip 2 -
+/was5/web/index.jsp 1 -
+/archiver 1 -
+/maintlogin.jsp 1 -
+/themes/graphics/horde-power1.png 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/directory.tar.gz 2 -
+/plugins/filemanager/filemanager/js 1 -
+/inc/Templates/rss.xslt 1 -
+/adminer.sql.gz 1 -
+/bak.gz 1 -
+/backup/bak.zip 1 -
+/backups/www.sql 2 -
+/extman/default/images/logo.gif 1 -
+/www.gz 1 -
+/back/ycphacks.io.zip 1 -
+/images/login_Name.jpg 1 -
+/bak/backup.sql.zip 1 -
+/admin/login.aspx 1 -
+/backup/.bash_history 2 -
+/restore/.env 1 -
+/tools/rss.aspx 1 -
+/restore/www.sql 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/bak/latest.zip 2 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/backup/www.sql 1 -
+/stylesheet.css 1 -
+/Help 1 -
+/feed.asp 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/backup/bak.rar 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/images/login/logo.gif 1 -
+/backup.sql.gz 1 -
+/back/web.zip 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/restore/backup.sql 2 -
+/media/com_hikashop/js/hikashop.js 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/restore/bak.zip 1 -
+/bak/application.zip 1 -
+/old/bak.tar 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/img/pic/login/top-left.jpg 1 -
+/old/backup.tar.gz 1 -
+/images/branding/logo.gif 1 -
+/backup/index.zip 1 -
+/.env.bak 1 -
+/backup/website.tar 2 -
+/backup.tar 1 -
+/upload.php 1 -
+/restore/www.tar.gz 1 -
+/back/public_html.tar.gz 1 -
+/plugins/anchor/anchor.js 1 -
+/wp-content/uploads/2021/10/ 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/new_license.php 1 -
+/app/.env 1 -
+/old/directory.gz 1 -
+/backups/backup.tar.gz 2 -
+/e/master/login.aspx 1 -
+/themes/default/default.css 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/weblog/ 1 -
+/images/login/icon-up.gif 1 -
+/old/web.zip 1 -
+/admin/login.asp 1 -
+/backups/bak.tar.gz 1 -
+/bak/ycphacks.io.gz 1 -
+/old/backup.sql.tar 2 -
+/images/default/post_bt.gif 1 -
+/fckeditor.js 1 -
+/fckeditor/license.txt 1 -
+/public_html.zip 1 -
+/restore/backup.tar 1 -
+/bak/wallet.zip 1 -
+/bak/backup.sql.tar 1 -
+/backups/.env 1 -
+/public_html.gz 1 -
+/backup/bak.gz 1 -
+/phpmyadmin/docs.css 1 -
+/credentials.txt 1 -
+/sitemap.xml 3 -
+/wso.php 1 -
+/bak/sql.sql 2 -
+/www.tar.gz 1 -
+/bak.tar.gz 1 -
+/admin/controller/extension/extension/ 4 binance.com
+/bak.tar 1 -
+/licence.txt 1 -
+/uploads/ 4 binance.com
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/console/js/CTRSRequestParam.js 1 -
+/changelog.txt 1 -
+/config.js 1 -
+/back/www.gz 2 -
+/backup/directory.zip 1 -
+/404.jpg 1 -
+/wp-content/ 5 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/old/website.tar.gz 1 -
+/list.php 1 -
+/data/images/wap_logo.gif 1 -
+/back/www.sql 1 -
+/login/Jeecms.do 1 -
+/.well-known/security.txt 1 -
+/back/.well-known.zip 2 -
+/backup/bak.tar.gz 1 -
+/back/backup.sql.gz 1 -
+/indoxploit.php 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/backups/bak.zip 1 -
+/back/backup.tar.gz 2 -
+/backup/backup.sql.gz 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/ckfinder/ckfinder.html 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/restore/full_backup.zip 1 -
+/backups/www.tar 1 -
+/console/auth/reg_newuser.jsp 1 -
+/old/bak.tar.gz 1 -
+/V5.php 1 -
+/restore/wallet.zip 1 -
+/restore/directory.rar 1 -
+/index.zip 1 -
+/humans.txt 3 -
+/backup/sql.sql 1 -
+/Error.aspx 1 -
+/public/js/ipb.js 1 -
+/back/credentials.txt 2 -
+/backups/www.tar.gz 2 -
+/.env 17 -
+/images/login9/login_33.jpg 1 -
+/backup/website.zip 2 -
+/restore/public_html.tar 1 -
+/ks_inc/ajax.js 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/j2017%20assets/query.min.js 487 http://ycphacks.io/
+/2017%20assets/responsive-nav.min.js 658 http://ycphacks.io/
+/info.php 1 -
+/admin/template/article_more/config.htm 1 -
+/back/index.zip 1 -
+/nobody/mobile.htm 1 -
+/common/help/images/helplogo.gif 1 -
+/CHANGELOG.txt 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/customdir/images/english_logo.jpg 1 -
+/app/login.jsp 1 -
+/Wq_StranJF.js 1 -
+/restore/public_html.zip 1 -
+/old/ycphacks.io.gz 1 -
+/back/.bash_history 1 -
+/plus/heightsearch.php 1 -
+/restore/index.zip 1 -
+/restore/ycphacks.io.tar.gz 1 -
+/backup/backup.sql 1 -
+/index.php 5 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/restore/web.zip 1 -
+/old/credentials.txt 2 -
+/js/buttons.js 1 -
+/bak/www.tar 2 -
+/Ntalker/lawfirm.aspx 1 -
+/include/install_ocx.aspx 1 -
+/backups/public_html.tar.gz 2 -
+/api/.env 1 -
+/admin.php 2 -
+/images/2_11.gif 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/back/bak.gz 1 -
+/aws.yml 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/common/common.js 1 -
+/back/latest.zip 1 -
+/olux.php 1 -
+/Images/login/mainlogo.gif 1 -
+/restore/ycphacks.io.zip 1 -
+/old/www.gz 1 -
+/backups/ycphacks.io.gz 1 -
+/was/main.html 1 -
+/siteserver/upgrade/default.aspx 1 -
+/backups/backup.sql.tar 1 -
+/bak/bak.gz 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/backup/directory.rar 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/public_html.tar.gz 1 -
+/backups/dump.sql 1 -
+/ycphackssponsor2021.pdf 7 -
+/backups/sql.sql 1 -
+/back/backup.zip 2 -
+/backup/web.zip 1 -
+/bak/directory.zip 1 -
+/doku.php 1 -
+/old/directory.tar.gz 1 -
+/backups/ycphacks.io.tar.gz 1 -
+/.git/info/refs 1 -
+/docs.css 1 -
+/was/help.jsp 1 -
+/wp-login.php 1 -
+/admin/inc/xml.xslt 1 -
+/.well-known/ 4 binance.com
+/kindeditor.js 1 -
+/old/backup.tar 2 -
+/pub/guiedit/guiedit.js 1 -
+/bak/bak.tar.gz 2 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/bak/www.tar.gz 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/Images/login/biaoti.jpg 1 -
+/wp-admin/network/wp-footer.php 1 -
+/application.zip 1 -
+/old/latest.zip 2 -
+/cgi/index.cgi 1 -
+/ads.txt 48 -
+/bak/backup.tar 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/backups/wallet.zip 1 -
+/back/backup.rar 1 -
+/up.php 1 -
+/wp-content/plugins/ubh/index.php 1 -
+/bak/backup.sql.gz 1 -
+/backup/directory.gz 1 -
+/readme.html 1 -
+/plus/download.php 1 -
+/restore/backup.gz 2 -
+/wp-info.php 1 -
+/restore/bak.tar 1 -
+/includes/general.js 1 -
+/wp-content/uploads/ 1 -
+/bak/bak.zip 1 -
+/images/uploads/github.png 1 http://go.mail.ru/search_images
+/website.tar 2 -
+/default/css/em_css.css 1 -
+/wp-content/plugins/html404/index.html 1 -
+/backups/directory.tar 2 -
+/application/.env 1 -
+/jcms/index.jsp 1 -
+/restore/website.zip 1 -
+/system/skins/default/system.login.htm 1 -
+/app/images/login/toplogo.gif 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/back/public_html.rar 1 -
+/backup/ycphacks.io.zip 1 -
+/app/home/skins/default/style.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/backup/backup.zip 1 -
+/images/hwem.css 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/console/js/CWCMDialogHead.js 1 -
+/backups/public_html.zip 1 -
+/backups/index.zip 1 -
+/old/public_html.tar 1 -
+/ckfinder/install.txt 1 -
+/backups/ycphacks.io.rar 1 -
+/Admin/Login.aspx 1 -
+/backup/.well-known.zip 1 -
+/template/home.htm 1 -
+/default/images/logo.gif 1 -
+/script/valid_formdata.js 1 -
+/restore/wallet.dat 1 -
+/backup/public_html.tar.gz 1 -
+/backups/directory.rar 1 -
+/backup.tar.gz 1 -
+/backup.sql.zip 2 -
+/old/ycphacks.io.rar 1 -
+/docs/ 1 -
+/backups/backup.zip 1 -
+/backups/backup.rar 1 -
+/backup/application.zip 2 -
+/backups/backup.sql.gz 1 -
+/old/website.zip 1 -
+/admin/editor/ 1 -
+/wp-admin/css/ 4 binance.com
+/wp-content/plugins/xichang/x.php 1 -
+/ckeditor/ckeditor.js 1 -
+/backups/application.zip 1 -
+/blog/ 1 -
+/public/about.html 1 -
+/next/img/logo.gif 1 -
+/digg.php 1 -
+/old/bak.zip 2 -
+/restore/backup.sql.gz 1 -
+/asp.net/README.txt 1 -
+/backup/website.gz 2 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/old/backup.sql.gz 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/old/index.zip 1 -
+/backups/ycphacks.io.zip 2 -
+/old/www.tar.gz 1 -
+/old/website.rar 1 -
+/extern.php 1 -
+/master/login.aspx 1 -
+/bak/backup.sql 2 -
+/test_404_page/ 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/console/include/not_login.htm 1 -
+/bak/.bash_history 1 -
+/back/www.tar 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/old/bak.gz 2 -
+/backup/public_html.gz 1 -
+/old/dump.sql 1 -
+/backup/website.tar.gz 1 -
+/back/ycphacks.io.tar.gz 1 -
+/examples/file-manager.html 1 -
+/.git/HEAD 2 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/siteserver/login.aspx 1 -
+/bak/credentials.txt 2 -
+/help/ch_gb/images/help-title.gif 1 -
+/issmall/ 1 -
+/old/backup.rar 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/backup/website.rar 1 -
+/back/wallet.dat 1 -
+/Editor.js 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/examples/readonly.html 1 -
+/back/backup.sql.tar 1 -
+/ids/admin/login.jsp 1 -
+/backup/credentials.txt 1 -
+/admin/start/index.php 1 -
+/wcm/ 1 -
+/FCK/fckeditor.js 1 -
+/bak/backup.rar 1 -
+/back/backup.sql 2 -
+/wp-content 1 -
+/back/website.tar.gz 2 -
+/098.php 1 -
+/upel.php 1 -
+/_profiler/phpinfo 1 -
+/dialog/dialog.js 1 -
+/business/images/index-gg1.jpg 1 -
+/whir_system/login.aspx 1 -
+/wp-includes 1 www.google.com
+/backup/backup.gz 1 -
+/www.rar 1 -
+/old/www.rar 1 -
+/directory.zip 1 -
+/phpinfo.php 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/help/user/index.html 1 -
+/Include/EcsServerApi.js 1 -
+/bak/ycphacks.io.tar.gz 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/data/admin/ver.txt 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/README.txt 1 -
+/admin/js/IdSUtil.js 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/backups/ycphacks.io.sql 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/restore/website.tar.gz 1 -
+/web.zip 1 -
+/images/logo_product-cml.png 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/backup/www.gz 1 -
+/bak/www.gz 2 -
+/install 1 -
+/js/ajax_x.js 1 -
+/bak/ycphacks.io.sql 1 -
+/wp-cron.php 1 -
+/forum.php 1 -
+/docs/DOCUMENTATION.txt 1 -
+/restore/directory.gz 1 -
+/fckeditor/fckconfig.js 1 -
+/backup/ycphacks.io.gz 1 -
+/backup/wallet.zip 2 -
+/whir_system/module/security/login.aspx 1 -
+/ycphacks.io.gz 1 -
+/bak/website.rar 1 -
+/admin/login.php 1 -
+/admin/index.php 1 -
+/max-templates/classic/styles/app.css 1 -
+/ycphacks.io.tar.gz 1 -
+/app/images/login/logo.png 1 -
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/forums/list.page 1 -
+/old/.bash_history 1 -
+/adminer.php 1 -
+/phpmyadmin/ 1 -
+/restore/backup.sql.zip 1 -
+/backups/directory.tar.gz 1 -
+/backups/backup.sql 1 -
+/api/api_user.xml 1 -
+/old/backup.zip 1 -
+/include/dialog/config.php 1 -
+/restore/dump.sql 1 -
+/bak.rar 2 -
+/advfile/ad12.js 1 -
+/plugin.php 1 -
+/website.tar.gz 1 -
+/.svn 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/editor/fckeditor.js 1 -
+/bak/www.zip 2 -
+/backups/www.zip 1 -
+/back/website.tar 1 -
+/rss.php 1 -
+/images/logo_88x31.gif 1 -
+/include/dedeajax2.js 1 -
+/static/images/logo/webserver_small.gif 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/backups/directory.gz 2 -
+/restore/www.gz 1 -
+/bbs/ 1 -
+/back/ycphacks.io.rar 1 -
+/wallet.dat 1 -
+/restore/ycphacks.io.sql 2 -
+/License.txt 1 -
+/backups/bak.rar 1 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/uc_server/control/admin/db.php 1 -
+/www.tar 2 -
+/common/help/images/helplogo_zh.gif 1 -
+/admin/admin_login.php 1 -
+/system/Login.aspx 1 -
+/bak/backup.tar.gz 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/auth/login 1 -
+/restore/ycphacks.io.gz 1 -
+/phpinfo 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 383
+221.6.38.170 42 42 203490 20211011142056
+134.209.217.170 40 40 3520 20211013223417
+192.245.87.17 35 276 637088350 20211017152106
+192.245.87.12 28 237 658765726 20211017153121
+192.245.87.15 26 213 486881935 20211020013101
+192.245.87.18 24 258 590372258 20211015184821
+192.245.87.14 23 190 476510207 20211020020309
+192.245.87.22 23 201 532197383 20211018064724
+192.245.87.21 23 202 656815385 20211015004138
+192.245.87.19 21 204 622460918 20211017222419
+172.58.203.207 1 1 4809 20211003181739
+174.55.64.97 2 23 38025130 20211013201814
+96.255.130.223 1 15 103860611 20211009115625
+42.236.10.106 0 4 554087 
+18.206.199.142 1 1 14134 20211019210301
+212.193.30.45 1 1 4845 20211008214608
+34.221.176.16 2 2 9750 20211019113431
+3.237.199.191 2 2 28060 20211015214906
+173.239.210.108 0 2 3168558 
+35.187.132.115 1 1 4026 20211018093558
+1.192.195.8 1 1 4809 20211001133106
+54.218.188.126 1 1 4875 20211019105139
+34.223.2.236 1 1 4845 20211010104833
+167.94.138.115 2 2 9690 20211011120234
+54.202.150.15 1 1 13998 20211013230911
+165.231.103.133 1 1 4845 20211008181745
+138.234.220.190 2 17 19983578 20211011193344
+138.234.214.20 2 17 8990163 20211018180056
+138.234.222.189 2 17 44588840 20211004190718
+92.118.160.13 3 3 42130 20211016142403
+69.251.142.141 2 16 47148698 20211013194326
+147.135.105.62 1 1 88 20211018101126
+73.187.159.158 2 18 51678440 20211013202512
+35.84.191.127 1 1 0 20211009002041
+206.81.18.4 5 5 428 20211013202402
+138.234.219.181 1 1 4809 20211004012236
+174.55.132.220 2 16 27067734 20211014012717
+35.86.115.137 1 1 4845 20211009101733
+18.170.70.5 1 1 4845 20211014003356
+27.115.124.38 0 2 3651514 
+73.64.120.3 8 69 197381544 20211017232508
+71.236.71.163 2 17 18781934 20211015011646
+77.88.5.38 0 3 168393486 
+174.49.227.51 2 17 21773934 20211013192152
+51.15.191.81 1 1 14134 20211016013435
+172.58.207.85 0 1 38358 
+196.242.114.210 1 1 4845 20211006212325
+98.237.111.133 11 105 275635871 20211016141621
+50.73.19.253 2 18 19414969 20211016005919
+182.92.103.206 2 2 9690 20211011122222
+174.49.227.90 2 18 45188264 20211013203155
+54.69.186.255 1 1 4809 20211002101804
+34.222.86.124 1 1 4809 20211002101837
+54.202.192.53 1 1 4845 20211008100958
+42.236.10.114 0 1 459992 
+54.171.209.49 1 1 13998 20211008201450
+82.16.241.31 2 16 63642062 20211014192811
+125.64.94.213 3 3 14535 20211010052707
+174.241.148.108 3 19 24651246 20211004180204
+192.245.87.16 17 182 547411264 20211018133046
+73.101.161.96 2 16 60036711 20211011001650
+34.213.78.28 1 1 4809 20211003101229
+54.147.246.36 2 2 28132 20211016042014
+75.97.81.66 4 34 89149006 20211019140010
+192.245.87.8 8 67 118419102 20211014143231
+34.219.59.64 1 1 4845 20211009101702
+24.148.64.132 2 17 32921191 20211013192106
+3.238.44.255 3 3 42058 20211016005918
+42.193.45.103 0 1 3009 
+93.158.92.130 1 1 4845 20211010200842
+173.239.210.36 1 10 4068451 20211001210056
+174.55.142.139 0 1 3510289 
+195.123.209.118 3 3 41994 20211008011500
+174.198.193.58 2 21 6139824 20211014014358
+35.162.89.19 1 1 4845 20211012103330
+54.87.192.249 1 1 13926 20211002204640
+73.64.169.249 2 17 17309166 20211013233902
+198.46.206.7 1 1 4809 20211005011522
+35.162.239.170 1 1 4845 20211013102207
+174.55.136.18 2 17 63710966 20211012222431
+3.94.81.106 1 11 4809 20211001182101
+42.192.184.76 1 1 4845 20211013094452
+192.145.116.79 2 18 38695366 20211012233707
+18.144.8.180 2 8 6725512 20211017231752
+54.176.94.192 1 1 14134 20211017231749
+174.59.103.166 2 19 56859631 20211017170158
+180.163.220.5 0 1 897880 
+54.149.82.60 1 1 4845 20211009101720
+192.245.87.7 10 84 113539332 20211014115835
+50.192.8.70 2 21 1535053 20211013195606
+138.234.219.89 2 17 64251332 20211015212045
+3.236.161.49 1 1 4875 20211019030353
+73.79.235.20 2 16 700067 20211013213840
+138.234.125.178 2 17 1452395 20211016230159
+34.223.200.148 1 1 4882 20211017100221
+185.220.101.41 1 1 107 20211017103437
+146.70.63.116 2 30 14585470 20211004015425
+37.192.177.23 1 1 88 20211019133500
+18.237.175.16 1 1 4845 20211005104936
+3.221.159.46 1 1 4809 20211004044548
+167.99.172.253 1 1 4875 20211018122705
+35.173.232.239 1 1 4845 20211014224432
+138.234.210.71 2 28 86165008 20211019205843
+92.118.160.1 1 1 13926 20211003182154
+93.158.90.74 1 1 4845 20211014111309
+47.242.131.81 1 1 4845 20211011224554
+71.58.155.63 2 21 10103925 20211014041522
+199.217.104.237 7 22 64182617 20211013200139
+192.245.87.13 16 154 359676208 20211018124506
+73.64.70.105 2 16 13178471 20211011001804
+138.234.215.19 2 27 27929795 20211019205138
+174.198.205.66 2 8 15574557 20211018113310
+45.129.18.85 1 1 0 20211011230052
+174.55.160.180 4 38 108484048 20211014213519
+34.220.0.252 1 1 4809 20211002101759
+74.111.102.161 2 21 109623059 20211016193656
+45.157.5.24 2 2 214 20211012074520
+74.125.213.10 0 1 20676 
+138.234.219.164 2 24 37753515 20211015200251
+136.143.176.64 1 1 4845 20211015123510
+35.86.79.162 1 1 4845 20211015110343
+46.101.80.192 1 1 4809 20211004215135
+71.58.113.165 2 18 45720471 20211017150655
+193.235.141.152 1 1 4809 20211003174441
+54.191.41.199 1 1 4882 20211016101338
+65.154.226.165 6 6 30215 20211018121707
+174.55.136.110 2 24 49436885 20211013203416
+54.201.88.195 1 1 4845 20211005104954
+35.245.188.175 5 5 70126 20211017150655
+174.55.59.123 2 18 47325479 20211014013137
+209.222.82.128 1 1 14134 20211015212353
+75.75.171.101 2 6 262103 20211014162645
+35.162.152.218 1 1 4882 20211016101346
+173.239.210.72 0 2 6727982 
+3.235.159.69 1 1 4845 20211012064657
+44.242.157.97 1 1 0 20211009062524
+98.235.65.197 4 34 34020590 20211017014108
+34.216.17.115 1 1 4845 20211011100614
+174.59.48.73 2 18 64038029 20211019160537
+54.201.111.48 1 1 4845 20211007103119
+24.101.166.64 2 17 9341257 20211013192632
+27.115.124.6 0 1 38358 
+138.234.220.34 2 20 60050191 20211015200257
+174.54.226.247 2 19 38422524 20211013200131
+34.217.40.55 1 1 4845 20211006105543
+93.159.230.89 1 1 4845 20211014094626
+92.118.160.41 1 1 14134 20211017070501
+34.134.125.144 2 16 6868125 20211018112252
+35.2.136.107 2 16 22622781 20211006223820
+3.126.19.248 6 30 1152416 20211011124314
+172.241.88.150 1 1 4809 20211003163949
+185.207.249.190 2 17 28915168 20211014001028
+73.86.211.35 0 2 73710781 
+73.101.241.157 2 17 40041324 20211013192445
+51.15.90.233 1 1 4845 20211008092705
+42.194.147.66 1 1 107 20211013074634
+176.31.115.13 2 2 176 20211008032645
+49.234.47.214 1 1 147922 20211014100715
+174.249.113.233 2 22 37058151 20211008024911
+27.115.124.45 0 3 1465993 
+34.220.204.195 2 2 9690 20211008232622
+166.137.240.15 1 1 4005 20211013195629
+173.54.120.9 2 23 13648112 20211013192651
+172.58.203.64 2 18 1068345 20211013115428
+123.6.49.38 1 1 4845 20211009115807
+35.185.241.102 2 2 27924 20211008125718
+121.5.145.96 2 2 9690 20211013093545
+73.130.190.13 2 17 20422482 20211013221709
+71.58.196.47 4 32 46519930 20211008125718
+72.78.186.24 2 16 48349702 20211007121122
+34.208.191.181 1 1 4882 20211017100229
+138.234.219.161 2 23 7606257 20211014170519
+168.119.65.45 0 2 720053 
+34.222.228.76 1 1 13998 20211013230911
+42.193.23.161 0 2 164432 
+37.115.221.37 3 3 41994 20211010185429
+180.163.220.67 0 1 178392 
+172.58.201.203 2 22 10247474 20211013210438
+52.89.99.85 1 1 4882 20211017100351
+34.219.150.116 1 1 13998 20211013230911
+104.227.66.131 2 17 25714833 20211015075155
+100.11.164.182 0 3 506940 
+138.234.210.144 2 18 27488131 20211019210207
+174.54.227.14 4 36 60714481 20211015015000
+54.187.56.225 1 1 4882 20211018101519
+174.49.244.27 5 36 52817640 20211018125140
+77.74.177.119 1 1 4845 20211007165506
+98.235.231.233 2 29 102815050 20211007125808
+42.236.10.75 0 5 1200020 
+54.148.95.74 1 1 4845 20211013102235
+103.72.146.62 1 1 4845 20211006211039
+73.201.25.145 2 18 32149491 20211008014342
+146.70.63.115 2 28 11689889 20211004131924
+54.202.205.147 1 1 4845 20211015105555
+37.115.202.102 9 9 42306 20211006231439
+205.169.39.231 3 17 47822933 20211018111153
+18.234.248.131 1 1 4875 20211019034007
+138.234.218.137 2 21 30907263 20211015214907
+173.239.210.171 0 5 10113074 
+42.236.10.78 0 4 131990 
+52.7.141.1 3 3 14499 20211008092910
+54.203.41.78 1 1 4875 20211018101438
+54.191.127.81 1 1 4845 20211007103132
+196.240.237.83 1 1 4845 20211006204948
+34.220.95.221 1 1 4845 20211013102254
+98.237.120.28 2 7 272876 20211015135851
+163.172.70.215 1 1 13926 20211002174238
+138.234.223.9 2 19 22013544 20211001211539
+34.234.215.244 3 3 42058 20211016230159
+173.69.205.138 2 18 63508466 20211006190528
+54.212.21.34 1 1 4845 20211013102234
+49.12.203.87 1 1 4845 20211007130408
+173.163.60.217 2 17 15845478 20211013192801
+54.187.245.188 1 1 4809 20211003101237
+3.91.194.240 2 2 28268 20211019210206
+73.52.15.88 2 14 540817 20211010232023
+138.234.215.0 2 18 126771356 20211018180115
+5.255.253.118 0 2 111131830 
+73.79.233.47 0 2 93248 
+34.67.201.166 6 45 20496819 20211009074125
+77.111.247.189 1 1 75 20211011030645
+34.215.137.97 1 1 4875 20211019105126
+52.53.214.78 1 1 13926 20211004190717
+49.12.196.159 1 1 4005 20211013031514
+54.190.173.47 1 1 4845 20211005104928
+54.189.188.115 1 1 4809 20211001103003
+167.94.138.44 2 2 9690 20211011120234
+138.234.224.43 2 16 28469266 20211003235512
+180.163.220.68 0 1 38358 
+218.78.92.4 1 1 107 20211018154427
+35.161.15.89 1 1 4845 20211007103116
+45.129.18.125 1 1 0 20211019155909
+73.187.95.191 2 18 51264495 20211008221303
+151.199.252.60 2 17 48555162 20211014232351
+50.206.193.242 2 18 77690559 20211013194630
+204.237.228.83 2 20 37366006 20211013193336
+130.255.166.11 1 1 4845 20211005095449
+141.94.149.97 2 2 214 20211001204307
+54.187.228.161 1 1 4845 20211011100625
+174.249.116.38 2 22 48168184 20211005134935
+71.254.214.15 2 15 59655012 20211005142803
+192.245.87.9 4 35 27595889 20211018152221
+52.4.143.42 3 3 14499 20211015121418
+124.126.78.155 1 1 13926 20211001133232
+24.112.159.161 3 31 92154526 20211013220400
+35.162.47.38 1 1 4845 20211010103140
+35.86.97.213 1 1 4845 20211010103200
+209.222.82.229 1 1 13926 20211001203539
+74.104.112.102 6 65 195264796 20211005132938
+34.212.110.246 1 1 4845 20211006105627
+18.237.35.194 1 1 4845 20211014103255
+107.174.141.89 2 2 9690 20211006212324
+3.15.149.122 1 1 4882 20211017151807
+52.37.127.132 1 1 4882 20211016101416
+34.219.125.105 1 1 4809 20211003101305
+3.227.248.128 1 1 4845 20211012073139
+138.234.225.148 2 18 34558163 20211016191958
+3.236.193.76 1 1 4875 20211019125555
+35.85.64.242 1 1 4845 20211009101706
+147.182.132.60 1 1 4845 20211007175606
+138.234.221.87 2 17 63821259 20211001201115
+73.187.148.77 3 47 112724308 20211002205127
+123.6.49.36 1 1 4882 20211017111555
+52.12.251.159 1 1 4845 20211011100611
+35.85.222.253 1 1 4809 20211004101840
+52.10.73.179 1 1 4875 20211019105206
+36.89.176.195 1 1 4005 20211013092532
+192.99.18.122 1 1 4809 20211003080707
+34.221.205.156 1 1 4845 20211005104924
+34.220.113.78 1 1 4882 20211017100204
+54.68.245.51 1 1 4882 20211018101436
+54.191.9.31 1 1 4845 20211008101003
+209.222.82.139 1 1 14134 20211015213949
+35.187.132.119 1 1 4026 20211018093558
+51.77.89.184 2 16 6868125 20211019102145
+54.70.229.146 1 1 4809 20211004101855
+192.245.87.20 17 129 450419034 20211014180352
+180.163.220.60 1 1 4809 20211001133146
+52.35.34.126 1 1 4809 20211004101439
+92.118.160.57 1 1 14134 20211018123455
+35.160.139.5 1 1 4845 20211015103019
+52.42.113.17 1 1 4809 20211002101828
+73.39.129.211 2 17 38379402 20211013195213
+146.70.63.114 0 4 26447580 
+192.245.87.10 8 71 172202862 20211019215830
+35.225.82.182 1 1 13998 20211013194852
+34.211.16.9 1 1 4845 20211012103809
+37.0.11.64 1 1 107 20211011001518
+146.70.63.125 0 19 22653672 
+183.4.55.81 1 1 13926 20211001211041
+121.5.147.119 0 1 6060 
+65.108.52.83 1 1 4005 20211005161838
+172.58.188.228 2 23 47059513 20211013145237
+92.118.160.37 3 3 42058 20211017172304
+13.57.234.125 4 4 9764 20211017231752
+162.142.125.57 2 2 9690 20211011120233
+54.39.29.64 8 8 704 20211008065633
+35.187.132.92 1 1 4026 20211019012532
+18.218.3.188 1 1 4845 20211012004219
+174.55.61.228 4 39 66610566 20211014134710
+75.75.179.220 2 17 30879026 20211013192112
+92.118.160.9 2 2 27852 20211004195323
+168.197.203.91 0 2 639155 
+52.38.98.70 1 1 4875 20211018101521
+35.85.138.33 1 1 4809 20211001103002
+183.4.55.244 1 1 13998 20211012004559
+52.32.124.227 1 1 4809 20211003101253
+174.241.36.56 2 39 45185103 20211009140734
+207.237.69.73 2 15 63634250 20211013192051
+87.250.224.66 0 1 55524957 
+174.55.145.23 0 12 49501346 
+54.221.27.173 1 1 4845 20211012182151
+96.244.228.253 2 16 28915294 20211011172937
+207.244.124.213 2 17 35214888 20211007150645
+73.187.238.14 3 18 52483223 20211015225451
+52.88.166.129 1 1 4845 20211006105316
+138.128.118.130 2 2 9654 20211005013024
+146.70.63.123 0 17 10365957 
+43.251.171.19 2 16 2168442 20211016161426
+174.59.89.117 0 1 6291456 
+174.55.134.15 2 26 111809771 20211013215647
+35.85.30.83 1 1 4809 20211001103046
+54.184.241.242 1 1 13998 20211013232220
+73.130.169.153 2 17 31155834 20211015030451
+54.190.66.119 1 1 4845 20211014103515
+79.179.27.125 2 2 9690 20211007011015
+88.198.41.229 3 3 41994 20211012074542
+107.172.64.161 2 2 9750 20211020001300
+93.124.109.49 1 1 88 20211017190357
+180.163.220.4 0 2 1060794 
+73.101.163.4 2 17 26106350 20211013195520
+66.71.40.202 2 17 24250232 20211012132425
+192.187.118.202 1 1 4875 20211019143525
+185.4.204.53 2 16 819345 20211011203935
+223.78.152.191 1 1 4845 20211009222856
+54.188.117.123 1 1 4845 20211008101031
+54.190.8.15 1 1 4845 20211010103143
+204.12.198.242 2 2 9750 20211019144241
+37.72.188.250 1 1 4875 20211018105430
+34.208.216.5 1 1 4809 20211004101523
+35.81.164.19 1 1 107 20211002111751
+42.193.23.126 0 1 2894 
+172.58.137.65 2 23 10392295 20211016010704
+73.130.57.226 2 20 64839730 20211014162737
+73.187.96.121 2 17 4214258 20211013214352
+42.236.10.93 0 5 270289 
+124.126.78.144 1 1 13998 20211014151050
+54.70.104.142 1 1 4845 20211015110428
+42.236.10.117 0 2 201267 
+18.237.227.99 1 1 4845 20211015102946
+35.162.138.34 1 1 4882 20211016101333
+192.245.87.11 21 158 345468909 20211019151838
+42.236.10.84 0 3 1171303 
+170.83.177.50 2 2 9690 20211006204946
+27.115.124.101 0 2 1190325 
+42.193.144.209 1 1 107 20211010201744
+71.207.17.18 2 26 103101246 20211013230249
+98.237.113.63 2 21 4621173 20211013195422
+146.70.63.117 0 15 17152710 
+167.99.127.156 1 1 4809 20211001112312
+173.249.53.57 1 1 4845 20211009034413
+174.198.227.3 2 23 48136902 20211013192426
+52.37.81.51 1 1 4875 20211019105123
+146.70.63.118 0 33 49558225 
+138.234.214.232 1 3 98057 20211001144834
+69.160.160.56 1 16 14282950 20211015234650
+193.56.29.48 7 7 14963 20211013115359
+64.246.165.150 1 1 4882 20211017154647
+35.167.147.198 1 1 4845 20211006105342
+42.236.10.125 0 11 4264650 
+3.237.70.120 1 1 4845 20211012094925
+174.59.89.237 2 16 53244794 20211013200307
+223.81.147.175 1 1 4809 20211002004830
+168.90.196.210 1 1 4875 20211020001301
+173.163.36.145 2 23 19507782 20211013211256
+192.145.116.52 2 16 43639448 20211015164203
+45.129.18.232 1 1 0 20211016031805
+146.70.63.124 0 18 26470885 
+37.19.211.63 2 16 25769557 20211006175706
+185.85.163.242 1 1 14134 20211016010924
+138.234.221.14 2 16 8461839 20211016194956
+170.106.109.160 1 1 13998 20211007213216
+93.159.230.88 2 2 9690 20211014094621
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20211001 30 88 435915825 24
+20211002 14 40 228528302 11
+20211003 17 47 325224619 14
+20211004 43 213 1107832748 27
+20211005 30 143 774465417 20
+20211006 29 107 806733247 18
+20211007 31 173 1044311617 19
+20211008 40 174 1091882468 24
+20211009 15 49 308817367 13
+20211010 15 27 635676 10
+20211011 78 169 246427381 21
+20211012 23 92 328164102 15
+20211013 258 1383 8135105833 90
+20211014 122 748 4543846265 64
+20211015 59 326 2185287592 33
+20211016 33 161 487227996 22
+20211017 34 124 690863662 23
+20211018 37 154 808155028 23
+20211019 39 172 857185229 27
+20211020 8 31 339252198 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 8
+30s-2mn 6
+2mn-5mn 3
+15mn-30mn 10
+0s-30s 463
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 627 3267504 488 261
+/bootstrap/2017%20assets/Headliner.ttf 269 38631386 3 227
+/xmlrpc.php 5 497 3 3
+/.env 4 428 3 1
+/.well-known/captcha/ 3 59828 0 0
+/.well-known/captcha/565/botdetect/ 2 8732 0 2
+/blog/wp-includes/wlwmanifest.xml 2 176 0 0
+/website/wp-includes/wlwmanifest.xml 2 176 0 0
+/wp-admin/css/ 2 214 2 2
+/site/wp-includes/wlwmanifest.xml 2 176 0 0
+/.well-known/captcha/343 1 38561 0 0
+/.git/HEAD 1 107 0 1
+/wp1/wp-includes/wlwmanifest.xml 2 176 0 0
+/wordpress/wp-login.php 1 107 0 0
+/wp-includes/wlwmanifest.xml 2 176 0 0
+/2019/wp-includes/wlwmanifest.xml 2 176 0 0
+/.well-known/captcha/343/botdetect/ 2 9518 0 0
+/.git/config 1 107 1 1
+/cms/wp-includes/wlwmanifest.xml 2 176 0 0
+/test/wp-includes/wlwmanifest.xml 2 176 0 0
+/wp/wp-login.php 1 107 0 1
+/web/wp-includes/wlwmanifest.xml 2 176 0 0
+/FCKeditor/editor/filemanager/connectors/test.html 1 75 1 1
+/wp/wp-includes/wlwmanifest.xml 2 176 0 0
+/news/wp-includes/wlwmanifest.xml 2 176 0 0
+/wordpress/wp-includes/wlwmanifest.xml 2 176 0 0
+/sito/wp-includes/wlwmanifest.xml 2 176 0 2
+/shop/wp-includes/wlwmanifest.xml 2 176 0 0
+/2020/wp-includes/wlwmanifest.xml 2 176 0 0
+/blog/wp-login.php 1 107 0 0
+/.git/info/refs 1 107 1 0
+/wp-login.php 1 107 0 0
+/wp2/wp-includes/wlwmanifest.xml 2 176 0 0
+END_SIDER

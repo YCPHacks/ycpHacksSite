@@ -1,0 +1,801 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2666                
+POS_VISITOR 16201               
+POS_DAY 23851               
+POS_DOMAIN 3592                
+POS_LOGIN 4141                
+POS_ROBOT 4296                
+POS_WORMS 4929                
+POS_EMAILSENDER 5060                
+POS_EMAILRECEIVER 5203                
+POS_SESSION 24769               
+POS_SIDER 24970               
+POS_FILETYPES 5338                
+POS_DOWNLOADS 5577                
+POS_OS 5806                
+POS_BROWSER 6168                
+POS_SCREENSIZE 7799                
+POS_UNKNOWNREFERER 7873                
+POS_UNKNOWNREFERERBROWSER 8711                
+POS_ORIGIN 9379                
+POS_SEREFERRALS 9523                
+POS_PAGEREFS 9700                
+POS_SEARCHWORDS 13412               
+POS_KEYWORDS 13564               
+POS_MISC 2330                
+POS_ERRORS 13623               
+POS_CLUSTER 3997                
+POS_SIDER_404 13757               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180101000319 1 0 8938528587750
+FirstTime 0
+LastTime 20171231220509
+LastUpdate 20180101034118 1 0 0 0 0
+TotalVisits 421                 
+TotalUnique 157                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 204                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 38 62 132902794 30 70 1669665
+1 24 65 364533132 25 48 1066679
+2 34 100 516272643 19 64 67691651
+3 31 72 512102098 35 54 1376157
+4 23 45 304163071 46 89 4245751
+5 26 46 256895789 53 100 5108960
+6 39 66 257680275 42 77 2208414
+7 28 90 263679789 29 67 3598131
+8 37 78 386497633 40 77 3784179
+9 53 98 258016686 61 161 10011657
+10 70 127 641296531 28 80 3125938
+11 68 114 512683842 28 66 5216248
+12 44 156 1404625048 44 84 1413780
+13 38 60 256609028 27 48 2881626
+14 33 109 1871245836 40 114 3870868
+15 38 104 1935338816 30 78 3154091
+16 29 52 257600656 27 71 2916052
+17 42 65 256649613 28 71 6062546
+18 42 48 105362879 39 95 3175543
+19 34 98 641558408 32 72 1872989
+20 42 102 732217186 29 55 1094578
+21 37 65 132678989 26 71 2765797
+22 39 193 1262032577 27 109 14978261
+23 33 58 3289712 31 83 7159107
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+ua 659 659 9186460
+us 203 1101 5603334373
+ca 17 143 715568568
+dk 5 5 69700
+gb 5 39 257951472
+ru 5 15 3796428
+de 4 5 593244
+dm 4 4 55760
+in 3 5 714479
+fr 3 3 41820
+no 2 23 3945772
+cn 2 3 995509
+za 2 20 153079071
+cy 2 20 66360913
+co 2 19 66322555
+cz 1 1 13940
+ie 1 1 0
+nl 1 3 1067806
+eu 1 1 13940
+md 0 1 593244
+eg 0 1 593244
+pk 0 1 593244
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bot[\s_+:,\.\;\/\\-] 551 62167906 20171231235230 139
+googlebot 178 67982374 20171231142123 0
+bingpreview 80 13109129 20171227234747 0
+php 64 3574084 20171230030106 0
+googlebot\-image 46 8426479 20171227121426 0
+robot 29 2388983 20171230140807 14
+no_user_agent 28 424000 20171229060049 0
+crawl 13 181220 20171225205143 0
+netcraft 5 69700 20171209211010 0
+spider 3 41820 20171221115320 0
+[\s_+:,\.\;\/\\-]bot 1 6833 20171212060734 0
+ia_archiver 1 13940 20171223230648 0
+slurp 1 967629 20171209145949 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 332 982264 0 0
+js 69 181269 0 0
+gif 1 1035 0 0
+pdf 9 8708661 0 0
+html 862 11890820 0 0
+ttf 60 31609440 0 0
+png 576 146005336 0 0
+jpg 161 32417081 0 0
+mp4 3 3255835295 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/Sponsorship2017.pdf 25 0 24190725
+/BackgroundVideo.mp4 2 0 208991260
+/images/BGVideo.mp4 2 146 6507167263
+/MicroClass.zip 1 0 1529887
+/dayof/assets/Micro-Mouse-JCI.zip 1 0 7220475
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+win8 7 1
+linux 129 18
+winlong 31 13
+wince 11 11
+winxp 445 441
+winme 17 17
+win16 9 9
+macosx7 1 1
+java 1 1
+win7 261 44
+win8.1 4 2
+ios_iphone 196 26
+Unknown 195 46
+win2003 33 33
+ios_ipad 1 1
+linuxandroid 69 6
+win2000 83 83
+win98 14 14
+winunknown 12 12
+win95 4 4
+macosx 284 50
+unix 26 7
+winnt 386 82
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 84
+chrome45.0.2454.93 1 1
+chrome63.0.3205.0 8 2
+opera6.0 1 1
+netscape6.1 1 1
+netscape0.6 5 5
+chrome26.0.1410.64 1 1
+safari4.0.4 1 1
+chrome60.0.3112.101 1 0
+chrome50.0.2661.102 4 4
+safari11.0 116 10
+firefox2.0.0.12 1 1
+chrome62.0.3202.97 21 2
+opera8.01 14 14
+msie3.02 11 11
+chrome63.0.3239.111 28 3
+Unknown 70 39
+chrome46.0.2490.80 1 0
+chrome33.0.1750.154 1 1
+chrome54.0.2840.71 1 1
+netscape0.91 5 5
+safari6.1.6 1 1
+mozilla 108 11
+chrome38.0.2125.101 8 2
+safari 68 7
+msie11.0 1 0
+chrome49.0.2623.75 2 1
+safari11.0.1 2 0
+msie2.0 5 5
+chrome60.0.3112.116 22 2
+opera7.54 13 13
+firefox48.0 1 1
+firefox45.66.29 1 1
+chrome63.0.3239.108 22 2
+seamonkey 1 1
+chrome61.0.3163.100 23 22
+safari9.0.1 10 0
+firefox11.0 1 0
+netscape3.0 7 7
+opera8.50 6 6
+firefox57.0 66 6
+chrome10.0.648.82 1 1
+chrome58.0.3029.110 21 2
+opera43.0.2442.991 1 1
+msie9.0 58 10
+chrome46.0.2490.86 1 0
+opera36.0.2130.32 2 2
+opera44.0.2510.1449 1 1
+msie5.0 12 12
+chrome40.0.2214.93 1 1
+opera8.00 15 15
+ibrowse 1 1
+chrome56.0.2924.87 22 2
+firefox33.0 1 1
+firefox42.0 2 2
+chrome47.0.2526.106 1 1
+webcapture 2 2
+chrome63.0.3239.107 1 0
+chrome62.0.3202.94 412 42
+opera9.00 21 21
+firefox50.0 1 1
+msie8.0 8 6
+netscape4.79 6 6
+opera7.02 14 14
+opera12.16 23 2
+chrome38.0.1025.166 18 1
+chrome52.0.2743.116 22 2
+chrome44.0.2403.89 1 1
+msie7.0 27 27
+netscape4.61 5 5
+chrome40.0.2214.85 4 4
+opera9.0 2 2
+msie5.5 35 35
+chrome63.0.3239.84 308 28
+chrome57.0.2987.133 3 3
+safari11.0.2 1 0
+iphone 32 11
+firefox52.58.05 1 1
+msie10.0 7 1
+chrome41.0.2228.0 5 5
+opera7.11 17 17
+chrome34.0.1847.116 1 1
+msie4.01 9 9
+msie6.0 431 430
+firefox52.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/4.0_(compatible;) 20171231130215
+Xenu_Link_Sleuth/1.3.8 20171222083041
+Mail/3445.4.7_CFNetwork/889.9_Darwin/17.2.0_(x86_64) 20171206003015
+SEMrushBot 20171228105852
+ltx71_-_(http://ltx71.com/) 20171231072123
+EasyBib_AutoCite_(http://autocite-info.citation-api.com/) 20171212093932
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20171227193456
+HTTPClient/1.0_(2.8.0,_ruby_2.0.0_(2014-05-08)) 20171208115513
+Mail/3445.5.20_CFNetwork/893.13.1_Darwin/17.3.0_(x86_64) 20171218203536
+G-i-g-a-b-o-t 20171231220511
+IBrowse/4.3_(Edubuntu_6.6;_sq_AL;) 20171229223836
+Opera/9.80_(Android;_Opera_Mini/7.5.35721/77.161;_U;_en)_Presto/2.12.423_Version/12.16 20171204070113
+Mozilla/5.0_(compatible;_ips-agent) 20171219052428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+HTTPClient/1.0_(2.8.0,_ruby_2.0.0_(2014-05-08)) 20171208115513
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20171227193456
+EasyBib_AutoCite_(http://autocite-info.citation-api.com/) 20171212093932
+Mail/3445.5.20_CFNetwork/893.13.1_Darwin/17.3.0_(x86_64) 20171218203536
+Java/1.7.0_55 20171213093941
+G-i-g-a-b-o-t 20171231220511
+SEMrushBot 20171228105852
+ltx71_-_(http://ltx71.com/) 20171231072123
+Mail/3445.4.7_CFNetwork/889.9_Darwin/17.2.0_(x86_64) 20171206003015
+Maxthon/14.6_(Windows_98_3.1;_ca;) 20171230220422
+Xenu_Link_Sleuth/1.3.8 20171222083041
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 156 304
+From1 0 0
+From2 31 49
+From3 671 673
+From4 64 1193
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 29 45
+bing 1 1
+yandex 1 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 100
+https://alldezservice.kz 23 23
+http://chocolateslim-en-france.com 21 21
+http://efaculty.kiev.ua 16 16
+http://dokunet.org 15 15
+http://doslidy.kiev.ua 15 15
+http://chocolateslim-u-srbiji.com 15 15
+http://lakomka.com.ua 15 15
+http://shtaketniki.kz 14 14
+http://profhelp.net 13 13
+http://lechtaczka.net 13 13
+http://excitacion.info 13 13
+http://excitacao.com 12 12
+http://travels.co.ua 12 12
+https://www.everytalk.tv 12 12
+http://mafa-free.com 11 11
+http://creditnation.ru/kreditnye-karty/oformit-kreditnye-karty-tinkoff/ 11 11
+https://vdesnah.com 11 11
+http://lnau.lg.ua 10 10
+http://onlineporno.site 10 10
+http://iptvuk.co.uk 10 10
+http://www.krimoved.crimea.ua 10 10
+http://m.facebook.com 10 10
+http://metallurg.donetsk.ua 9 9
+http://1001watch.com.ua 9 9
+http://continent-e.tv 9 9
+http://jobmarket.com.ua 3 3
+https://l.instagram.com 1 1
+http://popugauka.ru 3 3
+https://quickchange.cc 4 4
+https://all4wap.ru 6 6
+http://titangel-vietnam.com 6 6
+http://copenergo.ru/publikatsii/preimuschestva-i-nedostatki-karty-tinkoff.html 3 3
+http://rosbalt.com.ua 2 2
+http://perl.dp.ua 2 2
+http://www.zaimite.ru/vigodnii-avtocredit/1453-kreditka-dlya-avtolyubitelya-ili-kak-uvelichit-limit-po-kreditnoy-karte.html 3 3
+http://bank.uz/publish/doc/text135147_kak_vybrat_kreditnuyu_kartu 3 3
+http://ycphacks.herokuapp.com/login 0 2
+http://www.zacreditom.ru/statyi/kak_poluchit_kreditnuju_kartu_tinkoff/2017-09-08-93 5 5
+http://www.msk.prom23.ru 5 5
+http://x-true.info 5 5
+https://alkoravto.ru 4 4
+https://schoolfiles.net 4 4
+http://www.freebsd.org.ua 6 6
+http://rus-lit.com 3 3
+http://dkr.com.ua 8 8
+http://spravka-medosmotr.ru 3 3
+http://ooomeru.ru 2 2
+https://beclean-nn.ru 3 3
+http://y8games-free.com 5 5
+http://theinsider.com.ua 2 2
+http://produkto.net 8 8
+http://ege-russian.ru 5 5
+http://astana.xxxkaz.org 3 3
+https://vykup-avto-krasnodar.ru 3 3
+http://adobereader-free.ru 8 8
+http://runofilms.ru 6 6
+https://voloo.ru 7 7
+http://kollekcioner.ru 5 5
+http://xn--d1abj0abs9d.in.ua 6 6
+http://www.papasdelivery.ru 3 3
+http://sexsaoy.com 8 8
+https://xn--80aaafbn2bc2ahdfrfkln6l.xn--p1ai 3 3
+http://porno-chaman.info 4 4
+https://urengoy.pro/articles/1970-vygodno-li-ispolzovanie-kreditnoi-karty.html 4 4
+http://l.instagram.com 1 1
+http://www.credit-respect.ru/kreditovanie/kreditovanie-v-tinkoff-bank.html 6 6
+http://choice-credit.ru/obzory/557-polozhitelnye-svojstva-kreditnykh-kart 2 2
+https://englishtopic.ru 3 3
+https://balkanfarma.org 1 1
+http://xtremeeagles.net 4 4
+http://nalogovyykodeks.ru 8 8
+http://geo-group.ru 9 9
+http://fishtauto.ru 1 1
+https://yrologiya.com 8 8
+https://yginekologa.com 6 6
+https://zarabotat-na-sajte.ru 5 5
+https://resant.ru/bezopasnoe-ispolzovanie-kart-tinkoff-bank.html 9 9
+https://collegesofdistinction.com/school/york-college-pennsylvania/ 2 2
+http://creditwell.ru/procedura-vybora-i-oformleniya-kreditnoj-karty/ 8 8
+https://rocketchange.ru 2 2
+https://music7s.me 8 8
+https://bestcoin.cc 6 6
+http://imk.com.ua 5 5
+http://almata.xxxkaz.org 5 5
+http://kredit-blog.ru/nuzhno-znat/info/karty-tinkoff-bank-vsegda-luchshie-usloviya.html 9 9
+http://nosecret.com.ua 5 5
+https://atleticpharm.org 7 7
+http://tabakur77.com 2 2
+https://vikistars.com 3 3
+http://5elementov.ru 9 9
+http://etur.ru/articles/1922 6 6
+https://supermama.top 5 5
+https://englishtopik.ru 3 3
+http://chocolateslim-en-espana.com 9 9
+http://samara.rosfirm.ru/companies_news/usloviya-kreditovaniya-po-karte-tinkoff-platinum-n775631.htm 5 5
+http://coolwallpapers-hd.com 6 6
+http://buzz-porno.info 1 1
+http://aktobe.xxxkaz.org 7 7
+https://eng-lyrics.com 3 3
+https://remont-mercedesov.ru 9 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 5 9390
+206 9 97928
+404 564 987004
+444 287 0
+301 1 249
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 53
+/wp-login.php 10 -
+/old/wp-admin/setup-config.php 1 -
+/license.php 4 -
+/.ftpconfig 1 -
+/blog/wp-admin/setup-config.php 1 -
+/Sponsorship2016.pdf 1 -
+/images/uploads/favicon.png 33 -
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 1 http://www.ycphacks.io/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/user/ 1 -
+/images/uploads/mlh-logo.png 1 -
+/images/uploads/JohnsonControls.png 1 -
+/wp/wp-admin/setup-config.php 1 -
+/blog/ 3 -
+/wp-content/themes/u-design/style.css 1 http://www.ycphacks.io/wp-content/themes/u-design/style.css
+/wp-admin/ 4 -
+/wp-admin/setup-config.php 1 -
+/wp-content/themes/bordeaux-theme/functions/upload-handler.php 1 http://www.ycphacks.io/wp-content/themes/bordeaux-theme/functions/upload-handler.php
+/www.vfmac.edu/ 15 -
+/Sponsorship%20Handout.pdf 5 -
+/test/wp-admin/ 4 -
+/wordpress/wp-admin/setup-config.php 5 -
+/wordpress/wp-admin/ 2 -
+/images/uploads/lewisstrategic.jpg 2 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 http://www.ycphacks.io/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt
+/resources/images/favicon.png 4 -
+/xmlrpc.php 10 -
+/administrator/index.php 2 -
+/wp/ 3 -
+/blog/wp-admin/ 4 -
+/old/wp-admin/ 4 -
+/wp/wp-admin/ 4 -
+//wp-login.php 1 http://www.google.com.hk
+/images/uploads/fortress.png 5 -
+/joomla/robots.txt 1 -
+/blog/robots.txt 4 -
+/blog/administrator/index.php 1 -
+/jm-ajax/upload_file/ 1 http://www.ycphacks.io/jm-ajax/upload_file/
+/downloader 2 -
+/up.php 2 -
+/images/uploads/ycp.png 2 -
+/test/wp-admin/setup-config.php 1 -
+/wordpress/ 3 -
+/wp-content/themes/radial-theme/functions/upload-handler.php 1 http://www.ycphacks.io/wp-content/themes/radial-theme/functions/upload-handler.php
+/apple-touch-icon-precomposed.png 6 -
+/apple-touch-icon.png 6 -
+/2017%20assets/jquery.min.js 147 http://ycphacks.io/
+/joomla/administrator/index.php 1 -
+/theme/assets/global/plugins/jquery-file-upload/server/php/ 1 http://www.ycphacks.io/theme/assets/global/plugins/jquery-file-upload/server/php/
+/sitemap.xml 1 -
+/robots.txt 242 -
+/2017%20assets/custom.css.map 2 -
+/images/uploads/Lafayette.jpg 1 -
+/images/uploads/Omega.png 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 204
+134.249.52.116 141 141 1965540 20171231202259
+46.118.121.38 139 139 1937660 20171231010151
+46.118.157.50 112 112 1561280 20171221200133
+188.163.73.8 108 108 1505520 20171221234734
+134.249.64.243 42 42 585480 20171230213448
+178.137.94.65 31 31 432140 20171231122750
+134.249.80.20 21 21 292740 20171206231052
+134.249.82.116 18 18 250920 20171208181407
+188.163.78.30 18 18 250920 20171229080349
+134.249.76.153 12 12 167280 20171226203116
+13.56.229.65 10 10 139400 20171230234055
+188.163.77.53 9 9 125460 20171223230649
+54.183.130.127 9 9 125460 20171230071307
+8.20.70.240 5 48 321036130 20171212145352
+52.4.143.42 5 5 69700 20171228181903
+93.160.60.32 5 5 69700 20171226051044
+107.178.194.49 4 4 55760 20171211104843
+206.198.60.32 4 81 22324994 20171225154237
+73.86.193.71 4 44 258323312 20171222161406
+52.53.130.122 4 4 27880 20171213112653
+69.84.51.42 4 45 257950845 20171216122636
+138.246.253.19 4 4 0 20171222051647
+107.178.194.240 4 4 55760 20171223090610
+24.131.78.135 4 8 209192 20171218203536
+74.212.42.243 4 44 258323312 20171208113908
+69.12.21.141 3 40 638149254 20171206150903
+196.52.2.24 2 24 153079071 20171208043849
+208.88.226.169 1 1 13940 20171205070409
+35.225.221.87 1 1 13940 20171231072123
+204.79.180.1 0 2 6527 
+73.112.64.7 2 21 66360913 20171223085025
+80.189.163.23 2 22 128814234 20171210113059
+50.29.133.149 0 1 630147 
+50.112.194.65 2 2 27880 20171228182718
+37.112.228.222 1 7 28116 20171217230830
+74.208.121.187 1 1 13940 20171224124428
+173.224.163.82 2 22 129161656 20171220103654
+1.22.101.154 2 2 13940 20171230171137
+54.233.78.131 1 1 13940 20171204131921
+69.196.141.248 2 22 129161656 20171227035504
+73.187.17.153 2 22 129161656 20171216122548
+204.79.180.12 0 4 8372 
+104.201.246.104 0 1 967629 
+73.101.61.15 2 24 174073633 20171218200810
+45.76.78.122 1 1 13940 20171213035920
+66.249.83.79 1 1 13940 20171218225707
+104.144.53.235 1 1 13940 20171226083427
+204.79.180.0 0 2 6802 
+39.42.110.1 0 1 593244 
+8.20.70.247 0 1 630147 
+107.178.194.53 1 1 13940 20171211180816
+79.164.131.47 0 1 888647 
+131.253.25.87 0 2 2954 
+13.57.47.188 2 8 554940 20171213112651
+163.172.255.16 1 1 13940 20171225053615
+67.207.95.65 1 1 13940 20171220120253
+92.39.54.235 0 1 593244 
+8.20.70.242 2 20 3521812 20171204221747
+73.187.34.84 0 1 146027 
+174.95.212.70 2 22 129161656 20171230021137
+107.178.195.129 0 1 20676 
+13.71.116.169 1 1 13940 20171215002720
+204.79.180.2 0 4 13054 
+159.89.44.150 1 1 13940 20171220143538
+35.226.250.137 1 1 13940 20171218105522
+46.103.98.82 2 21 66360913 20171225015610
+104.206.243.137 2 19 3259668 20171219220245
+207.102.138.158 2 8 554940 20171201060708
+107.152.195.4 1 1 13940 20171226083425
+66.117.8.42 1 1 13940 20171217030600
+107.178.194.242 1 1 13940 20171217150313
+74.212.42.250 2 22 129161656 20171204131804
+107.178.195.159 1 5 96644 20171214213459
+73.112.115.64 0 1 630147 
+94.14.163.83 2 21 129123298 20171220051716
+212.83.188.26 1 1 13940 20171209071954
+54.190.56.81 1 1 13940 20171212014526
+192.245.87.10 2 22 129161656 20171221063318
+129.59.122.18 0 1 630147 
+112.133.207.130 0 1 93355 
+174.60.168.4 3 28 132096734 20171225095015
+66.249.83.81 0 1 38358 
+185.93.3.123 1 1 13940 20171229223836
+195.184.208.222 1 1 13940 20171213054833
+35.193.153.123 2 2 27880 20171221044522
+35.225.136.49 1 1 13940 20171211194525
+35.227.27.78 1 1 13940 20171216052037
+66.249.83.143 0 4 1740103 
+107.178.195.131 1 2 34616 20171212220746
+173.35.193.73 2 20 66322555 20171209094454
+138.51.123.177 2 22 129161656 20171219170248
+204.79.180.8 1 2 16261 20171225194032
+188.165.244.210 1 1 13940 20171215162941
+67.130.59.10 0 2 208991260 
+35.184.189.105 2 4 997830 20171215160848
+204.79.180.17 0 2 4695 
+50.203.181.82 1 1 0 20171222083041
+74.212.42.241 2 24 129214540 20171202083514
+174.205.6.88 1 1 13940 20171202114128
+45.55.224.77 1 1 13940 20171219141026
+204.79.180.5 1 2 14298 20171213223928
+66.249.83.145 1 3 82285 20171228075234
+46.229.166.195 1 2 981569 20171210214600
+204.79.180.11 0 1 2596 
+204.79.180.15 1 5 25049 20171210233608
+204.79.180.19 0 1 2709 
+5.188.211.24 1 1 13940 20171229053633
+107.178.194.221 0 2 41352 
+95.28.190.43 0 2 1935258 
+202.46.52.178 1 1 13940 20171201130248
+66.102.8.25 0 1 215393 
+122.164.94.34 1 1 13940 20171227172618
+52.27.2.86 1 1 13940 20171221044455
+66.102.8.2 0 1 2709 
+174.201.21.220 1 1 13940 20171231214911
+8.20.70.243 0 1 20676 
+162.246.17.16 1 1 13940 20171204033201
+173.206.21.115 2 17 65669596 20171231010815
+98.237.28.114 0 1 630147 
+204.79.180.7 0 1 1986 
+199.116.169.254 2 2 540764 20171213023815
+174.55.75.223 2 27 192048720 20171203192527
+69.12.21.199 2 26 235348667 20171213153338
+173.76.135.246 0 1 630147 
+96.49.5.59 2 22 129161656 20171207032759
+99.229.192.39 2 21 66360913 20171217214820
+65.132.59.34 1 10 1571524 20171231220509
+69.164.205.22 1 1 13940 20171231064331
+71.207.106.180 1 1 13940 20171201113608
+216.59.137.117 1 1 13940 20171231045252
+75.149.221.170 1 1 13940 20171221165056
+71.207.122.16 1 1 13940 20171229234909
+188.226.129.55 1 1 13940 20171223073033
+37.115.190.154 3 3 41820 20171201092006
+171.113.93.110 0 1 967629 
+46.161.9.18 2 2 27880 20171206133053
+204.79.180.10 0 1 2596 
+74.74.184.197 1 1 13940 20171227011107
+87.198.206.50 1 1 0 20171213093941
+66.102.8.31 0 5 246285 
+107.178.194.125 1 6 117320 20171210104714
+178.137.83.166 1 1 13940 20171212045424
+165.230.225.120 2 21 66360913 20171211104506
+104.201.207.214 2 21 66360913 20171213222755
+107.178.194.223 1 1 13940 20171218121416
+8.20.70.253 2 21 66263399 20171212122930
+46.211.13.236 3 3 41820 20171222103421
+41.234.46.128 0 1 593244 
+185.26.180.211 2 23 3945772 20171204070113
+139.167.8.194 1 1 13940 20171215132044
+54.157.210.23 1 1 13940 20171211030815
+54.197.116.27 1 1 13940 20171212093932
+144.26.245.161 2 22 117836476 20171204223519
+107.152.181.157 1 1 13940 20171218225002
+204.79.180.21 0 1 2709 
+174.226.1.48 2 22 128895874 20171206071658
+73.130.144.243 2 27 191962736 20171206224448
+100.15.146.51 2 22 129161656 20171217020630
+68.33.94.129 2 22 66426450 20171217202800
+166.170.14.27 2 23 128850232 20171226123454
+174.49.205.197 2 22 129161656 20171205140858
+69.58.178.56 2 2 27880 20171219052428
+199.64.7.60 2 20 3375451 20171213023815
+173.49.255.242 0 3 1936293 
+192.198.125.208 1 1 13940 20171226083426
+8.20.70.244 2 22 129161656 20171204103600
+72.252.199.18 2 22 129161656 20171207202059
+204.79.180.20 0 2 4307 
+204.79.180.3 1 2 15926 20171215010520
+204.79.180.14 1 2 14298 20171206221901
+218.201.102.54 1 1 13940 20171230220422
+73.52.93.204 2 33 490737485 20171209145717
+107.178.194.127 1 4 75968 20171205215526
+212.83.160.159 1 1 13940 20171222232220
+204.79.180.13 1 3 20855 20171205230808
+46.161.9.3 1 1 13940 20171224182805
+174.59.186.22 2 23 129380792 20171219121529
+84.19.194.179 0 1 593244 
+186.84.109.246 2 20 66322555 20171215004614
+192.243.53.51 4 4 55760 20171228105852
+66.102.8.29 0 1 4206 
+66.249.83.147 0 4 657256 
+74.212.42.246 3 23 63293484 20171212093950
+35.194.1.1 2 2 27880 20171221044520
+104.201.246.96 0 1 967629 
+34.229.56.212 1 1 13940 20171212171215
+71.83.170.187 0 1 5215 
+204.79.180.9 0 4 6021 
+67.161.204.121 2 2 27880 20171231154617
+107.170.96.6 1 1 13940 20171227172619
+188.204.204.202 0 1 86237 
+54.183.187.103 1 1 13940 20171213112648
+100.14.113.209 4 42 132721826 20171216194419
+204.79.180.4 1 2 15926 20171222022200
+74.212.42.242 1 1 13940 20171201125708
+192.186.140.104 1 1 13940 20171207092153
+204.79.180.16 0 6 11825 
+223.176.38.117 0 1 593244 
+50.19.154.226 3 3 41820 20171221044437
+107.178.194.244 1 1 13940 20171227193456
+131.253.25.69 1 5 25162 20171204150222
+52.53.129.101 2 2 27880 20171204162410
+5.228.150.107 0 1 888647 
+54.226.80.54 1 1 13940 20171208115513
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20171201 27 38 4436907 14
+20171202 37 56 255606541 16
+20171203 31 50 382224034 11
+20171204 46 146 750785273 21
+20171205 35 90 513726262 17
+20171206 39 158 2543084796 18
+20171207 35 76 512516973 13
+20171208 32 70 559336706 15
+20171209 30 70 1110611042 12
+20171210 33 63 256588951 15
+20171211 30 51 235291752 13
+20171212 42 91 512377268 19
+20171213 35 104 539534234 17
+20171214 37 43 2019905 15
+20171215 24 53 132381752 13
+20171216 42 135 1024904447 16
+20171217 29 91 515320758 14
+20171218 31 58 346678440 14
+20171219 41 99 515254293 19
+20171220 25 62 510470606 13
+20171221 27 49 256414057 14
+20171222 22 48 255391274 12
+20171223 33 53 130837942 9
+20171224 17 36 255458815 9
+20171225 19 52 134759800 9
+20171226 29 50 255907494 12
+20171227 13 34 360656258 8
+20171228 23 43 4614770 12
+20171229 25 26 441855 10
+20171230 17 37 256202448 9
+20171231 16 41 132097378 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 7
+5mn-15mn 4
+0s-30s 401
+30mn-1h 4
+2mn-5mn 3
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 862 11890820 416 364
+/2017%20assets/Headliner.ttf 60 31609440 5 57
+END_SIDER

@@ -1,0 +1,374 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+# Last config file used to build this data file was /home/ycphacks/tmp/awstats/ssl/awstats.ycphacks.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2673                
+POS_VISITOR 7631                
+POS_DAY 9502                
+POS_DOMAIN 3451                
+POS_LOGIN 3724                
+POS_ROBOT 3879                
+POS_WORMS 4138                
+POS_EMAILSENDER 4269                
+POS_EMAILRECEIVER 4412                
+POS_SESSION 10187               
+POS_SIDER 10344               
+POS_FILETYPES 4547                
+POS_DOWNLOADS 4724                
+POS_OS 4877                
+POS_BROWSER 5075                
+POS_SCREENSIZE 5476                
+POS_UNKNOWNREFERER 5550                
+POS_UNKNOWNREFERERBROWSER 5637                
+POS_ORIGIN 5792                
+POS_SEREFERRALS 5928                
+POS_PAGEREFS 6081                
+POS_SEARCHWORDS 6229                
+POS_KEYWORDS 6381                
+POS_MISC 2337                
+POS_ERRORS 6440                
+POS_CLUSTER 3580                
+POS_SIDER_404 6540                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181101032758 2 201 15983887402666
+FirstTime 0
+LastTime 20181031221326
+LastUpdate 20181101054434 2 0 1 0 0
+TotalVisits 35                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 61                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 5 874578 3 6 674138
+1 0 1 215393 0 6 10632
+2 0 2 430786 1 12 805728
+3 0 0 0 2 11 1712928
+4 2 3 215393 1 3 161405
+5 1 7 1306193 2 22 145566
+6 1 6 1089971 0 5 483556
+7 7 62 261310865 2 27 52249
+8 3 21 129321596 5 14 69624
+9 0 14 3688756 4 10 691546
+10 3 13 2166816 4 10 1117659
+11 2 26 4700379 1 6 20694
+12 0 3 646179 8 17 108358
+13 1 17 3459894 4 13 687045
+14 8 70 332417338 6 23 87230
+15 1 11 2514414 7 11 1143369
+16 1 3 430786 3 7 1086575
+17 1 20 127847951 3 12 56395
+18 2 22 255340134 5 15 856124
+19 6 42 592131489 3 46 582734
+20 3 37 258532551 1 13 2756341
+21 2 25 130073241 6 21 1156965
+22 8 55 135366857 4 14 1059856
+23 1 5 861572 3 10 52131
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 42 443 1030956990
+de 8 8 0
+se 2 15 128145668
+ca 2 4 430786
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bot[\s_+:,\.\;\/\\-] 108 14000249 20181031153918 6
+no_user_agent 12 1201731 20181027125928 0
+netcraft 2 26012 20181008224658 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 40 379366 0 0
+js 11 25531 0 0
+jpg 254 55754968 0 0
+css 81 193886 0 0
+ttf 14 7375536 0 0
+png 70 10394469 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/Sponsor_Packet_2018.pdf 5 0 2382340
+/Sponsorship2017.pdf 1 0 967629
+/images/BGVideo.mp4 0 27 1085409688
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linux 17 2
+winunknown 19 0
+macosx 12 8
+macosx5 1 1
+winxp 123 1
+win7 199 30
+winnt 99 11
+linuxandroid 1 0
+winlong 1 1
+ios_iphone 25 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+mozilla 3 0
+chrome69.0.3497.81 17 2
+chrome5.0.343.0 1 1
+chrome40.0.2214.85 9 8
+Unknown 19 0
+chrome70.0.3538.67 18 2
+iphone 25 0
+chrome67.0.3396.99 1 0
+chrome2.0.157.0 1 1
+chrome41.0.2228.0 1 1
+firefox11.0 122 0
+chrome61.0.3163.100 8 8
+chrome69.0.3497.100 196 24
+chrome52.0.2743.116 19 2
+chrome57.0.2987.133 3 0
+firefox62.0 53 4
+chrome13.0.782.41 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Microsoft_Office/16.0_(Microsoft_Outlook_16.0.10827;_Pro) 20181030133952
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 217
+From1 0 0
+From2 0 1
+From3 0 0
+From4 14 279
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+live 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 198 350856
+499 11 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/robots.txt 89 -
+/index.php/admin/ 1 https://YCPHACKS.IO/index.php/admin/
+/admin/index.php 1 https://YCPHACKS.IO/admin/index.php
+/admin.php 1 https://YCPHACKS.IO/admin.php
+/administrator/index.php 1 https://YCPHACKS.IO/administrator/index.php
+/2017%20assets/normalize.css 4 https://ycphacks.io/
+/2017%20assets/responsive-nav.min.js 14 https://ycphacks.io/
+/ads.txt 37 -
+/www.vfmac.edu/ 2 -
+/Sponsorship%20Handout.pdf 1 -
+/2017%20assets/custom.css 4 https://ycphacks.io/
+/2017%20assets/responsive-nav.css 4 https://ycphacks.io/
+/j2017%20assets/query.min.js 29 https://ycphacks.io/
+/user/login 1 https://YCPHACKS.IO/user/login
+/bitrix/admin/ 1 https://YCPHACKS.IO/bitrix/admin/
+/2017%20assets/skeleton.css 4 https://ycphacks.io/
+/2017%20assets/animate.min.css 4 https://ycphacks.io/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 61
+13.57.233.99 8 8 107514 20181031221326
+138.246.253.5 8 8 0 20181026072300
+192.245.87.9 5 40 235037670 20181019194342
+192.245.87.14 5 41 40141826 20181027071141
+152.208.24.34 4 54 318915308 20181018193608
+192.245.87.17 4 35 68258274 20181010224048
+192.245.87.11 4 35 67965003 20181019114806
+73.64.106.16 2 13 1726738 20181027072658
+176.74.192.72 2 17 128145668 20181001203413
+192.245.87.15 2 20 3404467 20181011220543
+159.89.156.168 2 2 0 20181028103929
+192.245.87.18 2 20 128614932 20181007181336
+204.48.17.22 2 2 0 20181030042219
+73.101.96.150 2 19 65502603 20181018144802
+71.58.205.71 2 19 65715735 20181021145355
+40.107.214.91 0 1 215393 
+66.102.8.25 0 20 4307860 
+66.102.8.57 0 12 2584716 
+98.0.151.82 0 1 215393 
+132.170.253.6 0 1 215393 
+132.170.212.30 0 1 215393 
+66.102.8.53 0 3 646179 
+192.245.87.16 0 1 215393 
+192.245.87.13 0 1 215393 
+66.102.6.21 0 2 430786 
+204.237.228.82 0 1 888647 
+66.102.9.153 0 1 215393 
+40.107.240.67 0 1 215393 
+66.102.6.25 0 2 430786 
+66.249.88.27 0 5 1076965 
+66.249.81.23 0 1 215393 
+72.95.11.117 0 1 215393 
+174.200.19.87 0 1 215393 
+64.233.172.183 0 3 646179 
+66.102.6.23 0 4 861572 
+66.249.84.244 0 2 430786 
+66.249.88.29 0 3 646179 
+174.205.11.197 0 1 215393 
+40.107.246.98 0 1 215393 
+70.15.113.43 0 1 215393 
+66.102.8.23 0 13 2800109 
+66.102.8.183 0 3 646179 
+71.57.240.175 0 1 215393 
+71.114.132.31 0 1 215393 
+71.114.115.214 0 2 430786 
+66.131.173.190 0 2 430786 
+66.102.8.55 0 4 861572 
+66.102.8.21 0 27 5815611 
+192.245.87.12 0 2 430786 
+174.55.65.61 0 14 3015502 
+66.249.81.149 0 2 430786 
+66.249.88.25 0 7 1507751 
+66.102.8.181 0 2 430786 
+66.102.7.250 0 1 215393 
+71.225.74.177 0 1 215393 
+66.249.81.25 0 1 215393 
+174.60.138.191 0 2 430786 
+24.229.157.66 0 1 215393 
+66.102.8.185 0 3 646179 
+192.245.87.22 0 2 430786 
+192.245.87.21 0 2 430786 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20181001 2 16 254224691 1
+20181002 0 6 1292358 0
+20181003 2 4 443672 2
+20181004 3 20 129092469 2
+20181005 2 18 128877076 1
+20181006 1 2 228399 1
+20181007 2 19 254693955 1
+20181008 0 4 861572 0
+20181009 1 8 1520757 1
+20181010 4 48 9353027 3
+20181011 3 36 7044603 2
+20181012 0 10 2827184 0
+20181014 1 1 13606 1
+20181015 0 26 5600218 0
+20181016 0 9 1938537 0
+20181017 9 72 456850688 6
+20181018 5 60 511966318 3
+20181019 5 42 342343408 2
+20181020 1 9 1736979 1
+20181021 2 20 129209408 1
+20181023 0 1 215393 0
+20181024 1 2 215393 1
+20181026 1 1 0 1
+20181027 4 30 4164193 2
+20181028 2 2 0 1
+20181030 2 3 215393 1
+20181031 1 1 13835 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 34
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 40 379366 35 22
+/2017%20assets/Headliner.ttf 11 5795064 0 10
+/bootstrap/2017%20assets/Headliner.ttf 3 1580472 0 3
+END_SIDER

@@ -1,0 +1,44 @@
+/*	SHOP 1-1
+/*----------------------------------------------------*/
+
+.shop-1-1 {
+	background: #F5F5F5;
+}
+
+.shop-1-1 h4 {
+	margin-top: 0;
+}
+
+.shop-1-1 p {
+	margin-bottom: 0;
+}
+
+.shop-1-1 .fa {
+	font-size: 30px;
+}
+
+
+
+/*	SHOP 1-1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
